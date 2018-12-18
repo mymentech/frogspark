@@ -1,0 +1,8 @@
+$img_url: '/app/themes/frogspark/img/mymentech/';
+
+#quiz_main_section{
+  background-image: url($img_url + 'quiz-page-bg.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding-top: 180px;
+}

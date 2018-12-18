@@ -9731,6 +9731,12 @@ a.text-dark:hover, a.text-dark:focus {
 /* Fonts */
 /* Misc. */
 /* Spacing */
+#quiz_main_section {
+  background-image: url("/app/themes/frogspark/img/mymentech/quiz-page-bg.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding-top: 180px; }
+
 * {
   color: #404b57;
   font-family: 'Circular';
@@ -12106,6 +12112,11 @@ a.hero-btn {
     max-width: 135px !important; }
   .vitateam__bio p:nth-child(6) {
     display: none !important; } }
+
+#quiz_main_section {
+  background-image: url("/app/themes/frogspark/img/mymentech/quiz-page-bg.jpg");
+  background-size: cover;
+  padding-top: 180px; }
 
 .btn-primary, #nourished-vitamin-area .fheading {
   background: #016976;
