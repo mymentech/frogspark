@@ -62,6 +62,13 @@ if ( ! function_exists( 'bootstrap_four_theme_styles' ) ) :
 endif;
 add_action('wp_enqueue_scripts', 'bootstrap_four_theme_styles');
 
+//if(!function_exists('frogspark_scripts')){
+//    function frogspark_scripts(){
+//        wp_enqueue_script('mp-form-js',get_theme_file_uri('/dist/mp-form.js'),array('jquery','jquery-easing'), '1.0');
+//    }
+//    add_action('wp_enqueue_scripts', 'frogspark_scripts');
+//}
+
 
 if ( ! function_exists( 'bootstrap_four_theme_scripts' ) ) :
   function bootstrap_four_theme_scripts() {
