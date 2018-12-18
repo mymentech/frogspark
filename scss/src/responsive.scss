@@ -1,0 +1,425 @@
+@import 'variables';
+@media screen and (max-width: 1199px) {
+  .navbar #navbar .navbar-nav {
+    padding-left: $spacing;
+  }
+
+  .navbar-brand {
+    margin-right: 0px;
+  }
+
+  .logo {
+    height: 60px;
+  }
+
+
+  .navbar .navbar-header .rotate-wheel__wrapper {
+    height: 60px;
+  }
+  .navbar.active__nav .navbar-header .rotate-wheel__wrapper {
+    top: -5px;
+  }
+
+  #how-vitamyne-works__section {
+    .col-md-3 {
+      flex: 50%;
+      margin-bottom: $spacing;
+      max-width: 50%;
+      width: 50%;
+      &:last-of-type {
+        flex: 100%;
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  #usp__section {
+    .usp__spacing {
+      padding: $spacing_double $spacing;
+    }
+    .btn {
+      padding: $spacing_half $spacing;
+    }
+  }
+
+  #price-table__section {
+    .row {
+      &:last-of-type {
+        a {
+          white-space: normal;
+        }
+      }
+    }
+  }
+
+  #myaccount__section {
+    > .container > .row {
+      .col-md-5, .col-md-7 {
+        flex: 50%;
+        max-width: 50%;
+        width: 50%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar {
+    padding: $spacing_half 0px;
+    .col-md-3, .col-md-9 {
+      flex: 50%;
+      max-width: 50%;
+      width: 50%;
+    }
+    .navbar-brand {
+      margin: 0px;
+      padding: 0px;
+    }
+    .hamburger__wrapper {
+      display: block;
+      position: absolute;
+      right: 0px;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 9;
+      &.is-active {
+        .hamburger__item {
+          background: $white;
+          &:first-child {
+            top: 7px;
+            transform: rotate(45deg);
+          }
+          &:nth-child(2) {
+            opacity: 0;
+          }
+          &:last-child {
+            top: -7px;
+            transform: rotate(-45deg);
+          }
+        }
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    #navbar {
+      background: $green;
+      left: 0px;
+      position: fixed;
+      top: 0px;
+      transform: translateY(-100%);
+      transition: $transition_fast;
+      width: 100%;
+      ul {
+        display: block !important;
+        padding-left: 0px !important;
+        li {
+          margin: $spacing_half 0px;
+          text-align: center;
+          a {
+            background: none;
+            color: $white;
+          }
+        }
+      }
+      &.is-active {
+        transform: translateY(0%);
+      }
+    }
+  }
+
+  .navbar.active__nav .navbar-header .rotate-wheel__wrapper {
+    top: -10px;
+  }
+
+  .hero__item {
+    margin-top: 125px;
+  }
+
+  #home-hero__section {
+    .col-md-7 {
+      flex: 100%;
+      max-width: 100%;
+      width: 100%;
+    }
+    .col-md-5 {
+      display: none;
+    }
+  }
+
+  #usp__section {
+    .col-md-4 {
+      flex: 100%;
+      margin-bottom: $spacing;
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+
+  #meet-vita__section {
+    .col-md-4 {
+      flex: 100%;
+      max-width: 100%;
+      width: 100%;
+    }
+    .col-md-7 {
+      display: none;
+    }
+  }
+
+  #your-vita__section {
+    .col-md-7 {
+      flex: 100%;
+      max-width: 100%;
+      width: 100%;
+    }
+    .col-md-5 {
+      flex: 100%;
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+
+  #price-table__section {
+    padding: $spacing_max 0px;
+    .col-md-4 {
+      flex: 100%;
+      max-width: 100%;
+      width: 100%;
+      .bounce {
+        animation-name: 'noanim';
+      }
+      &:nth-of-type(2) {
+        order: 9;
+        transform: scale(1);
+      }
+      &:nth-of-type(3) {
+        margin: $spacing 0px;
+      }
+    }
+    .row {
+      &:last-of-type {
+        padding-top: $spacing;
+      }
+    }
+  }
+
+  #contact-cta__section {
+    .col-md-6, .col-md-5 {
+      flex: 100%;
+      margin-left: 0px;
+      max-width: 100%;
+      width: 100%;
+    }
+    .center__vert {
+      position: relative;
+      top: initial;
+      transform: none;
+    }
+  }
+
+  footer {
+    .col-md-10, .col-md-2 {
+      flex: 100%;
+      max-width: 100%;
+      width: 100%;
+    }
+    .right {
+      margin-top: $spacing_half;
+      text-align: left;
+      .margin-left__spacing {
+        margin-left: 0px;
+        margin-right: $spacing_half;
+      }
+    }
+    .footer__note {
+      > div {
+        flex: 100%;
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  #about-content__section {
+    .col-md-6 {
+      flex: 100%;
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+
+  .vitateam__bio .circle__item {
+    display: none;
+  }
+
+  #vitadna__process {
+    .container {
+      .row {
+        padding-top: $spacing + $spacing_half;
+        > div {
+          flex: 100%;
+          max-width: 100%;
+          width: 100%;
+        }
+        .col-md-2 {
+          p {
+            font-size: $font_size_h1;
+            line-height: 1;
+            margin-bottom: $spacing_half;
+            &:after {
+              display: none;
+            }
+          }
+        }
+        .col-md-7 {
+          text-align: center;
+          p {
+            margin-bottom: $spacing_half;
+            position: relative;
+            top: auto;
+            transform: none;
+          }
+        }
+        .col-md-3 {
+          text-align: center;
+          img {
+            height: auto;
+            position: relative;
+            right: auto;
+            top: auto;
+            transform: none;
+            width: 50px;
+          }
+        }
+        &:nth-child(2) {
+          border-bottom: 1px solid $black;
+          border-top: 1px solid $black;
+        }
+      }
+    }
+  }
+  
+  #vitadna-content__section {
+    .row {
+      &:last-of-type {
+        .col-md-6 {
+          flex: 100%;
+          max-width: 100%;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  #myaccount__section {
+    > .container > .row {
+      .col-md-5, .col-md-7 {
+        flex: 100%;
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #how-vitamyne-works__section {
+    .col-md-3 {
+      flex: 100%;
+      max-width: 100%;
+      width: 100%;
+      &:last-of-type {
+        margin-bottom: 0px;
+      }
+    }
+  }
+  #usp__section {
+    .col-md-4 {
+      &:last-of-type {
+        margin-bottom: 0px;
+      }
+    }
+  }
+  .navbar {
+    .container {
+      width: 100%;
+    }
+    .col-md-3, .col-md-9 {
+      flex: 50%;
+      max-width: 50%;
+      width: 50%;
+    }
+    .hamburger__wrapper {
+      right: $spacing_half;
+    }
+    .logo {
+      height: 50px;
+    }
+  }
+
+  .navbar .navbar-header .rotate-wheel__wrapper {
+    height: 100%;
+  }
+  .navbar.active__nav .navbar-header .rotate-wheel__wrapper {
+    top: 0px;
+  }
+
+  #meet-vitamyne__section {
+    .carousel__item {
+      .col-md-5 {
+        margin-top: $spacing;
+      }
+    }
+  }
+
+  .carousel__image {
+    background-size: 90%;
+  }
+
+  #btn-separator__section {
+    .center__abso {
+      width: 80%;
+      white-space: inherit;
+    }
+  }
+
+  footer {
+    padding: $spacing 0px;
+  }
+
+  .vitateam__bio.center {
+    width: calc(100% - 30px);
+  }
+
+  .sm {
+    font-size: 13px;
+  }
+
+  .under-nav__item {
+    margin-top: 80px;
+  }
+
+  #vitadna__process {
+    margin-left: $spacing_half;
+    margin-right: $spacing_half;
+  }
+
+  .account-news__box {
+    height: 325px;
+    .account-news__item {
+      .account-news__img {
+        display: block;
+        float: none;
+        height: 200px;
+        margin-bottom: $spacing_half;
+        width: 100%;
+      }
+      .account-news__content {
+        padding-left: 0px;
+        width: 100%;
+      }
+    }
+  }
+}

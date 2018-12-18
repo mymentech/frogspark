@@ -1,0 +1,109 @@
+#about-content__section {
+  padding-bottom: 0px;
+  .col-md-6 {
+    p {
+      &:last-of-type {
+        margin-bottom: 0px;
+      }
+    }
+  }
+}
+
+.team-carousel__wrapper {
+  .circle__item {
+    height: 200px;
+    margin-bottom: $spacing;
+    width: 200px;
+    .image__background {
+      background-position: center;
+      background-size: contain;
+    }
+  }
+  .carousel__item {
+    padding: $spacing 0px $spacing_half;
+    &:before {
+      background: $black;
+      bottom: 0px;
+      content: '';
+      height: 2px;
+      left: 50%;
+      position: absolute;
+      transform: translateX(-50%);
+      transition: $transition_fast;
+      width: 25%;
+    }
+    &:hover {
+      cursor: pointer;
+      &:before {
+        width: 100%;
+      }
+    }
+  }
+  .slick-arrow {
+    i {
+      color: $black;
+    }
+    &.slick-prev {
+      left: 0px;
+    }
+    &.slick-next {
+      right: 0px;
+    }
+  }
+}
+
+.vitateam__bio {
+  background: $white;
+  border-radius: $border_radius;
+  left: 50%;
+  padding: $spacing;
+  position: fixed;
+  top: 50%;
+  transform: translate(100%, -50%);
+  transition: $transition_fast;
+  z-index: 999;
+  &.active {
+    transform: translate(-50%, -50%);
+  }
+  .circle__item {
+    height: 150px;
+    margin-bottom: $spacing;
+    width: 150px;
+    .image__background {
+      background-position: center;
+      background-size: contain;
+    }
+  }
+  .close__bio {
+    line-height: 1;
+    padding: $spacing_half;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    transition: $transition_fast;
+    &:hover {
+      cursor: pointer;
+      transform: rotate(180deg);
+    }
+  }
+  p {
+    margin-bottom: 0px;
+  }
+}
+
+.vitateam-bio__background {
+  background: $black;
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0px;
+  transition: $transition_fast;
+  width: 100%;
+  z-index: 9;
+  &.active {
+    opacity: .5;
+    pointer-events: all;
+  }
+}

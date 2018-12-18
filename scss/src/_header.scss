@@ -1,0 +1,603 @@
+* {
+  font-family: 'Avenir', sans-serif;
+}
+
+.nf-form-cont input:not(.btn) {
+  height: 45px;
+}
+
+.logo {
+  height: 52px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.navbar.active__nav .logo {
+  margin-top: 0px !important;
+}
+
+.hero__item p {
+  font-weight: 400 !important;
+  line-height: 2em !important;
+}
+
+.usp__spacing {
+  padding: 20px 15px;
+}
+
+.block__icon {
+  margin-bottom: 10px;
+}
+
+#your-vita__section p {
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #1d4a6e !important;
+}
+
+h2.white {
+  color: #fff !important;
+}
+
+.hero__item p span {
+  font-weight: 700 !important;
+}
+
+.hero__item p span b, .e-reverse {
+  transform: rotateY(-180deg) !important;
+  display: inline-block;
+  color: inherit !important;
+  font-size: inherit !important;
+}
+
+#contact-cta__section h2, #contact-cta__section p {
+  margin-bottom: 5px;
+}
+
+.nf-field-element textarea {
+  height: 100px !important;
+}
+
+.usp__spacing {
+  line-height: 1.4em;
+}
+
+#meet-vita__section p {
+  line-height: 1.4em;
+}
+
+#price-table__section .btn.green-alt__gradient:active, .title-btn:active {
+  background-image: -webkit-gradient(linear, left top, right top, from(#39A934), color-stop(51%, #60c0f3), to(#39A934));
+  background-image: linear-gradient(to right, #39A934 0%, #60c0f3 51%, #39A934 100%);
+}
+
+#price-table__section .btn.green-alt__gradient {
+  width: auto;
+  font-size: 28px;
+  display: inline-block;
+  padding: 10px 40px;
+  margin: auto;
+}
+
+.block__item .no__margin {
+  line-height: 1.4em;
+}
+
+.vitamyne-works__item h3 {
+  margin-bottom: 15px;
+}
+
+.meet-vita__section p {
+  line-height: 1.4em;
+}
+
+#how-vitamyne-works__section .vitamyne-works__item .block__item {
+
+}
+
+#how-vitamyne-works__section .vitamyne-works__item .block__item p {
+  color: #000 !important;
+}
+
+#how-vitamyne-works__section .vitamyne-works__item .block__item .h2 span {
+  color: #000 !important;
+}
+
+.block__item img {
+
+  opacity: 1;
+}
+
+#price-table__section .white__bg p {
+  color: #000 !important;
+}
+
+.navbar #navbar .navbar-nav {
+  padding-left: 0px !important;
+}
+
+.carousel__item .h1:before {
+  display: none !important;
+}
+
+.green__gradient {
+  background-image: linear-gradient(to right, #1c4a6e 0%, #1c4a6e 51%, #276799 100%);
+}
+
+.green__bg {
+  background: #1c4a6e !important;
+  border-color: #1c4a6e !important;
+}
+
+.green__bg:hover {
+  color: #fff !important;
+}
+
+a:hover.green__border, a:hover .green__border {
+  background: #1c4a6e !important;
+  border-color: #1c4a6e !important;
+}
+
+.white__bg.green__border {
+  color: #1c4a6e !important;
+  border-color: #1c4a6e !important;
+}
+
+.white__bg.green__border:hover {
+  color: #fff !important;
+}
+
+@media (max-width: 1199px) {
+  #navbar .underline__item {
+    font-size: 13px !important;
+  }
+
+  .logo {
+    height: 42px;
+    position: relative;
+    margin-top: 6px;
+  }
+
+  .hero__item p.n-bubble {
+    font-size: 14px !important;
+    right: 80px;
+  }
+
+  .person-wrap img.person-img {
+    max-width: 90%;
+
+  }
+
+  .logo-wrap img {
+    max-width: 100px !important;
+  }
+
+  #your-vita__section img.y-img {
+    width: 420px !important;
+  }
+
+}
+
+@media (max-width: 1050px) {
+  .hero__item p.n-bubble {
+    right: 100px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar .logo {
+    height: auto !important;
+    max-width: 82px !important;
+    margin-left: -10px;
+  }
+
+  .navbar .navbar-header .rotate-wheel__wrapper .rotate__wheel {
+    transform: none !important;
+    position: static !important;
+  }
+
+  .navbar.active__nav .navbar-header .rotate-wheel__wrapper {
+    top: 0px !important;
+  }
+
+  .hero-2 {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: none;
+  }
+
+  #meet-vita__section .col-md-5 {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #price-table__section .col-md-4, #usp__section .col-md-4 {
+    margin-left: 0px;
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #usp__section .usp__spacing {
+    padding: 20px 15px !important;
+  }
+
+  .page-template-page-search .sidebar, .tag .sidebar {
+    display: none !important;
+  }
+
+  .page-template-page-search .col-md-10, .tag .col-md-10 {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #myUL .col-md-3 {
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+
+  .single-nourishments #about-content__section .col-md-4, .single-nourishments #about-content__section .col-md-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .single-nourishments #about-content__section {
+    padding-bottom: 40px;
+  }
+
+  #contact-cta__section_faq .col-md-3 {
+    width: 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .navbar.active__nav .logo {
+    margin-left: 20px !important;
+  }
+
+  .rotate-wheel__wrapper {
+    width: 70px !important;
+    height: 37px !important;
+  }
+
+  .navbar #navbar ul li {
+    margin: 5px 0px !important;
+    opacity: 1 !important;
+    transform: translate(0) !important;
+  }
+
+  .navbar #navbar ul li a {
+    font-size: 18px !important;
+
+  }
+
+  #meet-vitamyne__section {
+    display: none !important;
+  }
+
+  h2, .h2 {
+    font-size: 24px !important;
+  }
+
+  #price-table__section .col-md-4 .usp__spacing, #usp__section .usp__spacing {
+    padding: 20px 15px;
+  }
+
+  #btn-separator__section .center__abso {
+    width: 85%;
+    font-size: 20px !important;
+  }
+
+  #meet-vita__section, #contact-cta__section_faq {
+    padding-top: 0px !important;
+  }
+
+  #contact-cta__section_faq {
+    padding-bottom: 0px !important;
+  }
+
+  .mob-m {
+    margin-top: 25px !important;
+  }
+
+  h1 span, .h1 span {
+    font-size: 26px !important;
+  }
+
+  h1, .h1 {
+    font-size: 30px;
+  }
+
+  #about-content__section p, #vitadna-content__section p {
+    font-size: 15px !important;
+  }
+
+
+  #singup-strip__section {
+    margin-top: 0px !important;
+    padding-top: 60px !important;
+  }
+
+
+
+  #vitadna-content__section {
+
+  }
+
+  #your-vita__section .col-md-5 {
+    display: none !important;
+  }
+
+  #your-vita__section p {
+    font-size: 15px;
+  }
+}
+
+.opacity__quarter {
+  opacity: 0;
+}
+
+.hero__item p span {
+  font-weight: 500 !important;
+}
+
+.hero__item p span b, .e-reverse {
+  font-weight: inherit !important;
+}
+
+.carousel__item .h1 {
+  font-size: 35px;
+}
+
+.green-alt__gradient {
+  background: #1c4a6e !important;
+}
+
+.btn-white-outline {
+  background: transparent !important;
+  border-color: #fff !important;
+  color: #fff !important;
+  margin-top: 15px;
+}
+
+.btn-white-outline:hover {
+  background: #fff !important;
+  color: #1c4a6e !important;
+}
+
+.block__item img {
+  filter: grayscale(100%);
+}
+
+.red__border {
+  border-color: #004b71 !important;
+}
+
+.orange__border {
+  border-color: #223c20 !important;
+}
+
+.yellow__border {
+  border-color: #6b2659 !important;
+}
+
+#how-vitamyne-works__section .green__border {
+  border-color: #b7a127 !important
+}
+
+.blue__border {
+  border-color: #934783 !important;
+}
+
+.orange__gradient {
+  background: #6b2659 !important;
+}
+
+.block-alt__item.blue__gradient {
+  background: #223c20 !important;
+}
+
+.orange__gradient .usp__spacing {
+  color: #6b2659 !important;
+}
+
+.block-alt__item p.usp__spacing {
+  color: #223c20 !important;
+}
+
+.purple__gradient {
+  background: #b7a127 !important;
+}
+
+.cc-floating .cc-message {
+  color: #fff !important;
+}
+
+.purple__gradient {
+  color: #b7a127 !important;
+}
+
+.person-wrap img.person-img {
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.user-persona p {
+  font-size: 12px;
+  color: #fff !important;
+}
+
+.user-persona p.p-name {
+  margin-bottom: 0px;
+  padding-top: 31px;
+  font-size: 14px;
+}
+
+.user-persona {
+  width: 180px;
+  text-align: center;
+  background: #6b2659;
+  border-radius: 50%;
+  height: 180px;
+  position: absolute;
+  right: 0px;
+  border: 1px solid #6b2659 !important;
+  color: #fff !important;
+}
+
+.user-persona:before {
+  transform: rotate(-40deg);
+  content: '';
+  position: absolute;
+  width: 100px;
+  background: #6b2659;
+  left: -70px;
+  height: 2px;
+  top: 130px;
+}
+
+.user-persona img {
+  max-width: 80px;
+  max-width: 60px;
+  margin-bottom: 6px !important;
+  margin-top: 5px;
+}
+
+a.hero-btn {
+  margin-bottom: 40px;
+}
+
+#home-hero__section {
+  padding-bottom: 0px;
+}
+
+@media (max-width: 991px) {
+  .navbar #navbar {
+    background: #1c4a6e !important;
+  }
+
+  .navbar .white__bg.green__border {
+    border-color: #fff !important;
+    color: #fff !important;
+  }
+
+  .navbar .btn.sm {
+    background: #fff !important;
+    border-color: #fff !important;
+    color: #1c4a6e !important;
+    margin: 10px 0px;
+  }
+
+  .navbar .hamburger__wrapper .hamburger__item {
+    background: #1c4a6e !important;
+  }
+
+  .navbar .hamburger__wrapper.is-active .hamburger__item {
+    background: #fff !important;
+  }
+
+  section#home-hero__section {
+    padding-top: 110px !important;
+  }
+
+  section#home-hero__section .btn {
+    margin-bottom: 10px;
+    padding: 10px 20px !important;
+  }
+
+  .owl-carousel {
+    width: 130% !important;
+    left:-110px !important;
+  }
+
+  .logo-wrap img {
+    max-width: 86px !important;
+  }
+
+  .science-image {
+    text-align: center;
+  }
+
+  .science-image img {
+    margin: auto;
+    max-width: 80px !important;
+  }
+
+  #science-works__section {
+    padding-top: 20px;
+  }
+
+  h4.science-title {
+    line-height: 1.4em;
+    padding-right: 0px !important;
+    font-size: 20px;
+  }
+
+  .sci-block p {
+    line-height: 1.4em !important;
+    font-size: 16px !important;
+  }
+
+  #your-vita__section img {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  .vitamyne-works__item {
+    width: 100%;
+    flex: 100% !important;
+    margin-bottom: 25px;
+  }
+
+  .hiw-wrap {
+    margin-top: 0px !important;
+  }
+
+  #meet-vita__section {
+    padding-bottom: 0px !important;
+  }
+
+  .promo-pill {
+    display: none !important;
+  }
+
+  #price-table__section .block-alt__item.orange__gradient {
+    margin-bottom: 25px;
+  }
+
+  .hiw-wrap a {
+    margin-bottom: 15px !important;
+  }
+
+  .logo-wrap img:nth-child(7) {
+    display: none !important;
+  }
+
+  .hero__item p.n-bubble {
+    display: none !important;
+  }
+
+  .person-wrap {
+    margin-top: 60px !important
+  }
+
+  .hero-1 h1, .hero-1 h1 span {
+    font-size: 24px !important;
+  }
+
+
+  .awards img {
+    max-width: 135px !important;
+  }
+
+  .vitateam__bio p:nth-child(6) {
+    display: none !important;
+  }
+
+}

@@ -1,0 +1,151 @@
+#vitadna-content__section {
+  .image__background {
+    background-position: top center;
+    background-size: 100%;
+  }
+}
+
+#vitadna__process {
+  background: $white;
+  border: 4px solid $blue;
+  border-radius: 30px;
+  margin-top: $spacing;
+  padding: $spacing_double $spacing $spacing;
+  position: relative;
+  > p {
+    left: 50%;
+    position: absolute;
+    top: -40px;
+    transform: translateX(-50%);
+  }
+  .col-md-7 {
+    position: relative;
+    p {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  .col-md-3 {
+    position: relative;
+    img {
+      position: absolute;
+      right: 0px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  .col-md-2 {
+    p {
+      font-size: $font_size_h1 * 2;
+      position: relative;
+      text-align: center;
+      &:after {
+        background: $white;
+        border-left: 4px solid $black;
+        content: '';
+        height: 100%;
+        opacity: 1;
+        position: absolute;
+        transform: translateX(-10px);
+        width: 100%;
+      }
+      &.red {
+        &:after {
+          border-left-color: $red;
+          border-left-color: #e2b9c5;
+        }
+      }
+      &.green {
+        &:after {
+          border-left-color: $green;
+          border-left-color: #c8d4c7;
+        }
+      }
+      &.blue {
+        &:after {
+          border-left-color: $blue;
+          border-left-color: #c3d5de;
+        }
+      }
+    }
+  }
+  img {
+    height: 100px;
+    width: auto;
+  }
+  .row {
+    padding: $spacing_half 0px;
+    &:nth-child(1) {
+      padding-top: 0px !important;
+      .col-md-2 {
+        p {
+          &:after {
+            transform: translateX(-10px);
+          }
+        }
+      }
+    }
+    &:nth-child(2) {
+      .col-md-2 {
+        p {
+          &:after {
+            transform: translateX(-18px);
+          }
+        }
+      }
+    }
+    &:nth-child(3) {
+      padding-bottom: 0px !important;
+      .col-md-2 {
+        p {
+          &:after {
+            transform: translateX(-19px);
+          }
+        }
+      }
+    }
+  }
+}
+
+.dna__tick {
+  background-image: url('/app/themes/frogspark/img/tick.png');
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 32px;
+  padding-left: $spacing + $spacing_half;
+}
+
+.signup__wrapper {
+  input {
+    border: 0px;
+    display: inline-block;
+    float: left;
+    font-family: $font;
+    height: auto;
+    padding: 10px $spacing_half;
+  }
+  input[type="text"] {
+    background: $white;
+    color: $black;
+    width: 75%;
+    &::placeholder {
+      color: $black;
+      opacity: .8;
+      transition: $transition_fast;
+    }
+    &:focus {
+      &::placeholder {
+        opacity: .4;
+      }
+    }
+  }
+  input[type="submit"] {
+    background: $green;
+    color: $white;
+    width: 25%;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

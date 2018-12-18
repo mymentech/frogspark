@@ -1,0 +1,71 @@
+#home-hero__section {
+  padding-top: 0px;
+}
+
+#vitawheel__wrapper {
+  background-color: transparent;
+  border-radius: 150px;
+  float: right;
+  height: 385px;
+  margin: $spacing_max + $spacing;
+  position: relative;
+  width: 385px;
+}
+
+.vitawheel__content {
+  left: 50%;
+  padding-left: $spacing_half;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.vitawheel__item {
+  background-color: transparent;
+  background-position:center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+  position: absolute;
+  transition: .3s;
+  width: 60px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.vitamyne-works__item {
+  flex: 20%;
+  max-width: 20%;
+  width: 20%;
+  .block__item {
+    height: 100%;
+  }
+  h3 {
+    margin-bottom: 0px;
+    padding-bottom: $spacing;
+  }
+}
+
+#price-table__section {
+  padding: $spacing_max + $spacing_double 0px $spacing_max;
+  .col-md-4 {
+    &:nth-of-type(2) {
+      transform: scale(1.2);
+      z-index: 3;
+      .usp__spacing {
+        padding: $spacing $spacing;
+      }
+    }
+    .usp__spacing {
+      padding: $spacing_double $spacing;
+    }
+  }
+  .row {
+    &:last-of-type {
+      padding-top: $spacing_max + $spacing_double;
+    }
+  }
+}

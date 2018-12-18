@@ -1,0 +1,89 @@
+.account__box {
+  background: $grey;
+  border-radius: $border_radius;
+  height: 100%;
+  padding: $spacing_half;
+  transition: $transition_fast;
+  i {
+    font-size: 40px;
+    margin-bottom: $spacing_half;
+  }
+  p {
+    line-height: 1.6em;
+  }
+  img {
+    height: 75px;
+  }
+  .border__top {
+    position: relative;
+    &:before {
+      background: $orange;
+      content: '';
+      height: 1px;
+      left: 50%;
+      opacity: .5;
+      position: absolute;
+      top: -16px;
+      transform: translateX(-50%);
+      width: 80%;
+    }
+  }
+  .bg {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+  }
+}
+
+.account-wrapper__box {
+  margin-bottom: $spacing;
+  a {
+    &:hover {
+      .account__box {
+        box-shadow: $shadow;
+      }
+    }
+  }
+}
+
+.account-news__box {
+  background: $white;
+  border: 2px solid $green;
+  height: 273px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  &.yournews {
+    margin-bottom: $spacing;
+  }
+
+  .account-news__item {
+    display: inline-block;
+    float: left;
+    padding: $spacing_half;
+    transition: $transition_fast;
+    width: 100%;
+    .account-news__img {
+      background-position: center;
+      background-size: cover;
+      display: inline-block;
+      float: left;
+      height: 100px;
+      width: 25%;
+    }
+    .account-news__content {
+      display: inline-block;
+      float: left;
+      padding-left: $spacing_half;
+      width: 75%;
+    }
+    &:hover {
+      background: $grey;
+    }
+  }
+}
+
+#myaccount__section {
+  .full__row {
+    height: 100%;
+  }
+}
