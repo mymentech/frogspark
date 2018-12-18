@@ -499,7 +499,7 @@ $ = get_field("");
                 <div class="item">
                   <img src="<?php echo get_template_directory_uri(); ?>/img/make-my-1.png" alt="" class="img-responsive">
                   <h5>Take the NOURISHED assessment</h5>
-                  <a href="#" class="btn" target="_blank">Help me choose ></a>
+                  <a href="#" class="btn btn-primary" target="_blank">Help me choose ></a>
                 </div>
               </div>
               <div class="col-md-4">
@@ -512,7 +512,7 @@ $ = get_field("");
                 <div class="item">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/make-my-2.png" alt="" class="img-responsive">
                   <h5>Select your own Nourishments</h5>
-                  <a href="#" class="btn" target="_blank">I'will choose my own ></a>
+                  <a href="#" class="btn btn-primary" target="_blank">I'will choose my own ></a>
                 </div>
               </div>
       </div>
@@ -582,26 +582,26 @@ $ = get_field("");
           <div class="col-md-4">
             <div class="single-option">
               <p>
-                <img src="" alt="" class="pull-left">
+                <img src="<?php echo get_template_directory_uri() ?>/img/add-icon.png" alt="" class="pull-left">
                 Send us an email at: <a href="mailto:info@iamnourish3d@.com">info@iamnourish3d@.com</a>
-                (Don't forgot it's 3d at the end!)
+                <span style="color:#541E53">(Don't forgot it's 3d at the end!)</span>
               </p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="single-option">
               <p>
-                <img src="" alt="" class="pull-left">
-                You cal call us on: <a href="mailto:info@iamnourish3d@.com">info@iamnourish3d@.com</a>
+                <img src="<?php echo get_template_directory_uri() ?>/img/call-icon.png" alt="" class="pull-left">
+                You cal call us on: <a href="tel:08001223378">08001223378</a>
               </p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="single-option">
               <p>
-                <img src="" alt="" class="pull-left">
-                Or even write us a letter if you like: <a href="mailto:info@iamnourish3d@.com">info@iamnourish3d@.com</a>
-                <span class="clr-primary">30 Floodgate street,<br> Birmingham, B5 5SL</span>
+                <img src="<?php echo get_template_directory_uri() ?>/img/location-icon.png" alt="" class="pull-left">
+                Or even write us a letter if you like: 
+                 <span class="clr-primary">30 Floodgate street,<br> Birmingham, B5 5SL</span>
               </p>
             </div>
         </div>
