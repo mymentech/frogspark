@@ -11528,10 +11528,14 @@ section#get-nourished {
     font-weight: bold; }
 
 section#make-my-nourished {
-  background: #fff;
+  background-color: #fff;
+  background: url(../../img/make-our-bg.jpg);
   clear: both;
   overflow: hidden;
-  padding: 100px 0; }
+  padding: 100px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
   section#make-my-nourished h1 {
     color: #006976; }
     section#make-my-nourished h1 span.txt-rotate {
@@ -11542,6 +11546,9 @@ section#make-my-nourished {
   section#make-my-nourished .item h5 {
     padding: 10px;
     margin: 10px 0; }
+  section#make-my-nourished .item a {
+    border: none;
+    padding: 10px 45px; }
   section#make-my-nourished .item.middle img {
     margin-top: 50px; }
   section#make-my-nourished .item.middle h3 {
@@ -11551,7 +11558,11 @@ section#make-my-nourished {
 
 #our-world {
   background-image: linear-gradient(to bottom, #90BFC7 10%, #BCC0C2 51%, #96B6BD 75%);
-  padding: 50px 0 70px; }
+  padding: 50px 0 70px;
+  background: url(../../img/our-world-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
   #our-world h1 {
     color: #006976; }
   #our-world .blog-list {
@@ -11589,8 +11600,9 @@ section#make-my-nourished {
     border: 0;
     margin: 0 auto;
     padding: 10px 25px;
-    font-size: 16px;
-    display: table; }
+    font-size: 20px;
+    display: table;
+    font-weight: bold; }
 
 #about-us {
   padding: 50px 0;
@@ -11616,7 +11628,7 @@ section#make-my-nourished {
       line-height: 0px !important; }
   #about-us a {
     margin: 15px auto;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     border: 0;
     padding: 10px 25px; }
@@ -11644,6 +11656,19 @@ section#make-my-nourished {
   background: #E3E8E9; }
   #contact-us h1, #contact-us h3 {
     text-align: center; }
+  #contact-us .single-option p {
+    line-height: 26px;
+    color: #531F53;
+    font-weight: bold;
+    font-size: 25px; }
+    #contact-us .single-option p img {
+      padding-right: 20px; }
+    #contact-us .single-option p a, #contact-us .single-option p span {
+      color: #006976;
+      font-size: 20px; }
+    #contact-us .single-option p span {
+      display: block;
+      padding: 20px 0; }
   #contact-us h1 {
     color: #531F53; }
   #contact-us h3 {
@@ -11651,10 +11676,21 @@ section#make-my-nourished {
     font-size: 30px; }
   #contact-us #contact-us-form input {
     height: 60px; }
+  #contact-us #contact-us-form input[type=submit] {
+    border: 0;
+    margin: 0 auto;
+    padding: 5px 30px;
+    height: 50px;
+    display: block; }
+    #contact-us #contact-us-form input[type=submit]:focus {
+      border: 1px; }
+  #contact-us #contact-us-form textarea *:focus {
+    border: inherit;
+    outline: inherit; }
 
 footer {
   background: #C7D6DB;
-  padding: 50px 0 70px; }
+  padding: 50px 0 0 0; }
   footer .footer-logo img {
     display: block;
     margin: 0 auto; }
@@ -12198,10 +12234,14 @@ section#get-nourished {
     font-weight: bold; }
 
 section#make-my-nourished {
-  background: #fff;
+  background-color: #fff;
+  background: url(../../img/make-our-bg.jpg);
   clear: both;
   overflow: hidden;
-  padding: 100px 0; }
+  padding: 100px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
   section#make-my-nourished h1 {
     color: #006976; }
     section#make-my-nourished h1 span.txt-rotate {
@@ -12212,6 +12252,9 @@ section#make-my-nourished {
   section#make-my-nourished .item h5 {
     padding: 10px;
     margin: 10px 0; }
+  section#make-my-nourished .item a {
+    border: none;
+    padding: 10px 45px; }
   section#make-my-nourished .item.middle img {
     margin-top: 50px; }
   section#make-my-nourished .item.middle h3 {
@@ -12222,7 +12265,11 @@ section#make-my-nourished {
 #our-world {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #90BFC7), color-stop(51%, #BCC0C2), color-stop(75%, #96B6BD));
   background-image: linear-gradient(to bottom, #90BFC7 10%, #BCC0C2 51%, #96B6BD 75%);
-  padding: 50px 0 70px; }
+  padding: 50px 0 70px;
+  background: url(../../img/our-world-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
   #our-world h1 {
     color: #006976; }
   #our-world .blog-list {
@@ -12260,8 +12307,9 @@ section#make-my-nourished {
     border: 0;
     margin: 0 auto;
     padding: 10px 25px;
-    font-size: 16px;
-    display: table; }
+    font-size: 20px;
+    display: table;
+    font-weight: bold; }
 
 #about-us {
   padding: 50px 0;
@@ -12287,7 +12335,7 @@ section#make-my-nourished {
       line-height: 0px !important; }
   #about-us a {
     margin: 15px auto;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     border: 0;
     padding: 10px 25px; }
@@ -12316,6 +12364,19 @@ section#make-my-nourished {
   background: #E3E8E9; }
   #contact-us h1, #contact-us h3 {
     text-align: center; }
+  #contact-us .single-option p {
+    line-height: 26px;
+    color: #531F53;
+    font-weight: bold;
+    font-size: 25px; }
+    #contact-us .single-option p img {
+      padding-right: 20px; }
+    #contact-us .single-option p a, #contact-us .single-option p span {
+      color: #006976;
+      font-size: 20px; }
+    #contact-us .single-option p span {
+      display: block;
+      padding: 20px 0; }
   #contact-us h1 {
     color: #531F53; }
   #contact-us h3 {
@@ -12323,10 +12384,21 @@ section#make-my-nourished {
     font-size: 30px; }
   #contact-us #contact-us-form input {
     height: 60px; }
+  #contact-us #contact-us-form input[type=submit] {
+    border: 0;
+    margin: 0 auto;
+    padding: 5px 30px;
+    height: 50px;
+    display: block; }
+    #contact-us #contact-us-form input[type=submit]:focus {
+      border: 1px; }
+  #contact-us #contact-us-form textarea *:focus {
+    border: inherit;
+    outline: inherit; }
 
 footer {
   background: #C7D6DB;
-  padding: 50px 0 70px; }
+  padding: 50px 0 0 0; }
   footer .footer-logo img {
     display: block;
     margin: 0 auto; }

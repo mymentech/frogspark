@@ -130,10 +130,14 @@ section#get-nourished{
 }
 
 section#make-my-nourished{
-    background:#fff;
+    background-color:#fff;
+    background:url(../../img/make-our-bg.jpg);
     clear: both;
     overflow: hidden;
     padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     h1{
         color: $primary-clr;
         span.txt-rotate{
@@ -148,6 +152,10 @@ section#make-my-nourished{
         h5{
             padding: 10px;
             margin: 10px 0;
+        }
+        a{
+            border: none;
+            padding: 10px 45px;
         }
     }
     .item.middle{
@@ -167,6 +175,10 @@ section#make-my-nourished{
 #our-world{
     background-image: linear-gradient(to bottom, #90BFC7 10%, #BCC0C2 51%, #96B6BD 75%);
     padding: $secpadd;
+    background: url(../../img/our-world-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 
     h1{
         color: $primary-clr;
@@ -220,8 +232,9 @@ section#make-my-nourished{
             border: 0;
             margin: 0 auto;
             padding: 10px 25px;
-            font-size: 16px;
+            font-size: 20px;
             display: table;
+            font-weight: bold;
         }
         
     }
@@ -257,7 +270,7 @@ section#make-my-nourished{
     a{
         @extend .btn-secondary;
         margin: 15px auto;
-        font-size: 16px;
+        font-size: 20px;
         font-weight: bold;
         border: 0;
         padding: 10px 25px;
@@ -298,6 +311,25 @@ section#make-my-nourished{
     h1, h3{
         text-align:center;
     }
+    .single-option{
+        p{
+            line-height: 26px;
+            color:$secondary-clr;
+            font-weight: bold;
+            font-size: 25px;
+            img{
+                padding-right: 20px;
+            }
+            a, span{
+                color: $primary-clr;
+                font-size: 20px;
+            }
+            span{
+                display: block;
+                padding: 20px 0
+            }
+        }
+    }
     
     h1{
         color:$secondary-clr
@@ -310,12 +342,29 @@ section#make-my-nourished{
         input{
             height: 60px;
         }
+
+        input[type=submit]{
+            border:0;
+            margin: 0 auto;
+            padding: 5px 30px;
+            height: 50px;
+            display: block;
+            &:focus{
+                border: 1px;
+            }
+        }
+        textarea{
+            *:focus {
+                border: inherit;
+                outline: inherit;
+            }
+        }
     }
 }
 
 footer{
     background: #C7D6DB;
-    padding: $secpadd;
+    padding: 50px 0 0 0;
 
     .footer-logo{
         img{
