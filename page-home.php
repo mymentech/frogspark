@@ -11,6 +11,7 @@ session_start();
 
 <?php
 
+
 //banner
 $banner_content = get_field("banner_content");
 $banner_promo = get_field("banner_promo");
@@ -622,10 +623,11 @@ $ = get_field("");
    <footer>
      <div class="container">
        <div class="row">
+         <div class="col-md-12">
          <div class="footer-logo">
-           <img src="" alt="logo" class="">
+           <img src="<?php echo get_template_directory_uri() ?>/img/footer-logo.png" alt="logo" >
          </div>
-         
+         </div>
        </div>
        <div class="row">
          <div class="col-md-12">
@@ -641,14 +643,15 @@ $ = get_field("");
 
           <div class="social-icons">
             <ul class="list-unstyled list-inline">
-                <li><a href="#" target="_blank"><img src="" alt="instagram"></a> </li>
-                <li><a href="#" target="_blank"><img src="" alt="twitter"></a> </li>
-                <li><a href="#" target="_blank"><img src="" alt="facebook"></a> </li>
+                <li><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/img/instagram-icon.png" alt="instagram"></a> </li>
+                <li><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/img/twitter-icon.png" alt="twitter"></a> </li>
+                <li><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/img/facebook-icon.png" alt="facebook"></a> </li>
             </ul>
             <small>Website by Artisan</small>
           </div>
          </div>
        </div>
+       <p class="copy-right-text">These statements have not been evaluted by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.</p>
      </div>
    </footer>
   

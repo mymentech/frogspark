@@ -1,4 +1,4 @@
-$secpadd: 100px 0 70px;
+$secpadd: 50px 0 70px;
 $primary-clr:#006976;
 $secondary-clr:#531F53;
 
@@ -310,5 +310,66 @@ section#make-my-nourished{
 
 footer{
     background: #C7D6DB;
+    padding: $secpadd;
+
+    .footer-logo{
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+     }
+     .footer-pages{
+        margin: 20px 0;
+        padding: 20px 0 10px;
+        ul li{
+            display: inline-block;
+            &:after{
+                content: '//'
+            }
+            &:last-child:after{
+                content: '';
+            }
+
+            a{
+                padding: 10px 15px;
+                color:#014B71;
+                font-weight: 500;
+                .current-menu-item{
+                    color:$secondary-clr;
+                }
+            }
+        }
+    }
+
+    .social-icons{
+        float: right;
+        width: 15%;
+        ul li{
+            display: inline-block;
+            float: left;
+            margin-right: 15px;
+
+            a {
+                img{
+                    height: 40px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        small{
+            display: inline-block;
+            text-align: right;
+        }
+        p{
+            copy-right-text{
+                color:#8F8F8F;
+            }
+        }
+    }
+
+
+
+
+
 }
 
