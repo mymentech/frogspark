@@ -11758,6 +11758,8 @@ section#make-my-nourished {
   #contact-us h3 {
     color: #006976;
     font-size: 30px; }
+  #contact-us #contact-us-form input {
+    height: 60px; }
 
 footer {
   background: #C7D6DB;
@@ -11766,8 +11768,8 @@ footer {
     display: block;
     margin: 0 auto; }
   footer .footer-pages {
-    margin: 20px 0;
-    padding: 20px 0 10px; }
+    margin: 20px 0 0;
+    padding: 20px 0 0px; }
     footer .footer-pages ul li {
       display: inline-block; }
       footer .footer-pages ul li:after {
@@ -11781,8 +11783,8 @@ footer {
         footer .footer-pages ul li a .current-menu-item {
           color: #531F53; }
   footer .social-icons {
-    float: right;
-    width: 15%; }
+    margin: 20px 0;
+    padding: 20px 0 10px; }
     footer .social-icons ul li {
       display: inline-block;
       float: left;
@@ -11792,9 +11794,11 @@ footer {
         margin-bottom: 10px; }
     footer .social-icons small {
       display: inline-block;
-      text-align: right; }
-    footer .social-icons p copy-right-text {
+      text-align: right;
       color: #8F8F8F; }
+  footer .copy-right-text {
+    color: #8F8F8F;
+    font-size: 17px; }
 
 * {
   font-family: 'Avenir', sans-serif; }
@@ -12538,6 +12542,8 @@ section#make-my-nourished {
   #contact-us h3 {
     color: #006976;
     font-size: 30px; }
+  #contact-us #contact-us-form input {
+    height: 60px; }
 
 footer {
   background: #C7D6DB;
@@ -12546,8 +12552,8 @@ footer {
     display: block;
     margin: 0 auto; }
   footer .footer-pages {
-    margin: 20px 0;
-    padding: 20px 0 10px; }
+    margin: 20px 0 0;
+    padding: 20px 0 0px; }
     footer .footer-pages ul li {
       display: inline-block; }
       footer .footer-pages ul li:after {
@@ -12561,8 +12567,8 @@ footer {
         footer .footer-pages ul li a .current-menu-item {
           color: #531F53; }
   footer .social-icons {
-    float: right;
-    width: 15%; }
+    margin: 20px 0;
+    padding: 20px 0 10px; }
     footer .social-icons ul li {
       display: inline-block;
       float: left;
@@ -12572,9 +12578,11 @@ footer {
         margin-bottom: 10px; }
     footer .social-icons small {
       display: inline-block;
-      text-align: right; }
-    footer .social-icons p copy-right-text {
+      text-align: right;
       color: #8F8F8F; }
+  footer .copy-right-text {
+    color: #8F8F8F;
+    font-size: 17px; }
 
 /* Colours */
 /* Fonts */

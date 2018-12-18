@@ -306,6 +306,11 @@ section#make-my-nourished{
         color:$primary-clr;
         font-size: 30px;
     }
+    #contact-us-form {
+        input{
+            height: 60px;
+        }
+    }
 }
 
 footer{
@@ -319,8 +324,8 @@ footer{
         }
      }
      .footer-pages{
-        margin: 20px 0;
-        padding: 20px 0 10px;
+        margin: 20px 0 0;
+        padding: 20px 0 0px;
         ul li{
             display: inline-block;
             &:after{
@@ -342,8 +347,8 @@ footer{
     }
 
     .social-icons{
-        float: right;
-        width: 15%;
+        margin: 20px 0;
+        padding: 20px 0 10px;
         ul li{
             display: inline-block;
             float: left;
@@ -359,17 +364,15 @@ footer{
         small{
             display: inline-block;
             text-align: right;
+            color:#8F8F8F;
         }
-        p{
-            copy-right-text{
-                color:#8F8F8F;
-            }
-        }
+       
     }
-
-
-
-
+   
+        .copy-right-text{
+            color:#8F8F8F;
+            font-size: 17px;
+        }
 
 }
 
