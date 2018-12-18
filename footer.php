@@ -1,4 +1,103 @@
-<footer class="grey__bg">
+
+<!-- nourished-vitamin-area  start-->
+  
+
+  <div id="nourished-vitamin-area" class="text-center">
+    <h3 class="fheading">the power of seven: the possibility of a billion</h3>
+    <section id="nourshed-vitamins">
+      <div class="container">
+        <h1>Nourish<span class="txt-rotate" >E</span>d vitamins</h1>
+        <h4>The clever way to get nourish<span class="txt-rotate" >E</span>d</h4> 
+        <div class="row" id="vitamin-list">
+        
+            
+              <div class="single-items">
+                  <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png" alt="">
+                  <h2>Fresh</h2>
+                  <p>Made to order conveniently delivered every onth</p>
+              </div>
+          
+              <div class="single-items">
+              <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png" alt="">
+                  <h2>patented</h2>
+                  <p>Three Propeietary patented technologies</p>
+              </div>
+
+              <div class="single-items">
+              <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png" alt="">
+                  <h2>encapsulation</h2>
+                  <p>Tasty and chewable, optimum absorption</p>
+              </div>  
+          
+              <div class="single-items">
+              <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png" alt="">
+                  <h2>3d-printed</h2>
+                  <p>Seven perfectly balanced and proportioned layers</p>
+              </div>
+
+              <div class="single-items">
+              <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png" alt="">
+                  <h2>quality</h2>
+                  <p>Vegan ingredients, natural fruit fibre sweeteners</p>
+              </div>
+            
+  
+      </div>
+    </div>
+
+    </section>
+  </div>
+
+    <div class="check-faq">
+              <p>got a question? check our faqs</p>
+              <a href="#" class="btn">View faqs</a>
+    </div>
+
+
+    
+   <!-- Footer Start-->
+
+   <footer>
+     <div class="container-fluid">
+       <div class="row">
+         <div class="col-md-12">
+         <div class="footer-logo">
+           <img src="<?php echo get_template_directory_uri() ?>/img/footer-logo.png" alt="logo" >
+         </div>
+         </div>
+       </div>
+       <div class="row">
+        <div class="col-md-2"></div>
+         <div class="col-md-8">
+           <div class="footer-pages text-center">
+              <ul class="list-unstled list-inline">
+                <li> <a href="#">Pricing</a> </li>
+                <li> <a href="#">Delivery</a> </li>
+                <li> <a href="#">Faqs</a> </li>
+                <li> <a href="#">Social links</a> </li>
+                <li> <a href="#">Ts & Cs</a> </li>
+              </ul>
+            </div>
+            <p class="copy-right-text text-center">These statements have not been evaluted by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.</p>
+          </div>
+        <div class="col-md-2">
+            <div class="social-icons">
+            <ul class="list-unstyled list-inline">
+                <li><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/img/instagram-icon.png" alt="instagram"></a> </li>
+                <li><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/img/twitter-icon.png" alt="twitter"></a> </li>
+                <li><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/img/facebook-icon.png" alt="facebook"></a> </li>
+            </ul>
+            <small>Website by Artisan</small>
+          </div>
+         </div>
+       </div>
+      
+     </div>
+   </footer>
+
+  <!-- nourished-vitamin-area  end-->
+
+<!-- <footer class="grey__bg">
   <div class="container">
     <div class="row">
       <div class="col-md-10">
@@ -6,7 +105,7 @@
         <a href="/about-us/" class="sm underline__item margin-right__spacing">About</a>
         <a href="/#contact-cta__section" class="sm underline__item margin-right__spacing">FAQ</a>
         <a href="/#meet-nourish__section" class="sm underline__item margin-right__spacing">Nourishments</a>
-<!--         <a href="#" class="sm underline__item margin-right__spacing">Blog</a> -->
+
         <a href="/#contact-cta__section" class="sm underline__item margin-right__spacing">Contact</a>
       </div>
       <div class="col-md-2 right">
@@ -31,7 +130,7 @@
       </div>
     </div>
   </div>
-</footer>
+</footer> -->
 <?php wp_footer(); ?>
 
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />

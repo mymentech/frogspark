@@ -633,7 +633,7 @@ $ = get_field("");
    <!-- contact us  end-->
 
 
-   <!-- contact us  end-->
+   <!-- Footer Start-->
 
    <footer>
      <div class="container-fluid">
