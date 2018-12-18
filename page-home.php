@@ -579,9 +579,6 @@ $ = get_field("");
     <h1>contact us</h1>
     <h3>We'd love to hear from you...</h3>
       <div class="row">
-       
-
-  
           <div class="col-md-4">
             <div class="single-option">
               <p>
@@ -607,13 +604,31 @@ $ = get_field("");
                 <span class="clr-primary">30 Floodgate street,<br> Birmingham, B5 5SL</span>
               </p>
             </div>
-          
-        </div>
-        <div class="contact-form">
-          <h1>contact from will here</h1>
         </div>
       </div>
-    </div>
+      <div id="contact-us-form">
+        <div class="row">
+
+            <div class="col-md-6">
+                   <form action="" >
+                      <div class="form-group">
+                      <input type="text" class="form-control" id="name" placeholder="Your name">
+                           </div>
+                           <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Your email address">
+                           </div>
+
+                           <input type="submit" class="btn btn-secondary" value="Send message">
+                        </div>
+                        <div class="col-md-6">
+                              <textarea placeholder="Your message" name="" id="message" cols="50" rows="10"></textarea>
+                              </form>
+                        </div>
+                          
+                  </div>
+
+          </div>
+      </div>
   </section>
    <!-- contact us  end-->
 
@@ -621,7 +636,7 @@ $ = get_field("");
    <!-- contact us  end-->
 
    <footer>
-     <div class="container">
+     <div class="container-fluid">
        <div class="row">
          <div class="col-md-12">
          <div class="footer-logo">
@@ -630,7 +645,8 @@ $ = get_field("");
          </div>
        </div>
        <div class="row">
-         <div class="col-md-12">
+        <div class="col-md-2"></div>
+         <div class="col-md-8">
            <div class="footer-pages text-center">
               <ul class="list-unstled list-inline">
                 <li> <a href="#">Pricing</a> </li>
@@ -639,9 +655,11 @@ $ = get_field("");
                 <li> <a href="#">Social links</a> </li>
                 <li> <a href="#">Ts & Cs</a> </li>
               </ul>
+            </div>
+            <p class="copy-right-text text-center">These statements have not been evaluted by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.</p>
           </div>
-
-          <div class="social-icons">
+        <div class="col-md-2">
+            <div class="social-icons">
             <ul class="list-unstyled list-inline">
                 <li><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/img/instagram-icon.png" alt="instagram"></a> </li>
                 <li><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/img/twitter-icon.png" alt="twitter"></a> </li>
@@ -651,7 +669,7 @@ $ = get_field("");
           </div>
          </div>
        </div>
-       <p class="copy-right-text">These statements have not been evaluted by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.</p>
+      
      </div>
    </footer>
   
