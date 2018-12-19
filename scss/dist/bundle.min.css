@@ -9771,7 +9771,7 @@ a.text-dark:hover, a.text-dark:focus {
     margin-bottom: 10px;
     width: 100%;
     box-sizing: border-box;
-    font-family: montserrat;
+    font-family: Circular;
     color: #2C3E50;
     font-size: 13px; }
   #quiz_main_section #msform .action-button {
@@ -12298,7 +12298,7 @@ a.hero-btn {
     width: 100%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: montserrat;
+    font-family: Circular;
     color: #2C3E50;
     font-size: 13px; }
   #quiz_main_section #msform .action-button {
