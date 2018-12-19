@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Brain Health
+ * Template Name: blog page
  *
  * @package WordPress
  * @subpackage Twenty_Fourteen

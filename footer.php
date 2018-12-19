@@ -156,6 +156,25 @@ window.cookieconsent.initialise({
 })});
 </script>
 
+
+<script>
+var catcount = document.getElementsByClassName("accordion-cat");
+var i;
+
+for (i = 0; i < catcount.length; i++) {
+  catcount[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+
 <script>
   
   $(function() {
