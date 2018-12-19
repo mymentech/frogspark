@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: About Page
+ * Template Name: Contact us
  *
  * @package WordPress
  * @subpackage Twenty_Fourteen
@@ -115,97 +115,73 @@ $team_members = get_field("team_members");
 
 
 
-
-
-  <section id="about-content__section" class=" relative__item">
-    <div class="container above__background">
-      <div class="row">
-        <!-- <div class="col-md-12 center" data-aos="fade-down">
-          <h1 class="black center orange__underline"><?php echo $page_title ?></h1>
-        </div> -->
-        <div class="col-md-6" data-aos="fade-right">
-          <?php echo $left_content ?>
-
-        </div>
-        <div class="col-md-6" data-aos="fade-left">
-          <?php echo $right_content ?>
-          
-        </div>
-        <div class="col-md-12">
-          <div class="awards">
-            <?php
-            
-              foreach($logo_upload as $item)
-              {
-                echo '<img src="'.$item['logo_image']['url'].'">';
-              }
-            
-            ?>
-
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="image__background center__background opacity__quarter" style="background-image: url('/app/themes/frogspark/img/bg-logo.png');"></div>
-  </section>
-
-  <section id="vitateam-slider__section" class="content__section" data-aos="fade-up">
+<!-- contact us  start-->
+  <section id="contact-us">
     <div class="container">
+    <h3>We'd love to hear from you...</h3>
       <div class="row">
-        <div class="col-md-12">
-          <h2 class="black center">The NOURISH<span class="e-reverse" style="font-size: 50px;">E</span>D Team</h2>
-        </div>
-        <div class="col-md-12">
-          <div class="team-carousel__wrapper relative__item">
-            
-            
-            <?php 
-            
-              foreach($team_members as $item)
-              {
-                echo '<div class="carousel__item relative__item center" data-ref="'.$item['name'].'">
-                        <div class="circle__item relative__item">
-                          <div class="image__background center__background" style="background-image: url('.$item['image']['url'].');"></div>
-                        </div>
-                        <p class="black h3">'.$item['name'].'</p>
-                        <p class="black sm no__margin">'.$item['job_title'].'</p>
-                      </div>';
-              }
-            
-            ?>
-                        
-            
-            
+          <div class="col-md-4">
+            <div class="single-option">
+              <p>
+                <img src="<?php echo get_template_directory_uri() ?>/img/add-icon.png" alt="" class="pull-left">
+                Send us an email at: <a href="mailto:info@iamnourish3d@.com">info@iamnourish3d@.com</a>
+                <span style="color:#541E53">(Don't forgot it's 3d at the end!)</span>
+              </p>
+            </div>
           </div>
+          <div class="col-md-4">
+            <div class="single-option">
+              <p>
+                <img src="<?php echo get_template_directory_uri() ?>/img/call-icon.png" alt="" class="pull-left">
+                You cal call us on: <a href="tel:08001223378">08001223378</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="single-option">
+              <p>
+                <img src="<?php echo get_template_directory_uri() ?>/img/location-icon.png" alt="" class="pull-left">
+                Or even write us a letter if you like: 
+                 <span class="clr-primary">30 Floodgate street,<br> Birmingham, B5 5SL</span>
+              </p>
+            </div>
         </div>
       </div>
-    </div>
+      <div id="contact-us-form">
+        <div class="row">
+
+            <div class="col-md-6">
+                   <form action="" >
+                      <div class="form-group">
+                      <input type="text" class="form-control" id="name" placeholder="Your name">
+                           </div>
+                           <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Your email address">
+                           </div>
+
+                           <input type="submit" class="btn btn-secondary" value="Send message">
+                        </div>
+                        <div class="col-md-6">
+                              <textarea placeholder="Your message" name="" id="message" cols="50" rows="10"></textarea>
+                              </form>
+                        </div>
+                          
+                  </div>
+
+          </div>
+      </div>
   </section>
+   <!-- contact us  end-->
 
 
-  <div class="vitateam-bio__wrapper">
-    <div class="vitateam-bio__background"></div>
-    
-    <?php 
-            
-      foreach($team_members as $item)
-      {
-        echo '<div class="vitateam__bio center" data-ref="'.$item['name'].'">
-                <div class="close__bio spin__hover"><i class="fas fa-times"></i></div>
-                <div class="circle__item relative__item">
-                  <div class="image__background center__background" style="background-image: url('.$item['image']['url'].');"></div>
-          
-                </div>
-                <p class="black h3">'.$item['name'].'</p>
-                <p class="black sm no__margin">'.$item['job_title'].'</p>
-                '.$item['description'].'
-              </div>';
 
-      }
-    
-    ?>
-    
-   </div>
+
+
+  
+ 
+
+
+
    <!-- content section End -->
 
 
