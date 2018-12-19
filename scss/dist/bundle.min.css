@@ -11846,10 +11846,158 @@ section#page-banner {
     color: #fff;
     padding: 180px 0;
     margin: 0; }
+  section#page-banner h1 {
+    text-transform: inherit; }
 
 section#about-content__section {
   padding: 30px 0px;
   background-color: #eaeaea; }
+
+section#faq-section {
+  padding: 50px 0 70px; }
+  section#faq-section .single-item h2 {
+    border: 2px solid #006976 !important;
+    border-radius: 7px;
+    padding: 5px 10px;
+    display: table;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #006976 !important; }
+    section#faq-section .single-item h2 span.txt-rotate {
+      font-size: 20px !important;
+      line-height: 0; }
+  section#faq-section .single-item img {
+    height: 150px; }
+  section#faq-section a.btn-secondary, section#faq-section section#get-nourished a.watch-btn, section#get-nourished section#faq-section a.watch-btn, section#faq-section #our-world .blog-list a, #our-world .blog-list section#faq-section a, section#faq-section #about-us a, #about-us section#faq-section a {
+    margin: 0 auto;
+    display: table;
+    border: 0;
+    padding: 5px 15px; }
+    section#faq-section a.btn-secondary img, section#faq-section section#get-nourished a.watch-btn img, section#get-nourished section#faq-section a.watch-btn img, section#faq-section #our-world .blog-list a img, #our-world .blog-list section#faq-section a img, section#faq-section #about-us a img, #about-us section#faq-section a img {
+      margin-right: 8px;
+      margin-bottom: 0;
+      height: 25px; }
+    section#faq-section a.btn-secondary span.txt-rotate, section#faq-section section#get-nourished a.watch-btn span.txt-rotate, section#get-nourished section#faq-section a.watch-btn span.txt-rotate, section#faq-section #our-world .blog-list a span.txt-rotate, #our-world .blog-list section#faq-section a span.txt-rotate, section#faq-section #about-us a span.txt-rotate, #about-us section#faq-section a span.txt-rotate {
+      font-size: 20px !important;
+      font-weight: 500;
+      color: #fff; }
+  section#faq-section .single-item.odd h2 {
+    border: 2px solid #531F53 !important;
+    color: #531F53 !important; }
+
+.accordion {
+  width: 100%;
+  margin: 50px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px; }
+  .accordion ul {
+    margin: 0;
+    padding: 0; }
+    .accordion ul li {
+      list-style: none;
+      margin: 0; }
+      .accordion ul li h5 {
+        font-size: 18px;
+        color: #006976;
+        font-weight: bold;
+        margin: 0;
+        padding: 12px 15px 12px 50px;
+        line-height: 19px;
+        cursor: pointer;
+        position: relative;
+        transition: all 0.3s ease-in-out 0s;
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        -o-transition: all 0.3s ease-in-out 0s; }
+        .accordion ul li h5:before {
+          content: "+";
+          font-family: 'FontAwesome';
+          background: #531F53;
+          width: 20px;
+          height: 20px;
+          position: absolute;
+          left: 14px;
+          top: 14px;
+          transition: all 0.3s ease-in-out 0s;
+          -webkit-transition: all 0.3s ease-in-out 0s;
+          -o-transition: all 0.3s ease-in-out 0s;
+          font-size: 20px;
+          color: #fff;
+          text-align: center;
+          line-height: 20px;
+          border-radius: 50%; }
+      .accordion ul li h5.plus {
+        border-bottom: 0;
+        color: #006976; }
+        .accordion ul li h5.plus:before {
+          content: "-";
+          line-height: 17px; }
+      .accordion ul li div {
+        color: #531F53;
+        line-height: 24px;
+        padding: 15px 15px 15px 50px;
+        font-weight: 500; }
+        .accordion ul li div a {
+          color: #7f0a19; }
+
+section#brain-health-content {
+  padding: 50px 0 70px;
+  background: #eaeaea; }
+  section#brain-health-content .page-category {
+    clear: both;
+    overflow: hidden; }
+    section#brain-health-content .page-category .accordion-cat {
+      background-color: #fff;
+      color: #006976;
+      cursor: pointer;
+      padding: 10px;
+      font-weight: bold;
+      border-radius: 8px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      transition: 0.4s; }
+    section#brain-health-content .page-category .active, section#brain-health-content .page-category .accordion-cat:hover {
+      background-color: #fff; }
+    section#brain-health-content .page-category .accordion-cat:after {
+      content: "" !important;
+      font-family: "Font Awesome 5 Free";
+      color: #777;
+      font-weight: bold;
+      float: right;
+      margin-left: 5px; }
+    section#brain-health-content .page-category .active:after {
+      content: "" !important;
+      font-family: "Font Awesome 5 Free"; }
+    section#brain-health-content .page-category .panel {
+      margin-top: 10px;
+      padding: 0 18px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out; }
+      section#brain-health-content .page-category .panel ul li a {
+        color: #006976;
+        margin: 5px 0;
+        display: block;
+        margin: 8px 0;
+        font-weight: 500; }
+  section#brain-health-content .page-main-content h2 {
+    color: #531F53 !important; }
+  section#brain-health-content .page-main-content p {
+    color: #006976 !important;
+    line-height: 25px; }
+  section#brain-health-content .page-main-content .vitamin-item img {
+    display: block;
+    margin: 25px auto; }
+  section#brain-health-content .page-main-content a.btn {
+    border: 0;
+    padding: 5px 20px;
+    margin-top: 40px; }
+    section#brain-health-content .page-main-content a.btn:last-child {
+      margin-left: 10%; }
 
 * {
   font-family: 'Avenir', sans-serif; }
@@ -12681,10 +12829,160 @@ section#page-banner {
     color: #fff;
     padding: 180px 0;
     margin: 0; }
+  section#page-banner h1 {
+    text-transform: inherit; }
 
 section#about-content__section {
   padding: 30px 0px;
   background-color: #eaeaea; }
+
+section#faq-section {
+  padding: 50px 0 70px; }
+  section#faq-section .single-item h2 {
+    border: 2px solid #006976 !important;
+    border-radius: 7px;
+    padding: 5px 10px;
+    display: table;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #006976 !important; }
+    section#faq-section .single-item h2 span.txt-rotate {
+      font-size: 20px !important;
+      line-height: 0; }
+  section#faq-section .single-item img {
+    height: 150px; }
+  section#faq-section a.btn-secondary, section#faq-section section#get-nourished a.watch-btn, section#get-nourished section#faq-section a.watch-btn, section#faq-section #our-world .blog-list a, #our-world .blog-list section#faq-section a, section#faq-section #about-us a, #about-us section#faq-section a {
+    margin: 0 auto;
+    display: table;
+    border: 0;
+    padding: 5px 15px; }
+    section#faq-section a.btn-secondary img, section#faq-section section#get-nourished a.watch-btn img, section#get-nourished section#faq-section a.watch-btn img, section#faq-section #our-world .blog-list a img, #our-world .blog-list section#faq-section a img, section#faq-section #about-us a img, #about-us section#faq-section a img {
+      margin-right: 8px;
+      margin-bottom: 0;
+      height: 25px; }
+    section#faq-section a.btn-secondary span.txt-rotate, section#faq-section section#get-nourished a.watch-btn span.txt-rotate, section#get-nourished section#faq-section a.watch-btn span.txt-rotate, section#faq-section #our-world .blog-list a span.txt-rotate, #our-world .blog-list section#faq-section a span.txt-rotate, section#faq-section #about-us a span.txt-rotate, #about-us section#faq-section a span.txt-rotate {
+      font-size: 20px !important;
+      font-weight: 500;
+      color: #fff; }
+  section#faq-section .single-item.odd h2 {
+    border: 2px solid #531F53 !important;
+    color: #531F53 !important; }
+
+.accordion {
+  width: 100%;
+  margin: 50px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px; }
+  .accordion ul {
+    margin: 0;
+    padding: 0; }
+    .accordion ul li {
+      list-style: none;
+      margin: 0; }
+      .accordion ul li h5 {
+        font-size: 18px;
+        color: #006976;
+        font-weight: bold;
+        margin: 0;
+        padding: 12px 15px 12px 50px;
+        line-height: 19px;
+        cursor: pointer;
+        position: relative;
+        transition: all 0.3s ease-in-out 0s;
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        -o-transition: all 0.3s ease-in-out 0s; }
+        .accordion ul li h5:before {
+          content: "+";
+          font-family: 'FontAwesome';
+          background: #531F53;
+          width: 20px;
+          height: 20px;
+          position: absolute;
+          left: 14px;
+          top: 14px;
+          transition: all 0.3s ease-in-out 0s;
+          -webkit-transition: all 0.3s ease-in-out 0s;
+          -o-transition: all 0.3s ease-in-out 0s;
+          font-size: 20px;
+          color: #fff;
+          text-align: center;
+          line-height: 20px;
+          border-radius: 50%; }
+      .accordion ul li h5.plus {
+        border-bottom: 0;
+        color: #006976; }
+        .accordion ul li h5.plus:before {
+          content: "-";
+          line-height: 17px; }
+      .accordion ul li div {
+        color: #531F53;
+        line-height: 24px;
+        padding: 15px 15px 15px 50px;
+        font-weight: 500; }
+        .accordion ul li div a {
+          color: #7f0a19; }
+
+section#brain-health-content {
+  padding: 50px 0 70px;
+  background: #eaeaea; }
+  section#brain-health-content .page-category {
+    clear: both;
+    overflow: hidden; }
+    section#brain-health-content .page-category .accordion-cat {
+      background-color: #fff;
+      color: #006976;
+      cursor: pointer;
+      padding: 10px;
+      font-weight: bold;
+      border-radius: 8px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      -webkit-transition: 0.4s;
+      transition: 0.4s; }
+    section#brain-health-content .page-category .active, section#brain-health-content .page-category .accordion-cat:hover {
+      background-color: #fff; }
+    section#brain-health-content .page-category .accordion-cat:after {
+      content: "" !important;
+      font-family: "Font Awesome 5 Free";
+      color: #777;
+      font-weight: bold;
+      float: right;
+      margin-left: 5px; }
+    section#brain-health-content .page-category .active:after {
+      content: "" !important;
+      font-family: "Font Awesome 5 Free"; }
+    section#brain-health-content .page-category .panel {
+      margin-top: 10px;
+      padding: 0 18px;
+      max-height: 0;
+      overflow: hidden;
+      -webkit-transition: max-height 0.2s ease-out;
+      transition: max-height 0.2s ease-out; }
+      section#brain-health-content .page-category .panel ul li a {
+        color: #006976;
+        margin: 5px 0;
+        display: block;
+        margin: 8px 0;
+        font-weight: 500; }
+  section#brain-health-content .page-main-content h2 {
+    color: #531F53 !important; }
+  section#brain-health-content .page-main-content p {
+    color: #006976 !important;
+    line-height: 25px; }
+  section#brain-health-content .page-main-content .vitamin-item img {
+    display: block;
+    margin: 25px auto; }
+  section#brain-health-content .page-main-content a.btn {
+    border: 0;
+    padding: 5px 20px;
+    margin-top: 40px; }
+    section#brain-health-content .page-main-content a.btn:last-child {
+      margin-left: 10%; }
 
 /* Colours */
 /* Fonts */

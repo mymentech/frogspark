@@ -136,6 +136,7 @@
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
 <script src="/app/themes/frogspark/js/dist/mp-form.js"></script>
+<script src="https://use.fontawesome.com/f4ad562077.js"></script>
 <script>
 window.addEventListener("load", function(){
 window.cookieconsent.initialise({
@@ -191,6 +192,24 @@ window.cookieconsent.initialise({
   });
     
 </script>
+<script type="text/javascript">
+    $(".accordion li h5").click(function () {
+      var current_li = $(this).parent();
+      $(".accordion li div").each(function(i,el) {      
+        if($(el).parent().is(current_li)) {       
+          $(el).prev().toggleClass("plus");
+          $(el).slideToggle();        
+        } else{
+          $(el).prev().removeClass("plus");
+          $(el).slideUp();
+        }
+      });
+    });
+    $('.accordion li > div').hide();
+    $('.accordion li h5').first().addClass("plus");
+    $('.accordion li > div').first().show().addClass("plus");
+</script>
+
 
 </body>
 </html>
