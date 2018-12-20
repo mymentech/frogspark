@@ -882,6 +882,74 @@ a.feture-readmore{
 
 }
 
+#nourishments{
+    background: #eaeaea;
+    padding: 50px 0;
+}
+#nourishments .page-thumbanil img{
+    display: block;
+    margin: 0 auto;
+}
+
+#nourishments h4{
+    background: linear-gradient(to right, #a59ebe, #7fa391, #cac975);
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 30px;
+}
+#nourishments ul li{
+    background:#fff;
+    width: 300px;
+    margin: 10px 0;
+    font-size: 25px;
+    border-radius: 7px;
+    a{
+    padding: 3px 15px;
+    font-weight: 700;
+    display: block;
+    color: $secondary-clr;
+    }
+}
+
+#nourishments{
+    h2{
+        color:#531F53!important;
+        font-weight: bold;
+    }
+    .page-thumbanil{
+        a {
+            border: 0;
+            img{
+                display: inherit;
+                padding-right: 10px;
+            }
+            span.rotate-txt{
+                @include transform(rotate(180deg));
+                display: inline-block;
+                color:#fff;
+            }
+        }
+    }
+    .page-content{
+        h4{
+            img{
+                margin-bottom: 0;
+                padding-right: 10px;
+            }
+        }
+    }
+    p{
+        color: #006976;
+        line-height: 25px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
 
 
 
