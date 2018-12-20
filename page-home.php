@@ -500,7 +500,7 @@ $ = get_field("");
               </div>
               <div class="col-md-4">
                 <div class="item middle">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/make-my-center.png" alt="" class="img-responsive">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/make-my-center-1.png" alt="" class="img-responsive">
                     <h3>OR</h3>
                 </div>
               </div>
