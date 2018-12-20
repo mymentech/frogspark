@@ -1,10 +1,6 @@
 <?php
 /**
  * Template Name: Home Page
- *
- * @package WordPress
- * @subpackage Twenty_Fourteen
- * @since Twenty Fourteen 1.0
  */
 session_start();
 ?>
@@ -549,6 +545,28 @@ $ = get_field("");
   </section>
   <!-- our-world  end-->
 
+<div id="meet-nourish__section">
+    <section id="meet-vita__section" class="content__section relative__item">
+        <div class="container above__background">
+            <h1 class="text-center">our world</h1>
+            <div class="row">
+                <div class="col-md-6 offset-md-3" data-aos="fade-left">
+                    <?php get_template_part('inc/wheel'); ?>
+                    <!-- <img src="/app/themes/frogspark/img/wheel__placeholder.png" alt="#" style="width: 100%;"> -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="section-content">
+                    <h3>If you'd like to find out more about vitamins, minerals and supplements, then dive into our world here</h3>
+                    <a href="#" target="_blank" class="btn btn-primary" >The NOURISHED World</a>
+                </div>
+            </div>
+        </div>
+        <div class="layer__background white__gradient"></div>
+        <div class="image__background opacity__quarter" style="background-image: url('/app/themes/frogspark/img/bg.png');"></div>
+    </section>
+</div>
+
   <!-- about us  start-->
   <section id="about-us">
   <h1>About us</h1>
@@ -940,53 +958,6 @@ $ = get_field("");
     }
     
   </style>
-  
-
-  <div id="meet-nourish__section">
-  <section id="meet-vita__section" class="content__section relative__item">
-    <div class="container above__background">
-      <div class="row">
-        <div class="col-md-5" data-aos="fade-right">
-          <h2 class="h1">Meet the NOURISHM<span class="e-reverse" style="font-size: 50px;">E</span>NTS</h2>
-          <p class="light">We source all of our ingredients from Vegetarian Wholefoods which come from EU and UK based sources. Then we combine them with our patented vegan gummy gel which encapsulates the actives meaning they work better for you!  We sweeten our NOURISHM3NTS with fiber from fruit meaning its low GI and delicious!</p>
-          <a href="/search" class="btn expand__item black__border">View All</a>
-          
-          <?php
-            
-            $count = 1;
-  
-            foreach(get_tags() as $tag)
-            {
-              $teamID = get_the_ID(); //id of team member
-              $term_slug = $tag->slug;
-              $term_name = $tag->name;
-
-              echo '<a href="/tag/'.$term_slug.'" class="btn expand__item black__border btn-'.$count.'" style="">'.$term_name.'</a>';
-              
-              if($count == 4)
-              {
-                $count = 1;
-              }
-              else
-              {
-                $count++;
-              }
-            }  
-    
-          ?>
-          
-          <a href="/search/" class="btn expand__item black__border btn-2" style="">Search <i class="fa fa-search" aria-hidden="true" style="padding-left: 2px;"></i></a>
-        </div>
-        <div class="col-md-7" data-aos="fade-left">
-          <?php get_template_part('inc/wheel'); ?>
-          <!-- <img src="/app/themes/frogspark/img/wheel__placeholder.png" alt="#" style="width: 100%;"> -->
-        </div>
-      </div>
-    </div>
-    <div class="layer__background white__gradient"></div>
-    <div class="image__background opacity__quarter" style="background-image: url('/app/themes/frogspark/img/bg.png');"></div>
-  </section>
-  </div>
   
   <div id="n-pricing">
     <section id="btn-separator__section" class="content__section" data-aos="fade-up">
@@ -1391,7 +1362,7 @@ $ = get_field("");
       var currentImage = $(".w-img").css("background-image");
       console.log(currentImage);
       
-      if(currentImage == 'url("http://vitamyne.frogspark.agency/app/themes/frogspark/img/w-1.png")')
+      if(currentImage == 'url("/app/themes/frogspark/img/w-1.png")')
       {
         console.log('t');
         $(".w-img").css("background-image", "url(/app/themes/frogspark/img/w-2.png)");

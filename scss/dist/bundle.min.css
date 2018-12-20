@@ -420,6 +420,10 @@ a.hero-btn {
   .vitateam__bio p:nth-child(6) {
     display: none !important; } }
 
+/* Colours */
+/* Fonts */
+/* Misc. */
+/* Spacing */
 #quiz_main_section {
   background-image: url("/app/themes/frogspark/img/mymentech/quiz-page-bg.jpg");
   background-size: cover;
@@ -534,6 +538,13 @@ a.hero-btn {
 
 #menu-footer-menu .nav-link {
   display: inline-block; }
+
+#meet-vita__section {
+  background-image: url(../../img/mymentech/wheel-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #meet-vita__section h1 {
+    color: #006976; }
 
 .btn-primary, #nourished-vitamin-area .fheading {
   background: #016976;
@@ -659,7 +670,8 @@ section#make-my-nourished {
   background-size: cover;
   background-position: center center; }
   #our-world h1 {
-    color: #006976; }
+    color: #006976;
+    margin: 0 auto; }
   #our-world .blog-list {
     background: url(../../img/blog-bg.png);
     padding: 110px 30px;
@@ -10394,6 +10406,10 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 /* Fonts */
 /* Misc. */
 /* Spacing */
+/* Colours */
+/* Fonts */
+/* Misc. */
+/* Spacing */
 #quiz_main_section {
   background-image: url("/app/themes/frogspark/img/mymentech/quiz-page-bg.jpg");
   -webkit-background-size: cover;
@@ -10505,6 +10521,13 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 #menu-footer-menu .nav-link {
   display: inline-block; }
+
+#meet-vita__section {
+  background-image: url(../../img/mymentech/wheel-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #meet-vita__section h1 {
+    color: #006976; }
 
 * {
   color: #404b57;
@@ -12344,7 +12367,8 @@ section#make-my-nourished {
   background-size: cover;
   background-position: center center; }
   #our-world h1 {
-    color: #006976; }
+    color: #006976;
+    margin: 0 auto; }
   #our-world .blog-list {
     background: url(../../img/blog-bg.png);
     padding: 110px 30px;

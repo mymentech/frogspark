@@ -1,6 +1,4 @@
-$secpadd: 50px 0 70px;
-$primary-clr:#006976;
-$secondary-clr:#531F53;
+
 
 @mixin transform($property) {
 -webkit-transform: $property;
@@ -182,6 +180,7 @@ section#make-my-nourished{
 
     h1{
         color: $primary-clr;
+        margin: 0 auto;
     }
 
     .blog-list{
