@@ -11595,6 +11595,15 @@ section h4 {
   section h4 span.txt-rotate {
     color: #531F53 !important; }
 
+#home-hero__section {
+  background: url(../../img/banner-bg.jpg);
+  background-position: center center;
+  background-size: cover; }
+  #home-hero__section .hero__item .white__gradient {
+    background: url(../../img/banner-bg.jpg);
+    background-position: center center;
+    background-size: cover; }
+
 #nourished-vitamin-area {
   background-image: linear-gradient(90deg, #A2C5D2 10%, #BCC0C2 51%, #96B6BD 75%); }
   #nourished-vitamin-area .fheading {
@@ -11602,6 +11611,8 @@ section h4 {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold; }
+    #nourished-vitamin-area .fheading:hover {
+      background: #016976; }
   #nourished-vitamin-area h4 {
     margin-bottom: 30px; }
     #nourished-vitamin-area h4 span.txt-rotate {
@@ -11728,6 +11739,29 @@ section#make-my-nourished {
     display: table;
     font-weight: bold; }
 
+#vitawheel__wrapper .blog-list p {
+  font-size: 14px; }
+
+#vitawheel__wrapper .blog-list a {
+  border: 0;
+  padding: 5px 10px; }
+
+#meet-nourish__section .section-content h3 {
+  padding: 0 20%;
+  text-align: center;
+  color: #006976;
+  margin: 20px 0; }
+
+#meet-nourish__section .section-content a {
+  border: 0;
+  padding: 5px 10px;
+  display: table;
+  margin: 0 auto;
+  font-size: 16px; }
+
+#meet-nourish__section .blog-list p {
+  line-height: 25px; }
+
 #about-us {
   padding: 50px 0;
   background: url("../../img/about-us-bg.jpg");
@@ -11808,9 +11842,11 @@ section#make-my-nourished {
     display: block; }
     #contact-us #contact-us-form input[type=submit]:focus {
       border: 1px; }
-  #contact-us #contact-us-form textarea *:focus {
-    border: inherit;
-    outline: inherit; }
+  #contact-us #contact-us-form textarea.wpcf7-textarea {
+    width: 100%; }
+    #contact-us #contact-us-form textarea.wpcf7-textarea *:focus {
+      border: inherit;
+      outline: inherit; }
 
 footer {
   background: #C7D6DB;
@@ -12802,6 +12838,15 @@ section h4 {
   section h4 span.txt-rotate {
     color: #531F53 !important; }
 
+#home-hero__section {
+  background: url(../../img/banner-bg.jpg);
+  background-position: center center;
+  background-size: cover; }
+  #home-hero__section .hero__item .white__gradient {
+    background: url(../../img/banner-bg.jpg);
+    background-position: center center;
+    background-size: cover; }
+
 #nourished-vitamin-area {
   background-image: -webkit-gradient(linear, left top, right top, color-stop(10%, #A2C5D2), color-stop(51%, #BCC0C2), color-stop(75%, #96B6BD));
   background-image: linear-gradient(90deg, #A2C5D2 10%, #BCC0C2 51%, #96B6BD 75%); }
@@ -12810,6 +12855,8 @@ section h4 {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold; }
+    #nourished-vitamin-area .fheading:hover {
+      background: #016976; }
   #nourished-vitamin-area h4 {
     margin-bottom: 30px; }
     #nourished-vitamin-area h4 span.txt-rotate {
@@ -12938,6 +12985,29 @@ section#make-my-nourished {
     display: table;
     font-weight: bold; }
 
+#vitawheel__wrapper .blog-list p {
+  font-size: 14px; }
+
+#vitawheel__wrapper .blog-list a {
+  border: 0;
+  padding: 5px 10px; }
+
+#meet-nourish__section .section-content h3 {
+  padding: 0 20%;
+  text-align: center;
+  color: #006976;
+  margin: 20px 0; }
+
+#meet-nourish__section .section-content a {
+  border: 0;
+  padding: 5px 10px;
+  display: table;
+  margin: 0 auto;
+  font-size: 16px; }
+
+#meet-nourish__section .blog-list p {
+  line-height: 25px; }
+
 #about-us {
   padding: 50px 0;
   background: url("../../img/about-us-bg.jpg");
@@ -13019,9 +13089,11 @@ section#make-my-nourished {
     display: block; }
     #contact-us #contact-us-form input[type=submit]:focus {
       border: 1px; }
-  #contact-us #contact-us-form textarea *:focus {
-    border: inherit;
-    outline: inherit; }
+  #contact-us #contact-us-form textarea.wpcf7-textarea {
+    width: 100%; }
+    #contact-us #contact-us-form textarea.wpcf7-textarea *:focus {
+      border: inherit;
+      outline: inherit; }
 
 footer {
   background: #C7D6DB;
