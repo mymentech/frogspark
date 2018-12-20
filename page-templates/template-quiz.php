@@ -6,6 +6,8 @@
 get_header();
 //Loading Menu
 get_template_part('navigation-default');
+
+
 ?>
 
 
@@ -13,11 +15,8 @@ get_template_part('navigation-default');
     <div class="container">
       <div class="row">
           <div class="col-md-6 offset-md-3">
-
               <h2 class="text-center text-white">HELLO!</h2>
               <p class="text-center text-white">Before we get started, please tell us your name and email.</p>
-
-
               <div class="multi-step-form">
                   <!-- multistep form -->
                   <form id="msform">

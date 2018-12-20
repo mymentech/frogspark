@@ -1,5 +1,6 @@
 <?php
 
+include_once 'inc/fs-functions.php';
 include_once 'lib/bootstrap-four-wp-navwalker.php';
 
 global $bootstrap_four_version;
@@ -86,7 +87,9 @@ add_filter( 'nav_menu_css_class', 'bootstrap_four_nav_li_class', 10, 2 );
 
 
 function bootstrap_four_nav_anchor_class( $atts, $item, $args ) {
-  $atts['class'] .= ' nav-link';
+  if(isset($atts['class'])){
+      $atts['class'] .= ' nav-link';
+  }
   return $atts;
 }
 add_filter( 'nav_menu_link_attributes', 'bootstrap_four_nav_anchor_class', 10, 3 );

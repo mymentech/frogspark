@@ -125,5 +125,10 @@ $img_url: '/app/themes/frogspark/img/mymentech/';
 .mt-cb{
   clear: both;
 }
+#menu-footer-menu{
+  .nav-link{
+    display: inline-block;
+  }
+}
 
 

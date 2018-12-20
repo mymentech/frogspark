@@ -69,15 +69,13 @@
        <div class="row">
         <div class="col-md-2"></div>
          <div class="col-md-8">
-           <div class="footer-pages text-center">
-              <ul class="list-unstled list-inline">
-                <li> <a href="#">Pricing</a> </li>
-                <li> <a href="#">Delivery</a> </li>
-                <li> <a href="#">Faqs</a> </li>
-                <li> <a href="#">Social links</a> </li>
-                <li> <a href="#">Ts & Cs</a> </li>
-              </ul>
-            </div>
+             <?php
+             wp_nav_menu(array(
+                 'menu' => 'footer-menu',
+                 'container_class' => 'footer-pages text-center',
+                 'menu_class' => 'list-unstled list-inline',
+             ));
+             ?>
             <p class="copy-right-text text-center">These statements have not been evaluted by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.</p>
           </div>
         <div class="col-md-2">

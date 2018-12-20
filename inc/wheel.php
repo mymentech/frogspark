@@ -1,7 +1,7 @@
 
 <div id="vitawheel__wrapper">
   <div class="vitawheel__content">
-    <h3 class="half__margin">Click a NOURISHM<span class="e-reverse" style="font-size: 24px;">E</span>NT</span></h2>
+    <h3 class="half__margin">Click a NOURISHM<span class="e-reverse" style="font-size: 24px;">E</span>NT</span></h3>
     <p class="md half__margin">To find out about it!</p>
     <p class="md half__margin link"></p>
     <a href="/order/choose.php" class="underline__item green half__margin">Build your NOURISH<span class="e-reverse">E</span>D</a>
