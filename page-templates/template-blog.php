@@ -1,6 +1,7 @@
 <?php
 /**
  * Template Name: Blog page
+ *  @package frogspark
  */
 ?>
 

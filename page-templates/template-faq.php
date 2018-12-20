@@ -1,6 +1,8 @@
 <?php
 /**
  * Template Name: FAQ
+ *
+ *  @package frogspark
  */
 ?>
 

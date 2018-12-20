@@ -1,6 +1,8 @@
 <?php
 /**
  * Template Name: Quiz Page
+ *
+ *  @package frogspark
  */
 
 get_header();
