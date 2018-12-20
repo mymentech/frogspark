@@ -12034,7 +12034,8 @@ section#blog {
       font-weight: bold; }
   section#blog .last-feature {
     border-radius: 10px;
-    background: #a4b5b7 !important; }
+    background: #a4b5b7 !important;
+    border: 20px solid #a4b5b7; }
     section#blog .last-feature .feature-img {
       border: 20px solid #a4b5b7;
       border-radius: 10px; }
@@ -13188,7 +13189,8 @@ section#blog {
       font-weight: bold; }
   section#blog .last-feature {
     border-radius: 10px;
-    background: #a4b5b7 !important; }
+    background: #a4b5b7 !important;
+    border: 20px solid #a4b5b7; }
     section#blog .last-feature .feature-img {
       border: 20px solid #a4b5b7;
       border-radius: 10px; }
