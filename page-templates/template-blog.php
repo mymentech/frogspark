@@ -193,7 +193,7 @@ $team_members  = get_field("team_members");
             <?php
                 }
             }else{
-                echo '<div class="col-md-12"><h3 class="text-center text-uppercase text-warning">Sorry, No post found!</h3></div>';
+                echo '<div class="col-md-12"><h3 class="text-center text-uppercase text-danger">Sorry, No post found!</h3></div>';
             }
 
             wp_reset_postdata();
