@@ -660,3 +660,214 @@ section#brain-health-content{
     }
     
 }
+
+section#blog{
+    background: #eaeaea;
+
+
+
+    .single-post-item{
+        background:#fff;
+        border-radius: 10px;
+        .post-img{
+            border: 12px solid #fff;
+            border-bottom: 0;
+            border-radius: 10px;
+            img{
+                margin-bottom: 10px;
+                padding: 5px 0;
+                height: 300px
+            }
+        }
+        .single-post-content{
+            h3{
+                text-align: center;
+                margin-bottom: 8px;
+                color:$secondary-clr;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .last-feature{
+        border-radius: 10px;
+        background: #a4b5b7!important;
+        .feature-img{
+            border: 20px solid #a4b5b7;
+            border-radius: 10px;
+            img{
+             border-radius: 10px;
+            }
+        }
+    }
+
+    a.blog-load-more{
+        border: 0;
+        margin: 30px auto;
+    }
+}
+
+.lastest-feature{
+    margin: 50px 0;
+
+    .featre-img{
+        border: 20px solid #a4b5b7;
+        border-bottom: 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background: #a4b5b7;
+        img{
+            width: 100%;
+            border-radius: 15px;
+            margin: 0;
+            height: 350px;
+        }
+    }
+    
+            
+}
+
+.last-feature{
+    .featre-img{
+        border: 20px solid #a4b5b7;
+        border-bottom: 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background: #a4b5b7;
+        img{
+            width: 100%;
+            border-radius: 15px;
+            margin: 0;
+            height: 300px;
+        }
+    }
+    
+            
+}
+
+a.feture-readmore{
+    display: table;
+    margin: 0 auto;
+    color: #fff;
+    background: $primary-clr;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.post-content{
+    background: #a4b5b7;
+    padding: 15px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    h2{
+        color:#fff!important;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    div{
+          
+        span{
+            color:#c6cdce;
+            font-size: 16px;
+        }                
+    }
+}
+
+.filter-options{
+    margin: 50px 0;
+    h3{
+        border-bottom: 1px solid #0d6774;;
+        font-weight: bold;
+        color:#0d6774;
+        margin-bottom: 5px;
+    }
+    ul{
+        li{
+            display: inline-block;
+            margin: 5px 2px;
+            a{
+                color: #fff;
+                text-decoration: none;
+                background: #4d2350;
+                padding: 3px 14px;
+                margin: 0px;
+                clear: both;
+                border-radius: 15px;
+
+            }
+        }
+    }
+    .blog-search input.search{
+        background: url(../../img/search.png) no-repeat scroll 7px 7px;
+        padding-left:30px;
+        background-color: #fff;
+        &::placeholder{
+            padding-left: 10px;
+        }
+    }
+    .tag-list {
+        ul{
+            margin: 0;
+            padding: 0;
+            li{
+                display: block;
+                a{
+                    padding: 0;
+                    color:$secondary-clr;
+                    font-weight: bold;
+                    background: transparent;
+                    span{
+                        padding-right: 10px;
+                        color:#0d6774;
+                        font-weight: 500;
+                        
+                    }
+                }
+            }
+        }
+    }
+    .subscription-form-sec form{
+        padding: 5%;
+        background-image: linear-gradient(to right, #0d6774, #5d3365 100%);
+        border-radius: 15px;
+        h3{
+            line-height: 18px;
+            font-size: 18px;
+            text-align: center;
+            color:#fff;
+            text-transform: uppercase;
+            border-bottom: 0;
+    
+        }
+        input{
+            border-radius: 10px;
+            height: 40px;
+            margin: 15px 0;
+
+        }
+        input.submit{
+            margin: 5px auto;
+            display: block;
+            border-radius: 18px;
+            border: 0;
+            padding: 2px 20px;
+            font-weight: bold;
+            color: #fff;
+            font-size: 16px;
+            background:#87a6ab;
+
+        }
+    }
+
+}
+
+
+
+
+
+
