@@ -705,6 +705,20 @@ section#blog{
         border: 0;
         margin: 30px auto;
     }
+
+    .featre-img{
+        position: relative;
+    }
+    .feature-batch{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    img.feature-batch{
+        height: 90px;
+        width: auto;
+
+    }
 }
 
 .lastest-feature{
@@ -726,6 +740,7 @@ section#blog{
     
             
 }
+.featre-img
 
 .last-feature{
     .featre-img{

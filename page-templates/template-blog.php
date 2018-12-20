@@ -175,6 +175,7 @@ $team_members = get_field("team_members");
                 <div class="lastest-feature">
                   <div class="featre-img">
                       <img src="<?php echo get_template_directory_uri(); ?>/img/blog-feature.jpg" class="img-responsive" alt="">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/feature-batch.png" alt="Feature batch" class="img-responsive feature-batch">
                   </div>
                   <div class="post-content">
                     <h2 class="text-center">Title of the post can go here. title of the post here</h2>
