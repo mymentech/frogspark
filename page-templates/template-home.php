@@ -10,20 +10,20 @@ session_start();
 
 //banner
 $banner_content = get_field("banner_content");
-$banner_promo = get_field("banner_promo");
-$banner_images = get_field("banner_images");
-$logos = get_field("logos");
+$banner_promo   = get_field("banner_promo");
+$banner_images  = get_field("banner_images");
+$logos          = get_field("logos");
 
 //science
-$science_image = get_field("science_image");
+$science_image   = get_field("science_image");
 $science_content = get_field("science_content");
 
-$key_points = get_field("key_points");
-$right_image = get_field("right_image");
+$key_points   = get_field("key_points");
+$right_image  = get_field("right_image");
 $bottom_image = get_field("bottom_image");
 
 $how_it_works_title = get_field("how_it_works_title");
-$hiw_items = get_field("how_it_works_steps");
+$hiw_items          = get_field("how_it_works_steps");
 
 $price_items = get_field("price_items");
 $price_promo = get_field("price_promo");
@@ -76,7 +76,7 @@ $ = get_field("");
     }
 
     .blue-dark__gradient {
-        background: #0a5175!important;
+        background: #0a5175 !important;
         opacity: 1 !important;
     }
 
@@ -365,27 +365,29 @@ $ = get_field("");
 </style>
 
 
-
 <section id="home-hero__section" class="hero__item relative__item content__section">
     <div class="container above__background">
         <div class="row">
             <div class="col-md-6 hero-1" style="padding-bottom: 20px;" data-aos="fade-right">
                 <?php echo $banner_content ?>
 
-                <a href="https://vimeo.com/296864798" class="hero-btn btn expand__item green__gradient gradient__item no__border white shadow__item popup-vimeo" style="background: #6b2659 !important;">
+                <a href="https://vimeo.com/296864798"
+                   class="hero-btn btn expand__item green__gradient gradient__item no__border white shadow__item popup-vimeo"
+                   style="background: #6b2659 !important;">
                     <i class="fa fa-play" aria-hidden="true" style="padding-right: 10px;"></i> Watch How it works</a>
-                <a href="#btn-separator__section" class="hero-btn btn expand__item green__gradient gradient__item no__border white shadow__item">Start your order</a>
+                <a href="#btn-separator__section"
+                   class="hero-btn btn expand__item green__gradient gradient__item no__border white shadow__item">Start
+                    your order</a>
             </div>
             <div class="col-md-6 hero-2" data-aos="fade-left">
                 <div class="hero-fade owl-carousel">
 
                     <?php
 
-                    foreach($banner_images as $item)
-                    {
+                    foreach ($banner_images as $item) {
                         echo '<div class="person-wrap">
-                        <img src="'.$item['banner_image']['url'].'" alt="Hero image" class="person-img">
-                        <p class="n-bubble">'.$banner_promo.'</p>
+                        <img src="' . $item['banner_image']['url'] . '" alt="Hero image" class="person-img">
+                        <p class="n-bubble">' . $banner_promo . '</p>
                       </div>';
                     }
 
@@ -396,12 +398,9 @@ $ = get_field("");
         </div>
     </div>
     <div class="layer__background white__gradient"></div>
-    <div class="image__background opacity__quarter zoomed__background" style="background-image: url('/app/themes/frogspark/img/bg.png');"></div>
+    <div class="image__background opacity__quarter zoomed__background"
+         style="background-image: url('/app/themes/frogspark/img/bg.png');"></div>
 </section>
-
-
-
-
 
 
 <!-- nourished-vitamin-area  start-->
@@ -411,37 +410,42 @@ $ = get_field("");
     <h3 class="fheading">the power of seven: the possibility of a billion</h3>
     <section id="nourshed-vitamins">
         <div class="container">
-            <h1>Nourish<span class="txt-rotate" >E</span>d vitamins</h1>
-            <h4>The clever way to get nourish<span class="txt-rotate" >E</span>d</h4>
+            <h1>Nourish<span class="txt-rotate">E</span>d vitamins</h1>
+            <h4>The clever way to get nourish<span class="txt-rotate">E</span>d</h4>
             <div class="row" id="vitamin-list">
 
 
                 <div class="single-items">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png" alt="">
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png"
+                         alt="">
                     <h2>Fresh</h2>
                     <p>Made to order conveniently delivered every onth</p>
                 </div>
 
                 <div class="single-items">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png" alt="">
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png"
+                         alt="">
                     <h2>patented</h2>
                     <p>Three Propeietary patented technologies</p>
                 </div>
 
                 <div class="single-items">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png" alt="">
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png"
+                         alt="">
                     <h2>encapsulation</h2>
                     <p>Tasty and chewable, optimum absorption</p>
                 </div>
 
                 <div class="single-items">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png" alt="">
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png"
+                         alt="">
                     <h2>3d-printed</h2>
                     <p>Seven perfectly balanced and proportioned layers</p>
                 </div>
 
                 <div class="single-items">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png" alt="">
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png"
+                         alt="">
                     <h2>quality</h2>
                     <p>Vegan ingredients, natural fruit fibre sweeteners</p>
                 </div>
@@ -457,25 +461,31 @@ $ = get_field("");
 
 <!-- get-nourished  start-->
 <section id="get-nourished">
-    <div class="container text-center" >
-        <h1>get nourish<span class="txt-rotate" >E</span>d: it's simple</h1>
+    <div class="container text-center">
+        <h1>get nourish<span class="txt-rotate">E</span>d: it's simple</h1>
         <div class="row">
             <div class="col-md-4">
                 <div class="nourished-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/get-item1.png" alt="" class="img-responsive">
-                    <p>Choose seven of our 27 Nourishments, either through our online consultation tool or select your own</p>
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/get-item1.png" alt=""
+                         class="img-responsive">
+                    <p>Choose seven of our 27 Nourishments, either through our online consultation tool or select your
+                        own</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="nourished-item midle">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/get-item2.png" alt="" class="img-responsive">
-                    <p>We 3D-print and individualy package your personal blend -  you can change your ingredients every month if you link</p>
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/get-item2.png" alt=""
+                         class="img-responsive">
+                    <p>We 3D-print and individualy package your personal blend - you can change your ingredients every
+                        month if you link</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="nourished-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/get-item3.png" alt="" class="img-responsive">
-                    <p>We'll post your month's Nourishments right to your door, completely reliable, really easy and utterly hasle-free</p>
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/get-item3.png" alt=""
+                         class="img-responsive">
+                    <p>We'll post your month's Nourishments right to your door, completely reliable, really easy and
+                        utterly hasle-free</p>
                 </div>
             </div>
 
@@ -489,24 +499,27 @@ $ = get_field("");
 <!-- make-my-nourished  start-->
 <section id="make-my-nourished">
     <div class="container text-center">
-        <h1>make my nouris<span class="txt-rotate" >E</span>h</h1>
+        <h1>make my nouris<span class="txt-rotate">E</span>h</h1>
         <div class="row">
             <div class="col-md-4">
                 <div class="item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/make-my-1.png" alt="" class="img-responsive">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/make-my-1.png" alt=""
+                         class="img-responsive">
                     <h5>Take the NOURISHED assessment</h5>
                     <a href="#" class="btn btn-primary" target="_blank">Help me choose ></a>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="item middle">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/make-my-center-1.png" alt="" class="img-responsive">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/make-my-center-1.png" alt=""
+                         class="img-responsive">
                     <h3>OR</h3>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/make-my-2.png" alt="" class="img-responsive">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/make-my-2.png" alt=""
+                         class="img-responsive">
                     <h5>Select your own Nourishments</h5>
                     <a href="#" class="btn btn-primary" target="_blank">I'will choose my own ></a>
                 </div>
@@ -515,7 +528,6 @@ $ = get_field("");
     </div>
 </section>
 <!-- make-my-nourished  end-->
-
 
 
 <!-- our-world  start-->
@@ -527,8 +539,11 @@ $ = get_field("");
         <div class="row">
             <div class="col-md-12">
                 <div class="blog-list">
-                    <p>Whether you're animing to reach a goad, want overall health optimisation or are simply tired of all the different supplements you're taking, we're here for you.</p>
-                    <p>We'll create your very own perfectly balanced combinationof seven vitamins, minerals and supplements from our 27 Nourishments, The unique power of seven from over a billion possible combinations.</p>
+                    <p>Whether you're animing to reach a goad, want overall health optimisation or are simply tired of
+                        all the different supplements you're taking, we're here for you.</p>
+                    <p>We'll create your very own perfectly balanced combinationof seven vitamins, minerals and
+                        supplements from our 27 Nourishments, The unique power of seven from over a billion possible
+                        combinations.</p>
                     <a href="#" target="_blank" class="btn btn-secondary">Our Nourishments </a>
                 </div>
             </div>
@@ -536,8 +551,9 @@ $ = get_field("");
         </div>
         <div class="row">
             <div class="section-content">
-                <h3>If you'd like to find out more about vitamins, minerals and supplements, then dive into our world here</h3>
-                <a href="#" target="_blank" class="btn btn-primary" >The NOURISHED World</a>
+                <h3>If you'd like to find out more about vitamins, minerals and supplements, then dive into our world
+                    here</h3>
+                <a href="#" target="_blank" class="btn btn-primary">The NOURISHED World</a>
             </div>
         </div>
 
@@ -557,13 +573,15 @@ $ = get_field("");
             </div>
             <div class="row">
                 <div class="section-content">
-                    <h3>If you'd like to find out more about vitamins, minerals and supplements, then dive into our world here</h3>
-                    <a href="#" target="_blank" class="btn btn-primary" >The NOURISHED World</a>
+                    <h3>If you'd like to find out more about vitamins, minerals and supplements, then dive into our
+                        world here</h3>
+                    <a href="#" target="_blank" class="btn btn-primary">The NOURISHED World</a>
                 </div>
             </div>
         </div>
         <div class="layer__background white__gradient"></div>
-        <div class="image__background opacity__quarter" style="background-image: url('/app/themes/frogspark/img/bg.png');"></div>
+        <div class="image__background opacity__quarter"
+             style="background-image: url('/app/themes/frogspark/img/bg.png');"></div>
     </section>
 </div>
 
@@ -575,8 +593,10 @@ $ = get_field("");
         <div class="row text-center">
             <div class="col-md-12">
                 <h3>We're new, we're different, we're changing everything.</h3>
-                <p>We believe that if anything should to be personalised, it's our health and welnes. That's why our mission is to chagne the way world thinks, buys and experices vitamins, minerals and supplements.</p>
-                <p>Expect more, be more, do more, Be NOURISH<span class="txt-rotate" >3</span>D</p>
+                <p>We believe that if anything should to be personalised, it's our health and welnes. That's why our
+                    mission is to chagne the way world thinks, buys and experices vitamins, minerals and
+                    supplements.</p>
+                <p>Expect more, be more, do more, Be NOURISH<span class="txt-rotate">3</span>D</p>
 
                 <a href="#" target="_blank" class="btn btn-secondary"> Meet the Team</a>
             </div>
@@ -609,7 +629,8 @@ $ = get_field("");
             <div class="col-md-4">
                 <div class="single-option">
                     <p>
-                        <img src="<?php echo get_template_directory_uri() ?>/img/call-icon.png" alt="" class="pull-left">
+                        <img src="<?php echo get_template_directory_uri() ?>/img/call-icon.png" alt=""
+                             class="pull-left">
                         You cal call us on: <a href="tel:08001223378">08001223378</a>
                     </p>
                 </div>
@@ -617,79 +638,27 @@ $ = get_field("");
             <div class="col-md-4">
                 <div class="single-option">
                     <p>
-                        <img src="<?php echo get_template_directory_uri() ?>/img/location-icon.png" alt="" class="pull-left">
+                        <img src="<?php echo get_template_directory_uri() ?>/img/location-icon.png" alt=""
+                             class="pull-left">
                         Or even write us a letter if you like:
                         <span class="clr-primary">30 Floodgate street,<br> Birmingham, B5 5SL</span>
                     </p>
                 </div>
             </div>
         </div>
-        <div id="contact-us-form">
-            <div class="row">
-
-                <div class="col-md-6">
-                    <form action="" >
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="name" placeholder="Your name">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="email" placeholder="Your email address">
-                        </div>
-
-                        <input type="submit" class="btn btn-secondary" value="Send message">
-                </div>
-                <div class="col-md-6">
-                    <textarea placeholder="Your message" name="" id="message" cols="50" rows="10"></textarea>
-                    </form>
-                </div>
-
-            </div>
-
-        </div>
     </div>
+    <!--    Container End  -->
+
+    <!--    Form Container  -->
+
+    <div id="contact-us-form">
+        <?php //echo do_shortcode('[contact-form-7 id="391" title="homepage-cf7"]') ?>
+        <?php echo do_shortcode('[contact-form-7 id="351" title="homepage-cf7"]') ?>
+    </div>
+
+    <!--/    Form Container  -->
+
 </section>
-<!-- contact us  end-->
-
-
-<!-- Footer Start-->
-
-<footer>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="footer-logo">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/footer-logo.png" alt="logo" >
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
-                <div class="footer-pages text-center">
-                    <ul class="list-unstled list-inline">
-                        <li> <a href="#">Pricing</a> </li>
-                        <li> <a href="#">Delivery</a> </li>
-                        <li> <a href="#">Faqs</a> </li>
-                        <li> <a href="#">Social links</a> </li>
-                        <li> <a href="#">Ts & Cs</a> </li>
-                    </ul>
-                </div>
-                <p class="copy-right-text text-center">These statements have not been evaluted by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.</p>
-            </div>
-            <div class="col-md-2">
-                <div class="social-icons">
-                    <ul class="list-unstyled list-inline">
-                        <li><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/img/instagram-icon.png" alt="instagram"></a> </li>
-                        <li><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/img/twitter-icon.png" alt="twitter"></a> </li>
-                        <li><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/img/facebook-icon.png" alt="facebook"></a> </li>
-                    </ul>
-                    <small>Website by Artisan</small>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</footer>
 
 <div class="dd-strip" data-aos="fade-in" data-aos-delay="200">
     <div class="container">
@@ -701,9 +670,8 @@ $ = get_field("");
 
                     <?php
 
-                    foreach($logos as $item)
-                    {
-                        echo '<img src="'.$item['logo_image']['url'].'">';
+                    foreach ($logos as $item) {
+                        echo '<img src="' . $item['logo_image']['url'] . '">';
                     }
 
                     ?>
@@ -741,21 +709,22 @@ $ = get_field("");
             <div class="col-md-7">
                 <h2 class="h1 white">Your NOURISH<span class="e-reverse" style="font-size: 35px;">E</span>D</h2>
                 <?php
-                foreach($key_points as $point)
-                {
-                    echo '<p class="white" data-aos="fade-right" data-aos-delay="100"><i class="fas fa-check icon__text"></i> '.$point['point'].'</p>';
+                foreach ($key_points as $point) {
+                    echo '<p class="white" data-aos="fade-right" data-aos-delay="100"><i class="fas fa-check icon__text"></i> ' . $point['point'] . '</p>';
                 }
                 ?>
 
                 <img src="<?php echo $bottom_image['url'] ?>" style="max-width: 120%; width: 120%; margin-top: 25px;">
             </div>
             <div class="col-md-5 relative__item bounce" data-aos="fade-left">
-                <img src="<?php echo $right_image['url'] ?>" alt="Your VitaMY3D" class="center__vert no__margin y-img" style="width: 100%;">
+                <img src="<?php echo $right_image['url'] ?>" alt="Your VitaMY3D" class="center__vert no__margin y-img"
+                     style="width: 100%;">
             </div>
         </div>
     </div>
     <div class="layer__background opacity__threequarter blue-dark__gradient"></div>
-    <div class="image__background opacity__quarter" style="background-image: url('/app/themes/frogspark/img/alt__background.png');"></div>
+    <div class="image__background opacity__quarter"
+         style="background-image: url('/app/themes/frogspark/img/alt__background.png');"></div>
 </section>
 
 <style>
@@ -767,7 +736,8 @@ $ = get_field("");
 </style>
 
 <div id="how-nourish-works__section">
-    <section id="how-vitamyne-works__section" class="content__section relative__item" style="background: #fff !important;">
+    <section id="how-vitamyne-works__section" class="content__section relative__item"
+             style="background: #fff !important;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -779,13 +749,12 @@ $ = get_field("");
 
                 <?php
 
-                foreach($hiw_items as $item)
-                {
+                foreach ($hiw_items as $item) {
                     echo '<div class="col-md-4 " data-aos="zoom-in-up" data-aos-delay="100">
                     <a href="#btn-separator__section" class="white__bg vita-hiw" style="display: block;">
-                      <h3 class="h2 relative__item">'.$item['title'].'</h3>
-                      <img src="'.$item['image']['url'].'">
-                      <p class="no__margin md">'.$item['subtitle'].'</p>
+                      <h3 class="h2 relative__item">' . $item['title'] . '</h3>
+                      <img src="' . $item['image']['url'] . '">
+                      <p class="no__margin md">' . $item['subtitle'] . '</p>
                     </a>
                   </div>';
                 }
@@ -794,9 +763,14 @@ $ = get_field("");
 
                 <div class="col-md-12" data-aos="fade-in" data-aos-delay="500">
                     <div class="hiw-wrap">
-                        <a href="https://vimeo.com/296864798" class="hero-btn btn expand__item green__gradient gradient__item no__border white shadow__item popup-vimeo" style="">
-                            <i class="fa fa-play" aria-hidden="true" style="padding-right: 10px;"></i> Watch the video</a>
-                        <a href="#btn-separator__section" class="hero-btn btn expand__item green__gradient gradient__item no__border white shadow__item">Get started</a>
+                        <a href="https://vimeo.com/296864798"
+                           class="hero-btn btn expand__item green__gradient gradient__item no__border white shadow__item popup-vimeo"
+                           style="">
+                            <i class="fa fa-play" aria-hidden="true" style="padding-right: 10px;"></i> Watch the
+                            video</a>
+                        <a href="#btn-separator__section"
+                           class="hero-btn btn expand__item green__gradient gradient__item no__border white shadow__item">Get
+                            started</a>
                     </div>
 
                 </div>
@@ -818,7 +792,8 @@ $ = get_field("");
         <div class="row">
             <div class="col-md-12">
                 <div class="separator__item"></div>
-                <p class="btn green-alt__gradient gradient__item no__border white h2 no__margin shadow__item center__abso title-btn">Make my NOURISH<span class="e-reverse" style="font-size: 35px;">E</span>D</span></p>
+                <p class="btn green-alt__gradient gradient__item no__border white h2 no__margin shadow__item center__abso title-btn">
+                    Make my NOURISH<span class="e-reverse" style="font-size: 35px;">E</span>D</span></p>
             </div>
         </div>
     </div>
@@ -831,8 +806,7 @@ $ = get_field("");
 
             $log = false;
 
-            if(!empty($_SESSION['customerID']))
-            {
+            if (!empty($_SESSION['customerID'])) {
                 $log = true;
             }
 
@@ -844,13 +818,15 @@ $ = get_field("");
                     <div class="block-alt__item rounded expand__item gradient__item gradient__vert orange__gradient center shadow__item">
                         <img class="block__icon tilt__hover" src="/app/themes/frogspark/img/thumb.png" alt="Thumb">
                         <h3 class="white">I know what I want</h3>
-                        <p class="white__bg orange md usp__spacing light">Choose from 27 NOURISHM<span class="e-reverse" style="font-size: 35px;">E</span>NTS to make your perfect NOURISH<span class="e-reverse" style="font-size: 35px;">E</span>D.</p>
+                        <p class="white__bg orange md usp__spacing light">Choose from 27 NOURISHM<span class="e-reverse"
+                                                                                                       style="font-size: 35px;">E</span>NTS
+                            to make your perfect NOURISH<span class="e-reverse" style="font-size: 35px;">E</span>D.</p>
                         <span class="btn white white__border uppercase__item">Get started</span>
                     </div>
                 </a>
             </div>
             <div class="col-md-4" data-aos="zoom-in-up" data-aos-delay="200">
-                <?php if($log): ?>
+                <?php if ($log): ?>
                 <a href="/order/?questionID=3">
                     <?php else: ?>
                     <a href="/order/">
@@ -859,7 +835,8 @@ $ = get_field("");
                         <div class="block-alt__item rounded expand__item gradient__item gradient__vert blue__gradient center shadow__item">
                             <img class="block__icon lift__hover" src="/app/themes/frogspark/img/speech.png" alt="Thumb">
                             <h3 class="white">Take the NourishQuiz</h3>
-                            <p class="white__bg blue md usp__spacing light">Answer a questionnaire and we will recommend specifically for you.</p>
+                            <p class="white__bg blue md usp__spacing light">Answer a questionnaire and we will recommend
+                                specifically for you.</p>
                             <span class="btn white white__border uppercase__item">Get started</span>
                         </div>
                     </a>
@@ -880,7 +857,6 @@ $ = get_field("");
         </div>
     </div>
 </section>
-
 
 <style>
 
@@ -988,7 +964,8 @@ $ = get_field("");
                             <p class="blue light sm no__margin"><?php echo $price_items[0]['price_content'] ?></p>
 
                         </div>
-                        <span class="btn white white__border uppercase__item">Continue <i class="fas fa-chevron-right"></i></span>
+                        <span class="btn white white__border uppercase__item">Continue <i
+                                    class="fas fa-chevron-right"></i></span>
                     </div>
                 </a>
             </div>
@@ -1000,9 +977,11 @@ $ = get_field("");
                             <!--                 <p class="blue md no__margin uppercase__item">12 Months Annual Nourish membership</p> -->
                             <p class="blue sm light half__margin price-text"><?php echo $price_items[1]['big_price'] ?></p>
                             <!--                 <p class="blue light sm half__margin">Get the best value with your NOURISH<span class="e-reverse" style="font-size: 35px;">E</span>D at only £1/day with our annual NOURISH membership!</p> -->
-                            <p class="blue light sm no__margin"><?php echo $price_items[1]['price_content'] ?><br><br></p>
+                            <p class="blue light sm no__margin"><?php echo $price_items[1]['price_content'] ?><br><br>
+                            </p>
                         </div>
-                        <span class="btn white white__border uppercase__item">Continue <i class="fas fa-chevron-right"></i></span>
+                        <span class="btn white white__border uppercase__item">Continue <i
+                                    class="fas fa-chevron-right"></i></span>
                     </div>
                 </a>
             </div>
@@ -1062,9 +1041,7 @@ $ = get_field("");
 </style>
 
 
-
 <div id="meet-n__section">
-
 
 
     <section id="meet-vitamyne__section" data-aos="fade" data-aos-offset="-300">
@@ -1079,7 +1056,8 @@ $ = get_field("");
                             <div class="container above__background">
                                 <div class="row" style="padding: 0px 0px 40px 0px;">
                                     <div class="col-md-12">
-                                        <h2 class="center" style="color: #fff !important;margin-bottom: 70px;">...Meet your NOURISH<span class="e-reverse">E</span>D</h2>
+                                        <h2 class="center" style="color: #fff !important;margin-bottom: 70px;">...Meet
+                                            your NOURISH<span class="e-reverse">E</span>D</h2>
                                     </div>
                                     <div class="col-md-7">
                                         <div class="center__vert">
@@ -1087,7 +1065,8 @@ $ = get_field("");
                                             <p class="h3 white">Everything you need, nothing you don't</p>
                                             <p class="h3 white">Delivered to your door monthly</p>
                                             <p class="h3 white">Single serving gummy pods</p>
-                                            <a href="#btn-separator__section" class="btn btn-primary btn-white-outline">Get started</a>
+                                            <a href="#btn-separator__section" class="btn btn-primary btn-white-outline">Get
+                                                started</a>
                                         </div>
                                     </div>
                                     <div class="col-md-5">
@@ -1105,7 +1084,8 @@ $ = get_field("");
                                 <div class="row" style="padding: 0px 0px 40px 0px;">
 
                                     <div class="col-md-12">
-                                        <h2 class="center" style="color: #fff !important; margin-bottom: 25px;">...Meet your NOURISH<span class="e-reverse">E</span>D</h2>
+                                        <h2 class="center" style="color: #fff !important; margin-bottom: 25px;">...Meet
+                                            your NOURISH<span class="e-reverse">E</span>D</h2>
                                     </div>
 
                                     <div class="col-md-7">
@@ -1115,26 +1095,29 @@ $ = get_field("");
                                             <p class="h3 white">One convenient delivery a month</p>
                                             <p class="h3 white">Fully biodegradable recycled packaging</p>
                                             <p class="h3 white">One compact box minimising waste</p>
-                                            <a href="#btn-separator__section" class="btn btn-primary btn-white-outline">Get started</a>
+                                            <a href="#btn-separator__section" class="btn btn-primary btn-white-outline">Get
+                                                started</a>
                                         </div>
                                     </div>
                                     <div class="col-md-5">
-                                        <div class="image__background carousel__image bounce" style="background-image: url('/app/themes/frogspark/img/f-slide-2.png'); display: none !important;"></div>
+                                        <div class="image__background carousel__image bounce"
+                                             style="background-image: url('/app/themes/frogspark/img/f-slide-2.png'); display: none !important;"></div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="image__background fade-2 w-img" style="background-image:url('/app/themes/frogspark/img/w-1.png'); background-size: cover !important; background-position: center;"></div>
+                            <div class="image__background fade-2 w-img"
+                                 style="background-image:url('/app/themes/frogspark/img/w-1.png'); background-size: cover !important; background-position: center;"></div>
 
                         </div>
-
 
 
                         <div class="carousel__item relative__item lg-background">
                             <div class="container above__background">
                                 <div class="row" style="padding: 0px 0px 40px 0px;">
                                     <div class="col-md-12">
-                                        <h2 class="center" style="color: #1c4a6e !important;margin-bottom: 25px;">...Meet your NOURISH<span class="e-reverse">E</span>D</h2>
+                                        <h2 class="center" style="color: #1c4a6e !important;margin-bottom: 25px;">
+                                            ...Meet your NOURISH<span class="e-reverse">E</span>D</h2>
                                     </div>
                                     <div class="col-md-7">
                                         <div class="center__vert">
@@ -1143,7 +1126,8 @@ $ = get_field("");
                                             <p class="h3 white">Wholefood sourced</p>
                                             <p class="h3 white">Free from gluten, dairy, soy, nuts</p>
                                             <p class="h3 white">Vegetarian ingredients</p>
-                                            <a href="#btn-separator__section" class="btn btn-primary btn-white-outline">Get started</a>
+                                            <a href="#btn-separator__section" class="btn btn-primary btn-white-outline">Get
+                                                started</a>
 
                                         </div>
                                     </div>
@@ -1186,11 +1170,13 @@ $ = get_field("");
                     </div>
 
                     <div class="col-md-3">
-                        <a href="#" id="n-faq" class="btn white faq-btn blue__gradient">My NOURISH<span class="e-reverse">E</span>D</a>
+                        <a href="#" id="n-faq" class="btn white faq-btn blue__gradient">My NOURISH<span
+                                    class="e-reverse">E</span>D</a>
                     </div>
 
                     <div class="col-md-3">
-                        <a href="#contact-cta__section" id="" class="btn white faq-btn purple__gradient">Work with us</a>
+                        <a href="#contact-cta__section" id="" class="btn white faq-btn purple__gradient">Work with
+                            us</a>
                     </div>
 
                 </div>
@@ -1200,7 +1186,13 @@ $ = get_field("");
                     <div class="faq__item opacity__half" data-aos="fade-left" data-aos-delay="" data-aos-offset="-350">
                         <p class="faq__title no__margin relative__item">How long does delivery take?</p>
                         <div class="faq__content">
-                            <p class="light sm no__margin" style="padding-top: 5px;">We dispatch our NOURISHM3NTS every week to arrive on a Friday. You can select your desired Friday by picking an option in the delivery dates box on the checkout page. If you don’t receive your package by that date then please contact us at info@iamnourish3d.com with your order number. Deliveries do not need to be signed for and our packaging is designed to fit through your letterbox. If you have special delivery instructions, please ensure to put them in the ‘Special Instructions’ box on the checkout page.</p>
+                            <p class="light sm no__margin" style="padding-top: 5px;">We dispatch our NOURISHM3NTS every
+                                week to arrive on a Friday. You can select your desired Friday by picking an option in
+                                the delivery dates box on the checkout page. If you don’t receive your package by that
+                                date then please contact us at info@iamnourish3d.com with your order number. Deliveries
+                                do not need to be signed for and our packaging is designed to fit through your
+                                letterbox. If you have special delivery instructions, please ensure to put them in the
+                                ‘Special Instructions’ box on the checkout page.</p>
                         </div>
                     </div>
 
@@ -1214,14 +1206,19 @@ $ = get_field("");
                     <div class="faq__item opacity__half" data-aos="fade-left" data-aos-delay="" data-aos-offset="-350">
                         <p class="faq__title no__margin relative__item">How can I track my NOURISHMENT?</p>
                         <div class="faq__content">
-                            <p class="light sm no__margin" style="padding-top: 5px;">You can track your NOURISHM3NT by logging into your account and going to ‘My Orders/Payment History’. Here there is a link which shows you which stage of the personalisation or delivery process your NOURISH3MENTS are! </p>
+                            <p class="light sm no__margin" style="padding-top: 5px;">You can track your NOURISHM3NT by
+                                logging into your account and going to ‘My Orders/Payment History’. Here there is a link
+                                which shows you which stage of the personalisation or delivery process your
+                                NOURISH3MENTS are! </p>
                         </div>
                     </div>
 
                     <div class="faq__item opacity__half" data-aos="fade-left" data-aos-delay="" data-aos-offset="-350">
                         <p class="faq__title no__margin relative__item">Do you deliver internationally?</p>
                         <div class="faq__content">
-                            <p class="light sm no__margin" style="padding-top: 5px;">As NOURISH3D is so new we are only able to deliver within the UK at the moment. But watch this space for more developments coming soon!</p>
+                            <p class="light sm no__margin" style="padding-top: 5px;">As NOURISH3D is so new we are only
+                                able to deliver within the UK at the moment. But watch this space for more developments
+                                coming soon!</p>
                         </div>
                     </div>
 
@@ -1232,35 +1229,57 @@ $ = get_field("");
                     <div class="faq__item opacity__half" data-aos="fade-left" data-aos-delay="" data-aos-offset="-350">
                         <p class="faq__title no__margin relative__item">How do I pause or cancel my subscription? </p>
                         <div class="faq__content">
-                            <p class="light sm no__margin" style="padding-top: 5px;">You can pause or cancel your subscription anytime up to 7 days before it is dispatched. Just log into your account using the email address you signed up with, go on ‘MY Account’ and then ‘Change My Next Order’. After you have paused or cancelled your account you will receive a confirmation by email, and you can restart your account at any time by logging back in…If you have any concerns about your account and would like to discuss it before cancelling your subscription, please email us at info@iamnourish3d.com and we will be happy to help</p>
+                            <p class="light sm no__margin" style="padding-top: 5px;">You can pause or cancel your
+                                subscription anytime up to 7 days before it is dispatched. Just log into your account
+                                using the email address you signed up with, go on ‘MY Account’ and then ‘Change My Next
+                                Order’. After you have paused or cancelled your account you will receive a confirmation
+                                by email, and you can restart your account at any time by logging back in…If you have
+                                any concerns about your account and would like to discuss it before cancelling your
+                                subscription, please email us at info@iamnourish3d.com and we will be happy to help</p>
                         </div>
                     </div>
 
                     <div class="faq__item opacity__half" data-aos="fade-left" data-aos-delay="" data-aos-offset="-350">
                         <p class="faq__title no__margin relative__item">What is your returns policy?</p>
                         <div class="faq__content">
-                            <p class="light sm no__margin" style="padding-top: 5px;">Because all of our NOURISHM3NTS are made in single batches personal to you, we are unable to offer refunds. If you have a complaint or aren’t happy with your package, please email us at info@iamnourish3d.com and we will endeavour to resolve it for you </p>
+                            <p class="light sm no__margin" style="padding-top: 5px;">Because all of our NOURISHM3NTS are
+                                made in single batches personal to you, we are unable to offer refunds. If you have a
+                                complaint or aren’t happy with your package, please email us at info@iamnourish3d.com
+                                and we will endeavour to resolve it for you </p>
                         </div>
                     </div>
 
                     <div class="faq__item opacity__half" data-aos="fade-left" data-aos-delay="" data-aos-offset="-350">
-                        <p class="faq__title no__margin relative__item">I have a refer a friend discount code, how do I apply it?</p>
+                        <p class="faq__title no__margin relative__item">I have a refer a friend discount code, how do I
+                            apply it?</p>
                         <div class="faq__content">
-                            <p class="light sm no__margin" style="padding-top: 5px;">If you have referred a friend and received an email with a discount code, please copy and paste it into discount code box on the checkout page. This will then automatically take the discounted amount off the total price in your basket. If you have any problems or further questions, please don’t hesitate to contact us on info@iamnourish3d.com</p>
+                            <p class="light sm no__margin" style="padding-top: 5px;">If you have referred a friend and
+                                received an email with a discount code, please copy and paste it into discount code box
+                                on the checkout page. This will then automatically take the discounted amount off the
+                                total price in your basket. If you have any problems or further questions, please don’t
+                                hesitate to contact us on info@iamnourish3d.com</p>
                         </div>
                     </div>
 
                     <div class="faq__item opacity__half" data-aos="fade-left" data-aos-delay="" data-aos-offset="-350">
                         <p class="faq__title no__margin relative__item">How does the subscription work?</p>
                         <div class="faq__content">
-                            <p class="light sm no__margin" style="padding-top: 5px;">If you select to go with 3 month or 12 month membership, we will take the subscription amount from your card at the same time each month from when you signed up. The 3 month subscription is £45 a month and the 12 month subscription is £30 a month. You can upgrade or downgrade your account at any time by logging into your account and going to ‘Edit My Account’. Subscriptions will auto renew to make sure you keep getting your NOURISHM3NTS, unless we hear from you to do otherwise. To stop your subscription from renewing or to see how long you have left until your renewal, please log into your account and go to ‘My Orders’ </p>
+                            <p class="light sm no__margin" style="padding-top: 5px;">If you select to go with 3 month or
+                                12 month membership, we will take the subscription amount from your card at the same
+                                time each month from when you signed up. The 3 month subscription is £45 a month and the
+                                12 month subscription is £30 a month. You can upgrade or downgrade your account at any
+                                time by logging into your account and going to ‘Edit My Account’. Subscriptions will
+                                auto renew to make sure you keep getting your NOURISHM3NTS, unless we hear from you to
+                                do otherwise. To stop your subscription from renewing or to see how long you have left
+                                until your renewal, please log into your account and go to ‘My Orders’ </p>
                         </div>
                     </div>
 
                     <div class="faq__item opacity__half" data-aos="fade-left" data-aos-delay="" data-aos-offset="-350">
                         <p class="faq__title no__margin relative__item">What forms of payment do you accept?</p>
                         <div class="faq__content">
-                            <p class="light sm no__margin" style="padding-top: 5px;">We accept the following cards – Visa Debit, Mastercard and American Express</p>
+                            <p class="light sm no__margin" style="padding-top: 5px;">We accept the following cards –
+                                Visa Debit, Mastercard and American Express</p>
                         </div>
                     </div>
 
@@ -1269,16 +1288,27 @@ $ = get_field("");
                 <div id="n-block" class="faq-wrap">
 
                     <div class="faq__item opacity__half" data-aos="fade-left" data-aos-delay="" data-aos-offset="-350">
-                        <p class="faq__title no__margin relative__item">Is NOURISH3D suitable for vegans and vegetarians?</p>
+                        <p class="faq__title no__margin relative__item">Is NOURISH3D suitable for vegans and
+                            vegetarians?</p>
                         <div class="faq__content">
-                            <p class="light sm no__margin" style="padding-top: 5px;">Our pectin based encapsulation formula is 100% vegan, allergen free and Halal and Kosher friendly. All of our active ingredients are also sourced from high quality whole food and vegetarian sources. Please refer to the individual NOURISHM3NT descriptions to see if they are vegetarian or vegan  </p>
+                            <p class="light sm no__margin" style="padding-top: 5px;">Our pectin based encapsulation
+                                formula is 100% vegan, allergen free and Halal and Kosher friendly. All of our active
+                                ingredients are also sourced from high quality whole food and vegetarian sources. Please
+                                refer to the individual NOURISHM3NT descriptions to see if they are vegetarian or
+                                vegan </p>
                         </div>
                     </div>
 
                     <div class="faq__item opacity__half" data-aos="fade-left" data-aos-delay="" data-aos-offset="-350">
-                        <p class="faq__title no__margin relative__item">Can I add or change an active ingredient in my NOURISHM3NT?</p>
+                        <p class="faq__title no__margin relative__item">Can I add or change an active ingredient in my
+                            NOURISHM3NT?</p>
                         <div class="faq__content">
-                            <p class="light sm no__margin" style="padding-top: 5px;">You can change your NOURISHM3NT anytime up to 7 days before it is dispatched. Just log into your account using the email address you signed up with, go on ‘MY Account’ and then ‘Change My Next Order’. Here you can swap around different active ingredients to suit your particular lifestyle and goals. We have 27 different active ingredients to choose from, and you can combine any 7 of them into your NOURISHM3NT. </p>
+                            <p class="light sm no__margin" style="padding-top: 5px;">You can change your NOURISHM3NT
+                                anytime up to 7 days before it is dispatched. Just log into your account using the email
+                                address you signed up with, go on ‘MY Account’ and then ‘Change My Next Order’. Here you
+                                can swap around different active ingredients to suit your particular lifestyle and
+                                goals. We have 27 different active ingredients to choose from, and you can combine any 7
+                                of them into your NOURISHM3NT. </p>
                         </div>
                     </div>
 
@@ -1294,12 +1324,17 @@ $ = get_field("");
         <div class="row">
             <div class="col-md-5">
 
-                <div id="map__wrapper" class="above__background" data-aos="fade-up" style="height: 350px; margin-bottom: 25px;"></div>
+                <div id="map__wrapper" class="above__background" data-aos="fade-up"
+                     style="height: 350px; margin-bottom: 25px;"></div>
 
-                <p class="half__margin" data-aos="fade-left"><i class="fas fa-map-marker-alt"></i> Address: <span class="green">30 Floodgate Street, Digbeth, B5 5SL</span></p>
-                <p class="half__margin" data-aos="fade-left" data-aos-delay="50"><i class="far fa-envelope"></i> Email: <a href="mailto:info@iamnourish3d.com" class="underline__item green">info@iamnourish3d.com</a></p>
-                <p class="half__margin" data-aos="fade-left" data-aos-delay="100"><i class="fas fa-phone flip__horizontal"></i> Phone: <a href="tel:0800 122 3378" class="underline__item green">0800 122 3378</a></p>
-
+                <p class="half__margin" data-aos="fade-left"><i class="fas fa-map-marker-alt"></i> Address: <span
+                            class="green">30 Floodgate Street, Digbeth, B5 5SL</span></p>
+                <p class="half__margin" data-aos="fade-left" data-aos-delay="50"><i class="far fa-envelope"></i> Email:
+                    <a href="mailto:info@iamnourish3d.com" class="underline__item green">info@iamnourish3d.com</a></p>
+                <p class="half__margin" data-aos="fade-left" data-aos-delay="100"><i
+                            class="fas fa-phone flip__horizontal"></i> Phone: <a href="tel:0800 122 3378"
+                                                                                 class="underline__item green">0800 122
+                        3378</a></p>
 
 
             </div>
@@ -1317,17 +1352,19 @@ $ = get_field("");
         </div>
     </div>
 
-    <div class="image__background center__background opacity__quarter" style="background-image: url('/app/themes/frogspark/img/bg-logo.png');"></div>
+    <div class="image__background center__background opacity__quarter"
+         style="background-image: url('/app/themes/frogspark/img/bg-logo.png');"></div>
 </section>
 
 <?php
-$latitude = 52.476673;
+$latitude  = 52.476673;
 $longitude = -1.883098;
 ?>
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9rktByHWRIYbrgSY2TeR8QJwCaoe55ME&sensor=false"></script>
+<script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9rktByHWRIYbrgSY2TeR8QJwCaoe55ME&sensor=false"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
@@ -1335,16 +1372,16 @@ $longitude = -1.883098;
     $('.hero-fade').owlCarousel({
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
-        items:1,
-        margin:0,
-        stagePadding:0,
+        items: 1,
+        margin: 0,
+        stagePadding: 0,
         autoplay: true,
         autoplayTimeout: 5000,
         loop: true,
-        smartSpeed:250
+        smartSpeed: 250
     });
 
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
             disableOn: 300,
             type: 'iframe',
@@ -1357,18 +1394,15 @@ $longitude = -1.883098;
     });
 
 
-    setInterval(function(){
+    setInterval(function () {
 
         var currentImage = $(".w-img").css("background-image");
         console.log(currentImage);
 
-        if(currentImage == 'url("/app/themes/frogspark/img/w-1.png")')
-        {
+        if (currentImage == 'url("/app/themes/frogspark/img/w-1.png")') {
             console.log('t');
             $(".w-img").css("background-image", "url(/app/themes/frogspark/img/w-2.png)");
-        }
-        else
-        {
+        } else {
             console.log('t1');
             $(".w-img").css("background-image", "url(/app/themes/frogspark/img/w-1.png)");
         }
@@ -1377,21 +1411,21 @@ $longitude = -1.883098;
         //document.body.style.backgroundImage = "url('img_tree.png')";
     }, 3000)
 
-    $('#d-faq').click(function(){
+    $('#d-faq').click(function () {
         $(".faq-wrap").slideUp();
         $("#d-block").slideDown();
 
         return false;
     });
 
-    $('#p-faq').click(function(){
+    $('#p-faq').click(function () {
         $(".faq-wrap").slideUp();
         $("#p-block").slideDown();
 
         return false;
     });
 
-    $('#n-faq').click(function(){
+    $('#n-faq').click(function () {
         $(".faq-wrap").slideUp();
         $("#n-block").slideDown();
 
@@ -1425,7 +1459,57 @@ $longitude = -1.883098;
 
             // How you would like to style the map.
             // This is where you would paste any style found on Snazzy Maps.
-            styles: [{ "featureType": "water", "elementType": "geometry", "stylers": [ { "color": "#e9e9e9" }, { "lightness": 17 } ] }, { "featureType": "landscape", "elementType": "geometry", "stylers": [ { "color": "#f5f5f5" }, { "lightness": 20 } ] }, { "featureType": "road.highway", "elementType": "geometry.fill", "stylers": [ { "color": "#ffffff" }, { "lightness": 17 } ] }, { "featureType": "road.highway", "elementType": "geometry.stroke", "stylers": [ { "color": "#ffffff" }, { "lightness": 29 }, { "weight": 0.2 } ] }, { "featureType": "road.arterial", "elementType": "geometry", "stylers": [ { "color": "#ffffff" }, { "lightness": 18 } ] }, { "featureType": "road.local", "elementType": "geometry", "stylers": [ { "color": "#ffffff" }, { "lightness": 16 } ] }, { "featureType": "poi", "elementType": "geometry", "stylers": [ { "color": "#f5f5f5" }, { "lightness": 21 } ] }, { "featureType": "poi.park", "elementType": "geometry", "stylers": [ { "color": "#dedede" }, { "lightness": 21 } ] }, { "elementType": "labels.text.stroke", "stylers": [ { "visibility": "on" }, { "color": "#ffffff" }, { "lightness": 16 } ] }, { "elementType": "labels.text.fill", "stylers": [ { "saturation": 36 }, { "color": "#333333" }, { "lightness": 40 } ] }, { "elementType": "labels.icon", "stylers": [ { "visibility": "off" } ] }, { "featureType": "transit", "elementType": "geometry", "stylers": [ { "color": "#f2f2f2" }, { "lightness": 19 } ] }, { "featureType": "administrative", "elementType": "geometry.fill", "stylers": [ { "color": "#fefefe" }, { "lightness": 20 } ] }, { "featureType": "administrative", "elementType": "geometry.stroke", "stylers": [ { "color": "#fefefe" }, { "lightness": 17 }, { "weight": 1.2 } ] }]
+            styles: [{
+                "featureType": "water",
+                "elementType": "geometry",
+                "stylers": [{"color": "#e9e9e9"}, {"lightness": 17}]
+            }, {
+                "featureType": "landscape",
+                "elementType": "geometry",
+                "stylers": [{"color": "#f5f5f5"}, {"lightness": 20}]
+            }, {
+                "featureType": "road.highway",
+                "elementType": "geometry.fill",
+                "stylers": [{"color": "#ffffff"}, {"lightness": 17}]
+            }, {
+                "featureType": "road.highway",
+                "elementType": "geometry.stroke",
+                "stylers": [{"color": "#ffffff"}, {"lightness": 29}, {"weight": 0.2}]
+            }, {
+                "featureType": "road.arterial",
+                "elementType": "geometry",
+                "stylers": [{"color": "#ffffff"}, {"lightness": 18}]
+            }, {
+                "featureType": "road.local",
+                "elementType": "geometry",
+                "stylers": [{"color": "#ffffff"}, {"lightness": 16}]
+            }, {
+                "featureType": "poi",
+                "elementType": "geometry",
+                "stylers": [{"color": "#f5f5f5"}, {"lightness": 21}]
+            }, {
+                "featureType": "poi.park",
+                "elementType": "geometry",
+                "stylers": [{"color": "#dedede"}, {"lightness": 21}]
+            }, {
+                "elementType": "labels.text.stroke",
+                "stylers": [{"visibility": "on"}, {"color": "#ffffff"}, {"lightness": 16}]
+            }, {
+                "elementType": "labels.text.fill",
+                "stylers": [{"saturation": 36}, {"color": "#333333"}, {"lightness": 40}]
+            }, {"elementType": "labels.icon", "stylers": [{"visibility": "off"}]}, {
+                "featureType": "transit",
+                "elementType": "geometry",
+                "stylers": [{"color": "#f2f2f2"}, {"lightness": 19}]
+            }, {
+                "featureType": "administrative",
+                "elementType": "geometry.fill",
+                "stylers": [{"color": "#fefefe"}, {"lightness": 20}]
+            }, {
+                "featureType": "administrative",
+                "elementType": "geometry.stroke",
+                "stylers": [{"color": "#fefefe"}, {"lightness": 17}, {"weight": 1.2}]
+            }]
         };
 
         // Get the HTML DOM element that will contain your map
@@ -1437,7 +1521,7 @@ $longitude = -1.883098;
 
         function addMarker(feature) {
             var icon = {
-                url:  "/app/themes/frogspark/img/map-marker.png", // url
+                url: "/app/themes/frogspark/img/map-marker.png", // url
                 scaledSize: new google.maps.Size(40, 36)
             };
 
@@ -1480,7 +1564,12 @@ $longitude = -1.883098;
             // });
         }
 
-        var features = [{position: new google.maps.LatLng(<?php echo $latitude; ?>, <?php echo $longitude; ?>), name: 'Nourished', img: '/app/themes/frogspark/img/logo.png', 'url': '#'}];
+        var features = [{
+            position: new google.maps.LatLng(<?php echo $latitude; ?>, <?php echo $longitude; ?>),
+            name: 'Nourished',
+            img: '/app/themes/frogspark/img/logo.png',
+            'url': '#'
+        }];
         for (var i = 0, feature; feature = features[i]; i++) {
             addMarker(feature);
         }
