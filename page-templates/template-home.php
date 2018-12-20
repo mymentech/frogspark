@@ -66,7 +66,7 @@ $ = get_field("");
 
     #home-hero__section {
         margin-top: 0px !important;
-        padding-top: 180px !important;
+        padding-top: 145px !important;
     }
 
     .y-img {
@@ -365,7 +365,7 @@ $ = get_field("");
 </style>
 
 
-<section id="home-hero__section" class="hero__item relative__item content__section">
+<section id="home-hero__section" class=" relative__item content__section">
     <div class="container above__background">
         <div class="row">
             <div class="col-md-6 hero-1" style="padding-bottom: 20px;" data-aos="fade-right">
@@ -374,10 +374,9 @@ $ = get_field("");
                 <a href="https://vimeo.com/296864798"
                    class="hero-btn btn expand__item green__gradient gradient__item no__border white shadow__item popup-vimeo"
                    style="background: #6b2659 !important;">
-                    <i class="fa fa-play" aria-hidden="true" style="padding-right: 10px;"></i> Watch How it works</a>
-                <a href="#btn-separator__section"
-                   class="hero-btn btn expand__item green__gradient gradient__item no__border white shadow__item">Start
+                    <img style="margin-bottom:0; padding-right:10px; height: 25px;" src="//localhost:3000/app/themes/frogspark/img/path-icon.png"> Start
                     your order</a>
+
             </div>
             <div class="col-md-6 hero-2" data-aos="fade-left">
                 <div class="hero-fade owl-carousel">
@@ -387,7 +386,6 @@ $ = get_field("");
                     foreach ($banner_images as $item) {
                         echo '<div class="person-wrap">
                         <img src="' . $item['banner_image']['url'] . '" alt="Hero image" class="person-img">
-                        <p class="n-bubble">' . $banner_promo . '</p>
                       </div>';
                     }
 
@@ -397,7 +395,7 @@ $ = get_field("");
             </div>
         </div>
     </div>
-    <div class="layer__background white__gradient"></div>
+    
     <div class="image__background opacity__quarter zoomed__background"
          style="background-image: url('/app/themes/frogspark/img/bg.png');"></div>
 </section>
@@ -531,7 +529,7 @@ $ = get_field("");
 
 
 <!-- our-world  start-->
-<section id="our-world">
+<!-- <section id="our-world">
     <div class="col-md-offset-3"></div>
     <div class="container">
         <h1>our world</h1>
@@ -558,7 +556,7 @@ $ = get_field("");
         </div>
 
     </div>
-</section>
+</section> -->
 <!-- our-world  end-->
 
 <div id="meet-nourish__section">
@@ -653,7 +651,7 @@ $ = get_field("");
 
     <div id="contact-us-form">
         <?php //echo do_shortcode('[contact-form-7 id="391" title="homepage-cf7"]') ?>
-        <?php echo do_shortcode('[contact-form-7 id="351" title="homepage-cf7"]') ?>
+        <?php echo do_shortcode('[contact-form-7 id="351" title="Contact form 1"]') ?>
     </div>
     <!--/    Form Container  -->
     <div class="container">
