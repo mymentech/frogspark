@@ -69,15 +69,13 @@
        <div class="row">
         <div class="col-md-2"></div>
          <div class="col-md-8">
-           <div class="footer-pages text-center">
-              <ul class="list-unstled list-inline">
-                <li> <a href="#">Pricing</a> </li>
-                <li> <a href="#">Delivery</a> </li>
-                <li> <a href="#">Faqs</a> </li>
-                <li> <a href="#">Social links</a> </li>
-                <li> <a href="#">Ts & Cs</a> </li>
-              </ul>
-            </div>
+             <?php
+             wp_nav_menu(array(
+                 'menu' => 'footer-menu',
+                 'container_class' => 'footer-pages text-center',
+                 'menu_class' => 'list-unstled list-inline',
+             ));
+             ?>
             <p class="copy-right-text text-center">These statements have not been evaluted by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.</p>
           </div>
         <div class="col-md-2">
@@ -136,6 +134,7 @@
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
 <script src="/app/themes/frogspark/js/dist/mp-form.js"></script>
+<script src="https://use.fontawesome.com/f4ad562077.js"></script>
 <script>
 window.addEventListener("load", function(){
 window.cookieconsent.initialise({
@@ -154,6 +153,25 @@ window.cookieconsent.initialise({
   }
 })});
 </script>
+
+
+<script>
+var catcount = document.getElementsByClassName("accordion-cat");
+var i;
+
+for (i = 0; i < catcount.length; i++) {
+  catcount[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
 
 <script>
   
@@ -191,6 +209,24 @@ window.cookieconsent.initialise({
   });
     
 </script>
+<script type="text/javascript">
+    $(".accordion li h5").click(function () {
+      var current_li = $(this).parent();
+      $(".accordion li div").each(function(i,el) {      
+        if($(el).parent().is(current_li)) {       
+          $(el).prev().toggleClass("plus");
+          $(el).slideToggle();        
+        } else{
+          $(el).prev().removeClass("plus");
+          $(el).slideUp();
+        }
+      });
+    });
+    $('.accordion li > div').hide();
+    $('.accordion li h5').first().addClass("plus");
+    $('.accordion li > div').first().show().addClass("plus");
+</script>
+
 
 </body>
 </html>

@@ -1,4 +1,5 @@
 $img_url: '/app/themes/frogspark/img/mymentech/';
+@import 'variables';
 
 #quiz_main_section{
   background-image: url($img_url + 'quiz-page-bg.jpg');
@@ -124,6 +125,23 @@ $img_url: '/app/themes/frogspark/img/mymentech/';
 }
 .mt-cb{
   clear: both;
+}
+#menu-footer-menu{
+  .nav-link{
+    display: inline-block;
+  }
+}
+
+#meet-vita__section{
+  background-image: url(../../img/mymentech/wheel-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  h1{
+    color: $primary-clr;
+  }
+
+
 }
 
 

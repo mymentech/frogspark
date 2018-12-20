@@ -1,6 +1,4 @@
-$secpadd: 50px 0 70px;
-$primary-clr:#006976;
-$secondary-clr:#531F53;
+
 
 @mixin transform($property) {
 -webkit-transform: $property;
@@ -182,6 +180,7 @@ section#make-my-nourished{
 
     h1{
         color: $primary-clr;
+        margin: 0 auto;
     }
 
     .blog-list{
@@ -437,6 +436,9 @@ section#page-banner{
         padding: 180px 0;
         margin: 0;
     }
+    h1{
+        text-transform: inherit;
+    }
 }
 
 section#about-content__section{
@@ -444,3 +446,217 @@ section#about-content__section{
     background-color:#eaeaea;
 }
 
+section#faq-section{
+    padding: $secpadd;
+    .single-item{
+        h2{
+            border: 2px solid $primary-clr!important;
+            border-radius: 7px;
+            padding: 5px 10px;
+            display: table;
+            margin: 0 auto;
+            font-size: 20px;
+            font-weight: bold;
+            color:$primary-clr!important;;
+            span.txt-rotate{
+                font-size: 20px!important;
+                line-height: 0;
+            }
+           
+        }
+        img{
+            height: 150px;
+        }
+        
+    }
+
+    a.btn-secondary{
+        margin: 0 auto;
+        display: table;
+        border: 0;
+        padding: 5px 15px;
+        img{
+            margin-right: 8px;
+            margin-bottom: 0;
+            height: 25px;
+        }
+        span.txt-rotate{
+            font-size: 20px!important;
+            font-weight: 500;
+            color:#fff;
+        }
+    }
+    .single-item.odd h2{
+        border: 2px solid $secondary-clr!important;
+        color:$secondary-clr!important;
+    }
+
+
+
+    
+
+}
+
+.accordion{
+        width: 100%;
+        margin: 50px auto;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+             
+                list-style: none;
+                margin: 0;
+
+                h5 {
+                    font-size: 18px;
+                    color: $primary-clr;
+                    font-weight: bold;
+                    margin: 0;
+                    padding: 12px 15px 12px 50px;
+                    line-height: 19px;
+                    cursor: pointer;
+                    position: relative;
+                    transition: all 0.3s ease-in-out 0s;
+                    -webkit-transition: all 0.3s ease-in-out 0s;
+                    -o-transition: all 0.3s ease-in-out 0s;
+
+                    &:before {
+                        content: "+";
+                        font-family: 'FontAwesome';
+                        background: $secondary-clr;
+                        width: 20px;
+                        height: 20px;
+                        position: absolute;
+                        left: 14px;
+                        top: 14px;
+                        transition: all 0.3s ease-in-out 0s;
+                        -webkit-transition: all 0.3s ease-in-out 0s;
+                        -o-transition: all 0.3s ease-in-out 0s;
+                        font-size: 20px;
+                        color: #fff;
+                        text-align: center;
+                        line-height: 20px;
+                        border-radius: 50%;
+                      }
+
+                  }
+                  h5.plus {
+                    border-bottom: 0;
+                    color: $primary-clr;
+
+                    &:before {
+                        content:"-";
+                        line-height: 17px;
+                      }
+                  }
+
+                  div {
+                    color: $secondary-clr;
+                    line-height: 24px;
+                    padding: 15px 15px 15px 50px;
+                    font-weight: 500;
+
+                    a {
+                        color: #7f0a19;
+                      }
+                  }
+              }
+          }
+       
+      }
+
+
+
+section#brain-health-content{
+    padding: $secpadd;
+    background:#eaeaea;
+    .page-category{
+        clear: both;
+        overflow: hidden;
+        .accordion-cat {
+            background-color: #fff;
+            color: $primary-clr;
+            cursor: pointer;
+            padding: 10px;
+            font-weight: bold;
+            border-radius: 8px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+          }
+          
+          .active, .accordion-cat:hover {
+            background-color: #fff;
+          }
+          
+          .accordion-cat:after {
+            
+            content: "\f078"!important;
+            font-family: "Font Awesome 5 Free";
+            color: #777;
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+          }
+          
+          .active:after {
+            content: "\f077"!important;
+            font-family: "Font Awesome 5 Free";
+          }
+          
+          .panel {
+            margin-top: 10px;
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            ul{ 
+                li{
+                    a{
+                        color: $primary-clr;
+                        margin: 5px 0;
+                        display: block;
+                        margin: 8px 0;
+                        font-weight: 500;
+                    }
+                }
+            }
+          }
+        
+    }
+
+    .page-main-content{
+        h2{
+            color: $secondary-clr!important;
+        }
+        p{
+            color: $primary-clr!important;
+            line-height: 25px;
+        }
+
+        .vitamin-item{
+            img{
+                display: block;
+                margin: 25px auto;
+            }
+        }
+        a.btn{
+            border:0;
+            padding: 5px 20px;
+            margin-top: 40px;
+            &:last-child{
+                margin-left: 10%;
+            }
+        }
+    }
+    
+}
