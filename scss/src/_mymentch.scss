@@ -18,6 +18,39 @@
 }
 
 
+.navbar {
+    #navbar {
+        .navbar-nav{
+            top:60%;
+            li{
+                a{
+                    color:$primary-clr;
+                    font-weight: 700;
+
+                    i{
+                        color:$primary-clr;
+                    }
+                }
+                &:last-child{
+                    a{
+                        background: $secondary-clr!important;
+                        color:#fff;
+                    }
+                }
+  
+             }
+            li#start{
+                a{
+                    background: $primary-clr!important;
+                    color:#fff!important;
+                    border-color: $primary-clr!important;
+                }
+            }
+    }
+}
+}
+
+
 span.txt-rotate{
     @include transform(rotate(180deg));
     display: inline-block;
