@@ -15,6 +15,11 @@ $term = get_term($term_id);
 $term_slug = $term->slug;
 $term_name = $term->name;
 
+?>
+
+<?php get_header(); ?>
+
+<?php
 
 $image = get_field("image");
 $short_description = get_field("short_description");
@@ -25,21 +30,15 @@ $photo_image = get_field("photo_image");
 
 if(empty($short_description))
 {
-    $short_description = "Dummy text lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At tempor commodo ullamcorper.";
+  $short_description = "Dummy text lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At tempor commodo ullamcorper.";
 }
 
 if(empty($research_percentage))
 {
-    $research_percentage = "37";
+  $research_percentage = "37";
 }
 
-
-//var_dump($term_id);
-
-
 ?>
-
-<?php get_header(); ?>
 
   <style>
     
@@ -134,7 +133,6 @@ if(empty($research_percentage))
     }
     
   </style>
-  
   <style>
     
     .vit-icon {
@@ -154,7 +152,6 @@ if(empty($research_percentage))
     }
     
   </style>
-  
   <style>
     
     .vit-icon {
@@ -232,6 +229,13 @@ if(empty($research_percentage))
       margin-bottom: 20px;
     }
     
+    h1 {
+      font-size: 28px !important;
+      line-height: 1.6em;
+      text-align: center;
+      margin-top: -5px;
+    }
+    
     @media (max-width: 767px) {
       .under-nav__item {
         margin-top: 20px !important;
@@ -250,44 +254,48 @@ if(empty($research_percentage))
           <div class="sidebar">
             <h3>Categories</h3>
             <a href="/all/" class="btn expand__item black__border btn-1" style="">All Nourishments</a>
-            <?php if($term_id == 3): ?>
-            <a href="/nourishment-category/supplements/" class="btn expand__item black__border btn-1" style="background: #1c4a6e !important; color: #fff !important;">Supplements</a>
-            <?php else: ?>
-            <a href="/nourishment-category/supplements/" class="btn expand__item black__border btn-1" style="">Supplements</a>
-            <?php endif; ?>
-            <?php if($term_id == 2): ?>
-            <a href="/nourishment-category/vitamins/" class="btn expand__item black__border btn-2" style="background: #b7a127 !important; color: #fff !important;">Vitamins</a>
-            <?php else: ?>
-            <a href="/nourishment-category/vitamins/" class="btn expand__item black__border btn-2" style="">Vitamins</a>
-            <?php endif; ?>
+            <?php
             
-            <?php if($term_id == 4): ?>
-            <a href="/nourishment-category/minerals/" class="btn expand__item black__border btn-3" style="background: #6b2659 !important; color: #fff !important;">Minerals</a>
-            <?php else: ?>
-            <a href="/nourishment-category/minerals/" class="btn expand__item black__border btn-3" style="">Minerals</a>
-            <?php endif; ?>
+              $count = 1;
+  
+              foreach(get_tags() as $tag)
+              {
+                $teamID = get_the_ID(); //id of team member
+                $term_slug1 = $tag->slug;
+                $term_name1 = $tag->name;
+  
+                echo '<a href="/tag/'.$term_slug1.'" class="btn expand__item black__border btn-'.$count.'" style="">'.$term_name1.'</a>';
+                
+                if($count == 4)
+                {
+                  $count = 1;
+                }
+                else
+                {
+                  $count++;
+                }
+              }
+              
+              wp_reset_postdata();
             
-            <?php if($term_id == 5): ?>
-            <a href="/nourishment-category/natural-actives/" class="btn expand__item black__border btn-4" style="background: #1c4a6e !important; color: #fff !important;">Natural Actives</a>
-            <?php else: ?>
-            <a href="/nourishment-category/natural-actives/" class="btn expand__item black__border btn-4" style="">Natural Actives</a>
-            <?php endif; ?>
-            
-            <a href="/#btn-separator__section" class="btn expand__item black__border btn-2"  style="background: #b7a127 !important; color: #fff !important;">Get Started</a>
+            ?>
             
           </div>
         </div>
         
         <div class="col-md-10">
           
+          
+          <h1>Showing all Nourishments for '<?php echo $term_name ?>'</h1>
+          
           <div class="row">        
             <?php
-                      
-      
-              $args = array( 'post_type' => 'nourishments', 'posts_per_page' => 600, 'cat' => $term_slug, 
-                      'tax_query' => array(
-                        array ('taxonomy' => 'nourishment_cat', 'field' => 'slug', 'terms' => $term_slug))
-                      );
+              
+              wp_reset_postdata();  
+              
+              $tax = array($term_id);
+              $args = array ('post_type' => 'nourishments', 'tag' => $term_slug);
+
               $loop = new WP_Query( $args );
               
               $count = 1;
