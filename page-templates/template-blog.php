@@ -8,7 +8,7 @@
 <?php get_header(); ?>
 
 <?php
-global $wp_session;
+$featured_post_id = null;
 $page_title    = get_field("page_title");
 $left_content  = get_field("left_content");
 $right_content = get_field("right_content");
@@ -86,7 +86,7 @@ $team_members  = get_field("team_members");
 
                 if ($featured_query->have_posts()):
                     while ($featured_query->have_posts()): $featured_query->the_post();
-                        $wp_session['my_featured_post_id'] = get_the_ID();
+                        $featured_post_id = get_the_ID();
                         ?>
                         <div class="lastest-feature">
                             <div class="featre-img">
@@ -162,7 +162,7 @@ $team_members  = get_field("team_members");
         </div>
         <div class="row">
             <?php
-            $post_not_in = isset($wp_session['my_featured_post_id'])? array($wp_session['my_featured_post_id']): array();
+            $post_not_in = isset($featured_post_id)? array($featured_post_id): array();
             $args_posts_query = array(
                 'post_type' => array('post'),
                 'posts_per_page' => 12,

@@ -10,31 +10,32 @@
 
 <?php get_header(); ?>
 
-  <?php 
-  
-  $date = Date('d-m-Y', strtotime($post->post_date));
-  
-  ?>
+<?php
 
-  <?php get_template_part( 'navigation-default' ); ?>
+$date = Date('d-m-Y', strtotime($post->post_date));
 
-  <section class="single-blog">
+?>
+
+<?php get_template_part('navigation-default'); ?>
+
+<section class="single-blog">
     <div class="container">
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-            <a href="<?php the_permalink() ?>">
-                <h2 class="header text-center"><?php echo get_the_title(); ?></h2>
-            </a>
-            <?php if(has_post_thumbnail()): ?>
-            <img src="<?php get_the_post_thumbnail_url('full') ?>" alt="" class="img-responsive">
-            <?php endif ?>
-          <span class="single-blog__date text-info">Posted On: <?php echo $date; ?></span>
-            <div class="content-body">
-                <?php the_content() ?>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <a href="<?php the_permalink() ?>">
+                    <h2 class="header text-center"><?php echo get_the_title(); ?></h2>
+                </a>
+                <?php if (has_post_thumbnail()): ?>
+                    <?php the_post_thumbnail('blog_image', array('class' => 'img-responsive')) ?>
+
+                <?php endif ?>
+                <span class="single-blog__date text-info">Posted On: <?php echo $date; ?></span>
+                <div class="content-body">
+                    <?php the_content() ?>
+                </div>
             </div>
         </div>
-      </div>
     </div>
-  </section>
+</section>
 
 <?php get_footer(); ?>
