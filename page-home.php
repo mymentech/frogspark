@@ -374,7 +374,7 @@ $ = get_field("");
 
           <a href="https://vimeo.com/296864798" class="hero-btn btn expand__item green__gradient gradient__item no__border white shadow__item popup-vimeo" style="background: #6b2659 !important;">
             <i class="fa fa-play" aria-hidden="true" style="padding-right: 10px;"></i> Watch How it works</a>
-          <a href="http://vitamyne.frogspark.agency/order/choose.php" class="hero-btn btn expand__item green__gradient gradient__item no__border white shadow__item">Start your order</a>
+          <a href="#make-my-nourished" class="hero-btn btn expand__item green__gradient gradient__item no__border white shadow__item">Start your order</a>
         </div>
         <div class="col-md-6 hero-2" data-aos="fade-left">
           <div class="hero-fade owl-carousel">
