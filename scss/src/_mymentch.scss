@@ -758,6 +758,9 @@ section#brain-health-content{
             &:last-child{
                 margin-left: 10%;
             }
+            &:hover{
+                background: $primary-clr;
+            }
         }
     }
     

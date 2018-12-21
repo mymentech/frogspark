@@ -12083,6 +12083,8 @@ section#brain-health-content {
     margin-top: 40px; }
     section#brain-health-content .page-main-content a.btn:last-child {
       margin-left: 10%; }
+    section#brain-health-content .page-main-content a.btn:hover {
+      background: #006976; }
 
 section#blog {
   background: #eaeaea; }
@@ -13371,6 +13373,8 @@ section#brain-health-content {
     margin-top: 40px; }
     section#brain-health-content .page-main-content a.btn:last-child {
       margin-left: 10%; }
+    section#brain-health-content .page-main-content a.btn:hover {
+      background: #006976; }
 
 section#blog {
   background: #eaeaea; }
