@@ -585,11 +585,7 @@ section#faq-section{
     .single-item.odd h2{
         border: 2px solid $secondary-clr!important;
         color:$secondary-clr!important;
-    }
-
-
-
-    
+    }    
 
 }
 
@@ -743,10 +739,11 @@ section#brain-health-content{
 
         .vitamin-item{
             a{
+                font-size: 14px;
                 p{
                     text-align: center;
                     color: $primary-clr;
-                    font-size: 16px;
+                    
                 }
             }
             img{
@@ -760,6 +757,9 @@ section#brain-health-content{
             margin-top: 40px;
             &:last-child{
                 margin-left: 10%;
+            }
+            &:hover{
+                background: $primary-clr;
             }
         }
     }
