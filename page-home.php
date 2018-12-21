@@ -864,18 +864,6 @@ $ = get_field("");
             </div>
           </a>
         </div>
-<!--
-        <div class="col-md-4" data-aos="zoom-in-up" data-aos-delay="300">
-          <a href="/nourish-dna/">
-            <div class="block-alt__item rounded expand__item gradient__item gradient__vert purple__gradient center shadow__item">
-              <img class="block__icon flip__hover" src="/app/themes/frogspark/img/dna.png" alt="Thumb">
-              <h3 class="white">NourishDNA</h3>
-              <p class="white__bg purple md usp__spacing light">Take simple saliva swab giving you the most accurate results possible.</p>
-              <span class="btn white white__border uppercase__item">Coming soon</span>
-            </div>
-          </a>
-        </div>
--->
 
       </div>
     </div>
@@ -1013,34 +1001,7 @@ $ = get_field("");
           </div>
         </div>
         
-<!--
-        <div class="col-md-3" data-aos="fade-left">
-          <a href="/order/">
-            <div class="block-alt__item rounded gradient__item gradient__vert purple__gradient center shadow__item">
-              <h3 class="white uppercase__item">Tier 2</h3>
-              <div class="white__bg usp__spacing full__margin">
-                <p class="purple md no__margin">3 Month Trial</p>
-                <p class="purple sm light half__margin">£45.00</p>
-                <p class="purple light sm no__margin">Try NOURISH<span class="e-reverse" style="font-size: 35px;">E</span>D for 3 months and if you convert your subscription to 12 months before the end of the trial we will give you 2 months completely free!</p>
-              </div>
-              <span class="btn white white__border uppercase__item">Continue <i class="fas fa-chevron-right"></i></span>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-3" data-aos="fade-left">
-          <a href="#">
-            <div class="block-alt__item rounded gradient__item gradient__vert purple__gradient center shadow__item">
-              <h3 class="white uppercase__item">Pre-Order</h3>
-              <div class="white__bg usp__spacing full__margin">
-                <p class="purple md no__margin">Pre-Order</p>
-                <p class="purple sm light half__margin">£45.00</p>
-                <p class="purple light sm no__margin">NOURISH<span class="e-reverse" style="font-size: 35px;">E</span>D is so in demand we can’t keep up! Register your interest here and we’ll email you as soon as NOURISH<span class="e-reverse" style="font-size: 35px;">E</span>D is available again</p>
-              </div>
-              <span class="btn white white__border uppercase__item">Pre-Order <i class="fas fa-chevron-right"></i></span>
-            </div>
-          </a>
-        </div>
--->
+
 
       </div>
 

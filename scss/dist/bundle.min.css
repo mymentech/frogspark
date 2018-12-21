@@ -11919,6 +11919,8 @@ section#page-banner {
     color: #fff;
     padding: 180px 0;
     margin: 0; }
+    section#page-banner h1 .txt-rotate {
+      color: #fff !important; }
   section#page-banner h1 {
     text-transform: inherit; }
 
@@ -12262,7 +12264,8 @@ a.feture-readmore {
   border: 0; }
   #nourishments .page-thumbanil a img {
     display: inherit;
-    padding-right: 10px; }
+    padding-right: 10px;
+    margin-top: -5px; }
   #nourishments .page-thumbanil a span.rotate-txt {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -13188,6 +13191,8 @@ section#page-banner {
     color: #fff;
     padding: 180px 0;
     margin: 0; }
+    section#page-banner h1 .txt-rotate {
+      color: #fff !important; }
   section#page-banner h1 {
     text-transform: inherit; }
 
@@ -13539,7 +13544,8 @@ a.feture-readmore {
   border: 0; }
   #nourishments .page-thumbanil a img {
     display: inherit;
-    padding-right: 10px; }
+    padding-right: 10px;
+    margin-top: -5px; }
   #nourishments .page-thumbanil a span.rotate-txt {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
