@@ -131,10 +131,9 @@ if (empty($research_percentage)) {
             <div class="col-md-9 col-sm-12">
                 <div class="page-main-content">
                     <h2>These Nourishments are great for brain Health</h2>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                        classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
-                        Latin </p>
-                    <p>Click on the ingredients to find out more.</p>
+                    <div class="cat-content">
+                        <?php  echo wp_kses_post(tag_description()) ?>
+                    </div>
                     <div class="row">
                         <div class="col-md-3 col-sm-4 col-xs-6">
                             <div class="vitamin-item">
