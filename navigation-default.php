@@ -27,7 +27,7 @@
         </div>
         <div id="navbar">
           <ul class="nav navbar-nav">
-            <li data-aos="fade-down" data-aos-delay="200"><a class="sm underline__item" href="/#nourshed-vitamins">Nourish ed Vitamins</a></li>
+            <li data-aos="fade-down" data-aos-delay="200"><a class="sm underline__item" href="/#nourshed-vitamins">Nourished Vitamins</a></li>
             <li data-aos="fade-down" data-aos-delay="300"><a class="sm underline__item" href="/#get-nourished">Get Nourished</a></li>
             <li data-aos="fade-down" data-aos-delay="400"><a class="sm underline__item" href="/our-world/">Our world </a></li>
               <li data-aos="fade-down" data-aos-delay="100"><a class="sm underline__item" href="/about-us/">About Us</a></li>
