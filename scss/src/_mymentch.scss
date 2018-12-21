@@ -395,6 +395,17 @@ section#make-my-nourished{
     h1, h3{
         text-align:center;
     }
+   .contact-col-action{
+       h2{
+           color: $secondary-clr!important;
+           font-weight: 700;
+           font-size: 25px;
+           a{
+               color:$primary-clr;
+               font-size: 25px;
+           }
+       }
+   }
     .single-option{
         p{
             line-height: 26px;

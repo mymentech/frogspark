@@ -11829,6 +11829,13 @@ section#make-my-nourished {
   background: #E3E8E9; }
   #contact-us h1, #contact-us h3 {
     text-align: center; }
+  #contact-us .contact-col-action h2 {
+    color: #531F53 !important;
+    font-weight: 700;
+    font-size: 25px; }
+    #contact-us .contact-col-action h2 a {
+      color: #006976;
+      font-size: 25px; }
   #contact-us .single-option p {
     line-height: 26px;
     color: #531F53;
@@ -13091,6 +13098,13 @@ section#make-my-nourished {
   background: #E3E8E9; }
   #contact-us h1, #contact-us h3 {
     text-align: center; }
+  #contact-us .contact-col-action h2 {
+    color: #531F53 !important;
+    font-weight: 700;
+    font-size: 25px; }
+    #contact-us .contact-col-action h2 a {
+      color: #006976;
+      font-size: 25px; }
   #contact-us .single-option p {
     line-height: 26px;
     color: #531F53;

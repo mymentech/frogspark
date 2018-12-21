@@ -36,7 +36,7 @@
                <i class="fa fa-search" aria-hidden="true" style="padding-left: 2px;"></i></a></li>
             <li data-aos="fade-down" data-aos-delay="400" id="start"><a href="/#usp__section" class="sm btn white__bg green green__border nav__btn">Start</a></li>
 <!--             <li data-aos="fade-down" data-aos-delay="400"><a href="/order/" class="sm btn green__bg white green__border nav__btn">Get Started</a></li> -->
-            <li data-aos="fade-down" data-aos-delay="400"><a href="/account/index.php" class="sm btn green__bg white green__border nav__btn">My Account</a></li>            
+            <li data-aos="fade-down" data-aos-delay="400"><a href="/account/index.php" class="sm btn green__bg white green__border nav__btn">Log in</a></li>            
 <!--             <li data-aos="fade-down" data-aos-delay="400"><a href="/nourish-dna/" class="sm btn green__bg white green__border nav__btn">NourishDNA</a></li> -->
           </ul>
         </div>
