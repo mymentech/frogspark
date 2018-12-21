@@ -11692,7 +11692,7 @@ footer {
 .vitateam__bio {
   background: #FFFFFF;
   border-radius: 0.25rem;
-  left: 50%;
+  left: 100%;
   padding: 30px;
   position: fixed;
   top: 50%;
@@ -11700,7 +11700,8 @@ footer {
   transition: 0.3s all ease-in-out;
   z-index: 999; }
   .vitateam__bio.active {
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    left: 50%; }
   .vitateam__bio .circle__item {
     height: 150px;
     margin-bottom: 30px;

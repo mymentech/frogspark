@@ -55,7 +55,7 @@
 .vitateam__bio {
   background: $white;
   border-radius: $border_radius;
-  left: 50%;
+  left: 100%;
   padding: $spacing;
   position: fixed;
   top: 50%;
@@ -64,6 +64,7 @@
   z-index: 999;
   &.active {
     transform: translate(-50%, -50%);
+    left: 50%;
   }
   .circle__item {
     height: 150px;
