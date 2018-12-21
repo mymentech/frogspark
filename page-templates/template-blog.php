@@ -74,7 +74,6 @@ $team_members  = get_field("team_members");
                 $featured_args_query = array(
                     'post_type'      => array('post'),
                     'posts_per_page' => 1,
-                    'nopaging'       => true,
                     'order'          => 'DESC',
                     'orderby'        => 'date',
                     'meta_key'       => 'mt_post_tags',

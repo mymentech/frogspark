@@ -177,7 +177,7 @@ if (empty($research_percentage)) {
 </section>
 
 
-<?php get_template_part('template-parts/nourished','vitamins') ?>
+<?php get_template_part('template-parts/nourished','vitamins-faq') ?>
 
 
 

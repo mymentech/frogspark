@@ -115,7 +115,7 @@ if (empty($short_description)) {
     </div>
 </section>
 
-<?php get_template_part('template-parts/nourished','vitamins') ?>
+<?php get_template_part('template-parts/nourished','vitamins-faq') ?>
 
 
 <?php get_footer(); ?>
