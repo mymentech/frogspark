@@ -104,7 +104,7 @@ $team_members  = get_field("team_members");
                                     </div>
                                     <div class="col-md-3"><a class="feture-readmore text-center"
                                                              href="<?php the_permalink() ?>">Read More</a></div>
-                                    <div class="col-md-4"><span class="text-right pull-right">Fearure</span></div>
+                                    <div class="col-md-4"><span class="text-right pull-right">Featured</span></div>
                                 </div>
 
                             </div>
