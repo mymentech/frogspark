@@ -724,6 +724,7 @@ section#brain-health-content{
                         font-size: 16px;
                         margin: 8px 0;
                         font-weight: 700;
+
                     }
                 }
             }
@@ -741,6 +742,13 @@ section#brain-health-content{
         }
 
         .vitamin-item{
+            a{
+                p{
+                    text-align: center;
+                    color: $primary-clr;
+                    font-size: 16px;
+                }
+            }
             img{
                 display: table;
                 margin: 25px auto;

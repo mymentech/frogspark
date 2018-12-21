@@ -12063,6 +12063,10 @@ section#brain-health-content {
   section#brain-health-content .page-main-content p {
     color: #006976 !important;
     line-height: 25px; }
+  section#brain-health-content .page-main-content .vitamin-item a p {
+    text-align: center;
+    color: #006976;
+    font-size: 16px; }
   section#brain-health-content .page-main-content .vitamin-item img {
     display: table;
     margin: 25px auto; }
@@ -13340,6 +13344,10 @@ section#brain-health-content {
   section#brain-health-content .page-main-content p {
     color: #006976 !important;
     line-height: 25px; }
+  section#brain-health-content .page-main-content .vitamin-item a p {
+    text-align: center;
+    color: #006976;
+    font-size: 16px; }
   section#brain-health-content .page-main-content .vitamin-item img {
     display: table;
     margin: 25px auto; }
