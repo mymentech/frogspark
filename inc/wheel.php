@@ -4,7 +4,7 @@
       <div class="blog-list">
           <p>Whether you're animing to reach a goad, want overall health optimisation or are simply tired of all the different supplements you're taking, we're here for you.</p>
           <p>We'll create your very own perfectly balanced combinationof seven vitamins, minerals and supplements from our 27 Nourishments, The unique power of seven from over a billion possible combinations.</p>
-          <a href="#" target="_blank" class="btn btn-secondary">Our Nourishments </a>
+          <a href="http://vitamyne.frogspark.agency/order/choose.php" target="_blank" class="btn btn-secondary">Our Nourishments </a>
       </div>
 <!--    <h3 class="half__margin">Click a NOURISHM<span class="e-reverse" style="font-size: 24px;">E</span>NT</span></h3>-->
 <!--    <p class="md half__margin">To find out about it!</p>-->
