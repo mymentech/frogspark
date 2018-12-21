@@ -7,16 +7,6 @@
 
 <?php get_header(); ?>
 
-<?php
-
-$page_title = get_field("page_title");
-$left_content = get_field("left_content");
-$right_content = get_field("right_content");
-$logo_upload = get_field("logo_upload");
-$team_members = get_field("team_members");
-
-
-?>
 
   <style>
     

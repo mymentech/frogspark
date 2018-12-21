@@ -1,17 +1,13 @@
 <?php
 /**
- * Template Name: Nourishment Page
- *
- * @package WordPress
- * @subpackage Twenty_Fourteen
- * @since Twenty Fourteen 1.0
+ * Template Name: Our Nourishments
+ *  @package frogspark
  */
 ?>
 
 <?php get_header(); ?>
 
 <?php
-
 $image               = get_field("image");
 $short_description   = get_field("short_description");
 $research_percentage = get_field("research_percentage");
@@ -23,9 +19,6 @@ if (empty($short_description)) {
     $short_description = $content;
 }
 
-if (empty($research_percentage)) {
-    $research_percentage = "37";
-}
 
 ?>
 
@@ -63,132 +56,61 @@ if (empty($research_percentage)) {
     }
 
 </style>
-<style>
-
-    .vit-sidebar h2 {
-        color: #1c4a6e !important;
-        font-weight: 300 !important;
-    }
-
-    .vit-sidebar {
-        text-align: center;
-    }
-
-    .bar-img {
-        max-width: 60%;
-        margin: auto;
-    }
-
-    .bar-txt span {
-        font-size: 22px;
-        position: relative;
-        top: 2px;
-    }
-
-    .benefits a {
-        display: inline-block !important;
-        padding: 5px 20px;
-        background: #1b4c6d;
-        color: #fff !important;
-        border-radius: 10px;
-        margin-right: 10px;
-        margin-bottom: 20px;
-        font-size: 12px;
-        letter-spacing: 1px;
-    }
-
-    .benefits a.color-1 {
-        background: #6b2559 !important;
-    }
-
-    .benefits a.color-2 {
-        background: #1b4c6d !important;
-    }
-
-    .benefits a.color-3 {
-        background: #223c21 !important;
-    }
-
-    .benefits a.color-4 {
-        background: #b7a130 !important;
-    }
-
-    .btn-ready {
-        background: #1c4a6e !important;
-        color: #fff !important;
-        border-color: #1c4a6e !important;
-    }
-
-    .nut-value p {
-        margin-bottom: 25px !important;
-    }
-
-
-    @media (max-width: 767px) {
-        .btn-ready {
-            white-space: normal !important;
-            margin-bottom: 25px;
-        }
-    }
-
-</style>
 
 <?php get_template_part('navigation-default'); ?>
 
-<section id="about-content__section" class="under-nav__item content__section relative__item">
-    <div class="container above__background">
-        <div class="row">
-            <div class="col-md-4" data-aos="fade-right">
-                <div class="vit-sidebar">
-                    <img class="vit-gem" src="<?php echo $image['url']; ?>">
-                    <h2><?php echo get_the_title() ?></h2>
-                    <p><?php echo $short_description ?></p>
-                    <img class="bar-img" src="/app/themes/frogspark/img/bar-icon.png">
-                    <p class="bar-txt">Research Barometer | <span><?php echo $research_percentage ?>%</span></p>
-                </div>
-
-            </div>
-            <div class="col-md-8" data-aos="fade-left">
-                <div class="benefits">
-                    <?php
-
-                    $tags  = get_the_tags();
-                    $count = 1;
-                    foreach ($tags as $tag) {
-                        echo "<a href='/tag/" . $tag->slug . "' class='color-" . $count . "'>" . $tag->name . "</a>";
-
-                        if ($count == 4) {
-                            $count = 1;
-                        } else {
-                            $count++;
-                        }
-
-
-                    }
-
-
-                    ?>
-
-                </div>
-                <?php echo $content ?>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <img class="vit-photo" src="<?php echo $photo_image['url'] ?>">
-                    </div>
-                    <div class="col-md-6">
-                        <div class="nut-value">
-                            <p>Nutritional Information</p>
-                        </div>
-                        <a href="/#btn-separator__section" class="btn btn-primary btn-ready">I'm ready to make my
-                            NOURISH3D</a>
-                    </div>
-                </div>
-
+<!-- Page banner start -->
+<section id="page-banner">
+    <div class="contaner">
+        <div class="col-md-12">
+            <div class="banner-text">
+                <h1 class="text-uppercase">Our Nourishments</h1>
             </div>
         </div>
     </div>
+
 </section>
+<!-- Page banner End -->
+
+
+
+
+
+<section id="nourishments">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="text-center">Beetroot Powder</h2>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="page-thumbanil">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/nearbong-page.png" class="img-responsive" alt="">
+
+                    <p class="text-center m-5"><a href="#" class="btn btn-secondary make-my-btn"><img src="<?php echo get_template_directory_uri(); ?>/img/path-icon.png">Make my NOURISH <span class="rotate-txt">E</span>D</a></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="page-content">
+                    <p>Lets get to the Root of the issue….the Beetroot that is known for its intense red colour and unique flavour, beetroot has been a salad favourite for years but did you know that it has also been shown to improve endurance, blood flow and even lower blood pressure?</p>
+                    <p> have a naturally high level of nitrates which have been shown to improve everything from cardiovascular health to immune function. So much evidence is mounting that The American Heart Association now suggests a cup of the red stuff daily to improve BP and recovery from exercise. Want in on this fast track to fitness and heart health Choose Beetroot in your next NOURISHED blend and you’ll be on your way!</p>
+
+                    <h4><img src="<?php echo get_template_directory_uri(); ?>/img/love.png">Benefits</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Endurance &amp; Recovery</a></li>
+                        <li><a href="#">Energy</a></li>
+                        <li><a href="#">Heart Health</a></li>
+                        <li><a href="#">Performance</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
 
 
 <?php get_footer(); ?>
