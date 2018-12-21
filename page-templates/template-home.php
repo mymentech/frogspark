@@ -371,8 +371,8 @@ $ = get_field("");
             <div class="col-md-6 hero-1" style="padding-bottom: 20px;" data-aos="fade-right">
                 <?php echo $banner_content ?>
 
-                <a href="https://vimeo.com/296864798"
-                   class="hero-btn btn expand__item green__gradient gradient__item no__border white shadow__item popup-vimeo"
+                <a href="/#get-nourished"
+                   class="hero-btn btn expand__item green__gradient gradient__item no__border white shadow__item"
                    style="background: #6b2659 !important;">
                     <img style="margin-bottom:0; padding-right:10px; height: 25px;" src="app/themes/frogspark/img/path-icon.png"> Start
                     your order</a>
@@ -438,7 +438,7 @@ $ = get_field("");
                 </div>
             </div>
 
-            <a href="#" target="_blank" class="btn watch-btn">Watch the process ></a>
+            <a href="https://vimeo.com/296864798" target="_blank" class="btn watch-btn expand__item popup-vimeo">Watch the process ></a>
 
         </div>
     </div>
