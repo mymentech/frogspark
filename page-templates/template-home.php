@@ -525,11 +525,7 @@ $ = get_field("");
 </section>
 <!-- about us  end-->
 
-<div class="check-faq">
-    <p>got a question? check our faqs</p>
-    <a href="#" class="btn">View faqs</a>
-</div>
-
+<?php get_template_part('template-parts/faq','link') ?>
 <!-- contact us  start-->
 <section id="contact-us">
     <div class="container">
