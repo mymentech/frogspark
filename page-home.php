@@ -407,7 +407,7 @@ $ = get_field("");
 <!-- nourished-vitamin-area  start-->
   
 
-  <div id="nourished-vitamin-area" class="text-center" data-aos="fade-left"
+  <div id="nourished-vitamin-area" class="text-center aos-init aos-animate" data-aos="fade-left"
      data-aos-anchor="#example-anchor"
      data-aos-offset="500"
      data-aos-duration="500">
