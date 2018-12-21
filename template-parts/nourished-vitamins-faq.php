@@ -50,7 +50,4 @@
 </div>
 <!-- nourished-vitamin-area  end-->
 
-<div class="check-faq">
-    <p>got a question? check our faqs</p>
-    <a href="/faq" class="btn">View faqs</a>
-</div>
+<?php get_template_part('template-parts/faq','link') ?>

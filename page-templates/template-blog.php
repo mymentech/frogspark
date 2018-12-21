@@ -198,7 +198,7 @@ $team_members  = get_field("team_members");
             wp_reset_postdata();
 
             ?>
-            <div class="col-md-12">
+            <div class="col-md-4 offset-md-4">
                 <a class="btn blog-load-more btn-secondary btn-info" href="#">Load More Post</a>
             </div>
         </div>
