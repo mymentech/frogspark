@@ -70,51 +70,6 @@ $team_members  = get_field("team_members");
     </div>
 
 </section>
-<!-- Page banner End -->
-
-<!-- content section start -->
-
-<!-- <section id="about-us-content">
-    
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <p>Our NOURISH3D dream began when Founder Melissa accidentally dropped a container of vitamins and supplements in airport security and had to crawl around the floor in her suit and heels trying to pick them up. As a busy entrepreneur who travels all over the world and as a nutrition enthusiast; she was sick of having to take multiple bottles and packets of pills with her everywhere she went.</p>
-          <p>So we came up with NOURISH3D. Now Melissa is able to combine all of her favourite active ingredients into one personalised and convenient pod, and hasn’t had to crawl around an airport since.</p>
-          <p>We utilised patented 3D food printing technology to develop a new and ingenious way for you to create your very own customised single batch chewable supplements. And because each custom blend is made to order there is also no waste product or extra packaging, meaning NOURISH3D is not only better for you, its also better for the environment.</p>
-        </div>
-        <div class="col-md-6">
-          <p>We sourced all of our ingredients from high quality vegan whole food sources in Europe and the USA to make sure our product is of the highest standard (and tasted delicious of course!) We also conducted extensive laboratory tests to ensure our active ingredients were optimised in our patented vegan gelling agent. After all, if you are the first in the world to do something – you better do it right!</p>
-          <p>NOURISH3D are a small tech start up from Birmingham, but we have big dreams. We believe that everyone is unique and that if anything on Earth should be personalised it should be your health and wellness. Our mission is to change the way the world thinks, buys and experiences vitamins and supplements going forward, one NOURISHM3NT at a time</p>
-        </div>
-      </div>
-      <div class="about-logo">
-        <div class="row">
-          <div class="col-md-1"></div>
-          <div class="col-md-3">
-            <div class="single-logo">
-              <img src="<?php echo get_template_directory_uri() ?>/img/about-icon-1.png" alt="logo" class="img-responsive">
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="single-logo">
-              <img src="<?php echo get_template_directory_uri() ?>/img/about-icon-2.png" alt="logo" class="img-responsive">
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="single-logo">
-              <img src="<?php echo get_template_directory_uri() ?>/img/about-icon-3.png" alt="logo" class="img-responsive">
-            </div>
-          </div>
-          <div class="col-md-1"></div>
-        </div>
-      </div>
-    </div>
-
-
-  </section> -->
-
-
 <section id="about-content__section" class=" relative__item">
     <div class="container above__background">
         <div class="row">
@@ -129,6 +84,15 @@ $team_members  = get_field("team_members");
                 <?php echo $right_content ?>
 
             </div>
+        </div>
+    </div>
+    <div class="image__background center__background opacity__quarter"
+         style="background-image: url('/app/themes/frogspark/img/bg-logo.png');"></div>
+</section>
+
+<section id="external-ref">
+    <div class="container">
+        <div class="row">
             <div class="col-md-12">
                 <div class="awards">
                     <?php
@@ -143,8 +107,6 @@ $team_members  = get_field("team_members");
             </div>
         </div>
     </div>
-    <div class="image__background center__background opacity__quarter"
-         style="background-image: url('/app/themes/frogspark/img/bg-logo.png');"></div>
 </section>
 
 <section id="vitateam-slider__section" class="content__section" data-aos="fade-up">

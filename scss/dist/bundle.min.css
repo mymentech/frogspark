@@ -12259,6 +12259,9 @@ a.feture-readmore {
   font-size: 20px;
   font-weight: 500; }
 
+section#external-ref {
+  background-color: #fff; }
+
 * {
   font-family: 'Avenir', sans-serif; }
 
@@ -13509,6 +13512,9 @@ a.feture-readmore {
   line-height: 25px;
   font-size: 20px;
   font-weight: 500; }
+
+section#external-ref {
+  background-color: #fff; }
 
 /* Colours */
 /* Fonts */
