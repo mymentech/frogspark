@@ -5,13 +5,17 @@ $term      = get_term($term_id);
 $term_slug = $term->slug;
 $term_name = $term->name;
 
+$nourish_tags = get_categories(array(
+    'taxonomy' => 'post_tag',
+    'orderby'  => 'name',
+    'order'    => 'ASC'
+));
 
 $nourish_cats = get_categories(array(
     'taxonomy' => 'nourishment_cat',
     'orderby'  => 'name',
     'order'    => 'ASC'
 ));
-
 
 
 $image               = get_field("image");
@@ -100,8 +104,9 @@ if (empty($research_percentage)) {
                     <div class="panel">
                         <ul class="list-unstyled">
                             <?php foreach ($nourish_cats as $cat): ?>
-                            <?php $cat_url = get_category_link($cat); ?>
-                            <li><a href="<?php echo esc_url($cat_url)  ?>"><?php echo esc_html($cat->name) ?></a></li>
+                                <?php $cat_url = get_category_link($cat); ?>
+                                <li><a href="<?php echo esc_url($cat_url) ?>"><?php echo esc_html($cat->name) ?></a>
+                                </li>
                             <?php endforeach; ?>
                         </ul>
                     </div>
@@ -111,11 +116,11 @@ if (empty($research_percentage)) {
                     <button class="accordion-cat">BENEFIT</button>
                     <div class="panel">
                         <ul class="list-unstyled">
-                            <li><a href="#">VItamin list</a></li>
-                            <li><a href="#">VItamin list</a></li>
-                            <li><a href="#">VItamin list</a></li>
-                            <li><a href="#">VItamin list</a></li>
-                            <li><a href="#">VItamin list</a></li>
+                            <?php foreach ($nourish_tags as $tag): ?>
+                                <?php $tag_url = get_category_link($tag); ?>
+                                <li><a href="<?php echo esc_url($tag_url) ?>"><?php echo esc_html($tag->name) ?></a>
+                                </li>
+                            <?php endforeach; ?>
                         </ul>
                     </div>
                 </div>
@@ -124,72 +129,37 @@ if (empty($research_percentage)) {
             <div class="col-md-9 col-sm-12">
                 <div class="page-main-content">
                     <h2>These Nourishments are great for brain Health</h2>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                        classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
-                        Latin </p>
-                    <p>Click on the ingredients to find out more.</p>
+                    <div class="cat-content">
+                        <?php echo wp_kses_post(category_description()) ?>
+                    </div>
                     <div class="row">
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="vitamin-item">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/health-icon-1.png"
-                                                 alt="" class="img-responsive"></a>
+                        <?php
+                        $args = array(
+                            'post_type'      => 'nourishments',
+                            'posts_per_page' => 600,
+                            'cat'            => $term_slug,
+                            'tax_query'      => array(
+                                array('taxonomy' => 'nourishment_cat',
+                                      'field'    => 'slug',
+                                      'terms'    => $term_slug)
+                            )
+                        );
+                        $loop = new WP_Query($args);
+
+                        ?>
+                        <?php
+                            while ($loop->have_posts()) : $loop->the_post();
+                                $fields = get_fields(get_the_ID()); //gets all advanced custom fields for the team member
+                                $url    = get_permalink();
+                                $image_url = $fields['image']['url'];
+                                $image_alt = $fields['image']['alt'];
+                            ?>
+                            <div class="col-md-3 col-sm-4 col-xs-6">
+                                <div class="vitamin-item">
+                                    <a href="<?php echo esc_url($url) ?>"><img src="<?php echo esc_url($image_url)?>" alt="<?php echo esc_attr($image_alt) ?>" class="img-responsive"></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="vitamin-item">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/health-icon-2.png"
-                                                 alt="" class="img-responsive"></a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="vitamin-item">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/health-icon-3.png"
-                                                 alt="" class="img-responsive"></a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="vitamin-item">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/health-icon-4.png"
-                                                 alt="" class="img-responsive"></a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="vitamin-item">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/health-icon-5.png"
-                                                 alt="" class="img-responsive"></a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="vitamin-item">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/health-icon-6.png"
-                                                 alt="" class="img-responsive"></a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="vitamin-item">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/health-icon-7.png"
-                                                 alt="" class="img-responsive"></a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="vitamin-item">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/health-icon-8.png"
-                                                 alt="" class="img-responsive"></a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="vitamin-item">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/health-icon-9.png"
-                                                 alt="" class="img-responsive"></a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="vitamin-item">
-                                <a href="#"><img
-                                            src="<?php echo get_template_directory_uri(); ?>/img/health-icon-10.png"
-                                            alt="" class="img-responsive"></a>
-                            </div>
-                        </div>
+                        <?php endwhile; ?>
                     </div>
                     <a href="#" class="btn btn-secondary">Help me Choose > </a> <a href="#" class="btn btn-secondary">Help
                         me Choose> </a>
