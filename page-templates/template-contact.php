@@ -158,10 +158,12 @@ $team_members  = get_field("team_members");
                             <input type="email" class="form-control" id="email" placeholder="Your email address">
                         </div>
 
-                        <input type="submit" class="btn btn-secondary" value="Send message">
+                       
                 </div>
                 <div class="col-md-6">
                     <textarea placeholder="Your message" name="" id="message" cols="50" rows="10"></textarea>
+
+                     <input type="submit" class="btn btn-secondary" value="Send message">
                     </form>
                 </div>
 

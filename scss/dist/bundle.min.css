@@ -909,25 +909,29 @@ section#page-banner {
     color: #fff;
     padding: 180px 0;
     margin: 0; }
+    section#page-banner h1 .txt-rotate {
+      color: #fff !important; }
   section#page-banner h1 {
     text-transform: inherit; }
 
 section#faq-section {
   padding: 50px 0 70px; }
-  section#faq-section .single-item h2 {
-    border: 2px solid #006976 !important;
-    border-radius: 7px;
-    padding: 5px 10px;
-    display: table;
-    margin: 0 auto;
-    font-size: 20px;
-    font-weight: bold;
-    color: #006976 !important; }
-    section#faq-section .single-item h2 span.txt-rotate {
-      font-size: 20px !important;
-      line-height: 0; }
-  section#faq-section .single-item img {
-    height: 150px; }
+  section#faq-section .single-item {
+    margin: 5px 0; }
+    section#faq-section .single-item h2 {
+      border: 2px solid #006976 !important;
+      border-radius: 7px;
+      padding: 5px 10px;
+      display: table;
+      margin: 0 auto;
+      font-size: 20px;
+      font-weight: bold;
+      color: #006976 !important; }
+      section#faq-section .single-item h2 span.txt-rotate {
+        font-size: 20px !important;
+        line-height: 0; }
+    section#faq-section .single-item img {
+      height: 150px; }
   section#faq-section a.btn-secondary, section#faq-section section#get-nourished a.watch-btn, section#get-nourished section#faq-section a.watch-btn, section#faq-section #our-world .blog-list a, #our-world .blog-list section#faq-section a, section#faq-section #about-us a, #about-us section#faq-section a {
     margin: 0 auto;
     display: table;
@@ -1017,7 +1021,7 @@ section#brain-health-content {
       border: none;
       text-align: left;
       outline: none;
-      font-size: 15px;
+      font-size: 16px;
       -webkit-transition: 0.4s;
       transition: 0.4s; }
     section#brain-health-content .page-category .active, section#brain-health-content .page-category .accordion-cat:hover {
@@ -1040,18 +1044,23 @@ section#brain-health-content {
       -webkit-transition: max-height 0.2s ease-out;
       transition: max-height 0.2s ease-out; }
       section#brain-health-content .page-category .panel ul li a {
-        color: #006976;
+        color: #531F53;
         margin: 5px 0;
         display: block;
+        font-size: 16px;
         margin: 8px 0;
-        font-weight: 500; }
+        font-weight: 700; }
   section#brain-health-content .page-main-content h2 {
     color: #531F53 !important; }
   section#brain-health-content .page-main-content p {
     color: #006976 !important;
     line-height: 25px; }
+  section#brain-health-content .page-main-content .vitamin-item a p {
+    text-align: center;
+    color: #006976;
+    font-size: 16px; }
   section#brain-health-content .page-main-content .vitamin-item img {
-    display: block;
+    display: table;
     margin: 25px auto; }
   section#brain-health-content .page-main-content a.btn {
     border: 0;
@@ -1262,7 +1271,8 @@ a.feture-readmore {
   border: 0; }
   #nourishments .page-thumbanil a img {
     display: inherit;
-    padding-right: 10px; }
+    padding-right: 10px;
+    margin-top: -5px; }
   #nourishments .page-thumbanil a span.rotate-txt {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -12890,25 +12900,29 @@ section#page-banner {
     color: #fff;
     padding: 180px 0;
     margin: 0; }
+    section#page-banner h1 .txt-rotate {
+      color: #fff !important; }
   section#page-banner h1 {
     text-transform: inherit; }
 
 section#faq-section {
   padding: 50px 0 70px; }
-  section#faq-section .single-item h2 {
-    border: 2px solid #006976 !important;
-    border-radius: 7px;
-    padding: 5px 10px;
-    display: table;
-    margin: 0 auto;
-    font-size: 20px;
-    font-weight: bold;
-    color: #006976 !important; }
-    section#faq-section .single-item h2 span.txt-rotate {
-      font-size: 20px !important;
-      line-height: 0; }
-  section#faq-section .single-item img {
-    height: 150px; }
+  section#faq-section .single-item {
+    margin: 5px 0; }
+    section#faq-section .single-item h2 {
+      border: 2px solid #006976 !important;
+      border-radius: 7px;
+      padding: 5px 10px;
+      display: table;
+      margin: 0 auto;
+      font-size: 20px;
+      font-weight: bold;
+      color: #006976 !important; }
+      section#faq-section .single-item h2 span.txt-rotate {
+        font-size: 20px !important;
+        line-height: 0; }
+    section#faq-section .single-item img {
+      height: 150px; }
   section#faq-section a.btn-secondary, section#faq-section section#get-nourished a.watch-btn, section#get-nourished section#faq-section a.watch-btn, section#faq-section #our-world .blog-list a, #our-world .blog-list section#faq-section a, section#faq-section #about-us a, #about-us section#faq-section a {
     margin: 0 auto;
     display: table;
@@ -12998,7 +13012,7 @@ section#brain-health-content {
       border: none;
       text-align: left;
       outline: none;
-      font-size: 15px;
+      font-size: 16px;
       transition: 0.4s; }
     section#brain-health-content .page-category .active, section#brain-health-content .page-category .accordion-cat:hover {
       background-color: #fff; }
@@ -13019,18 +13033,23 @@ section#brain-health-content {
       overflow: hidden;
       transition: max-height 0.2s ease-out; }
       section#brain-health-content .page-category .panel ul li a {
-        color: #006976;
+        color: #531F53;
         margin: 5px 0;
         display: block;
+        font-size: 16px;
         margin: 8px 0;
-        font-weight: 500; }
+        font-weight: 700; }
   section#brain-health-content .page-main-content h2 {
     color: #531F53 !important; }
   section#brain-health-content .page-main-content p {
     color: #006976 !important;
     line-height: 25px; }
+  section#brain-health-content .page-main-content .vitamin-item a p {
+    text-align: center;
+    color: #006976;
+    font-size: 16px; }
   section#brain-health-content .page-main-content .vitamin-item img {
-    display: block;
+    display: table;
     margin: 25px auto; }
   section#brain-health-content .page-main-content a.btn {
     border: 0;
@@ -13233,7 +13252,8 @@ a.feture-readmore {
   border: 0; }
   #nourishments .page-thumbanil a img {
     display: inherit;
-    padding-right: 10px; }
+    padding-right: 10px;
+    margin-top: -5px; }
   #nourishments .page-thumbanil a span.rotate-txt {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
