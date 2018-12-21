@@ -156,7 +156,11 @@ if (empty($research_percentage)) {
                             ?>
                             <div class="col-md-3 col-sm-4 col-xs-6">
                                 <div class="vitamin-item">
-                                    <a href="<?php echo esc_url($url) ?>"><img src="<?php echo esc_url($image_url)?>" alt="<?php echo esc_attr($image_alt) ?>" class="img-responsive"></a>
+                                    <a href="<?php echo esc_url($url) ?>">
+                                        <img src="<?php echo esc_url($image_url)?>" alt="<?php echo esc_attr($image_alt) ?>" class="img-responsive">
+                                        <h3><?php the_title(); ?></h3>
+                                    </a>
+
                                 </div>
                             </div>
                         <?php endwhile; ?>

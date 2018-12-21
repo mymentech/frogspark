@@ -12063,7 +12063,7 @@ section#brain-health-content {
     color: #006976 !important;
     line-height: 25px; }
   section#brain-health-content .page-main-content .vitamin-item img {
-    display: block;
+    display: table;
     margin: 25px auto; }
   section#brain-health-content .page-main-content a.btn {
     border: 0;
@@ -13339,7 +13339,7 @@ section#brain-health-content {
     color: #006976 !important;
     line-height: 25px; }
   section#brain-health-content .page-main-content .vitamin-item img {
-    display: block;
+    display: table;
     margin: 25px auto; }
   section#brain-health-content .page-main-content a.btn {
     border: 0;
