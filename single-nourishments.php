@@ -123,10 +123,6 @@ if (empty($research_percentage)) {
         margin-bottom: 25px !important;
     }
 
-    section#about-content__section {
-        background-color: #eaeaea;
-        padding: 30px 0;
-    }
 
     @media (max-width: 767px) {
         .btn-ready {

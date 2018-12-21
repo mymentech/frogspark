@@ -50,6 +50,10 @@ $team_members  = get_field("team_members");
         display: inline-block;
         margin-right: 20px;
     }
+    section#about-content__section {
+        background-color: #eaeaea;
+        padding: 30px 0;
+    }
 
 </style>
 
