@@ -130,7 +130,7 @@ if (empty($research_percentage)) {
         }
     }
 
-    .page-template-template-about section#about-content__section {
+    section#about-content__section {
         background-color: #eaeaea;
         padding: 30px 0;
     }
