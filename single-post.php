@@ -26,7 +26,7 @@
                 <h2 class="header text-center"><?php echo get_the_title(); ?></h2>
             </a>
             <?php if(has_post_thumbnail()): ?>
-            <img src="<?php get_the_post_thumbnail_url() ?>" alt="" class="img-responsive">
+            <img src="<?php get_the_post_thumbnail_url('full') ?>" alt="" class="img-responsive">
             <?php endif ?>
           <span class="single-blog__date text-info">Posted On: <?php echo $date; ?></span>
             <div class="content-body">
