@@ -51,7 +51,6 @@ $team_members  = get_field("team_members");
         margin-right: 20px;
     }
     section#about-content__section {
-        background-color: #eaeaea;
         padding: 30px 0;
     }
 
