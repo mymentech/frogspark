@@ -120,7 +120,8 @@ if (empty($research_percentage)) {
                         <ul class="list-unstyled">
                             <?php foreach ($nourish_tags as $tag): ?>
                                 <?php $tag_url = get_category_link($tag); ?>
-                                <li><a href="<?php echo esc_url($tag_url) ?>"><?php echo esc_html($tag->name) ?></a>
+                                <li>
+                                    <a href="<?php echo esc_url($tag_url) ?>"><?php echo esc_html($tag->name) ?></a>
                                 </li>
                             <?php endforeach; ?>
                         </ul>
