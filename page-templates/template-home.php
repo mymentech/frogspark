@@ -374,7 +374,7 @@ $ = get_field("");
                 <a href="https://vimeo.com/296864798"
                    class="hero-btn btn expand__item green__gradient gradient__item no__border white shadow__item popup-vimeo"
                    style="background: #6b2659 !important;">
-                    <img style="margin-bottom:0; padding-right:10px; height: 25px;" src="//localhost:3000/app/themes/frogspark/img/path-icon.png"> Start
+                    <img style="margin-bottom:0; padding-right:10px; height: 25px;" src="app/themes/frogspark/img/path-icon.png"> Start
                     your order</a>
 
             </div>
@@ -421,28 +421,28 @@ $ = get_field("");
                 </div>
 
                 <div class="single-items">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png"
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-2.png"
                          alt="">
                     <h2>patented</h2>
                     <p>Three Propeietary patented technologies</p>
                 </div>
 
                 <div class="single-items">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png"
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-3.png"
                          alt="">
                     <h2>encapsulation</h2>
                     <p>Tasty and chewable, optimum absorption</p>
                 </div>
 
                 <div class="single-items">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png"
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-4.png"
                          alt="">
                     <h2>3d-printed</h2>
                     <p>Seven perfectly balanced and proportioned layers</p>
                 </div>
 
                 <div class="single-items">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png"
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-5.png"
                          alt="">
                     <h2>quality</h2>
                     <p>Vegan ingredients, natural fruit fibre sweeteners</p>

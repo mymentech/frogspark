@@ -118,3 +118,204 @@
     font-style: normal;
 }
 
+#meet-nourish__section{
+    padding: 50px 0;
+}
+
+
+/** Common Mobile device css**/
+
+@media only screen and (min-width:0px) and (max-width:1023px) { 
+    
+  }
+
+
+/**Iphone5 Portrite media query**/
+@media only screen and (min-width:320px) and (max-width:359px) { 
+    .fheading{
+        padding: 30px 0;
+        line-height: 30px;
+        font-size: 18px;
+    }
+    section h1{
+        font-size: 30px;
+    }
+    #nourished-vitamin-area #nourshed-vitamins h1 span.txt-rotate{
+            font-size: 30px!important;
+    }
+    #nourished-vitamin-area h4{
+            margin-bottom: 0;
+    }
+    #nourished-vitamin-area #vitamin-list{    grid-template-columns: 100%;}
+    section#get-nourished a.watch-btn{    padding: 10px 20px;     font-size: 15px;}
+    section#make-my-nourished{padding: 50px 0;}
+    #contact-us .single-option p{ display: grid; }
+    #contact-us .single-option p img{margin: 5px auto;}
+    .social-icons{    margin: 0 auto;    display: table;}
+    footer .social-icons small{display: block;;text-align: center;}
+    #contact-us-form form{
+        position: relative;
+    }
+    #contact-us #contact-us-form input[type=submit]{}
+
+}
+
+/**Samsung s4 Portrite media query**/
+@media only screen and (min-width:360px) and (max-width:479px) {  
+    .fheading{
+        padding: 30px 0;
+        line-height: 30px;
+        font-size: 18px;
+    }
+    section h1{
+        font-size: 30px;
+    }
+    #nourished-vitamin-area #nourshed-vitamins h1 span.txt-rotate{
+            font-size: 30px!important;
+    }
+    #nourished-vitamin-area h4{
+            margin-bottom: 0;
+    }
+    #nourished-vitamin-area #vitamin-list{    grid-template-columns: 100%;}
+    section#get-nourished a.watch-btn{    padding: 10px 20px;     font-size: 15px;}
+    section#make-my-nourished{padding: 50px 0;}
+    #contact-us .single-option p{ display: grid; }
+    #contact-us .single-option p img{margin: 5px auto;}
+    .social-icons{    margin: 0 auto;    display: table;}
+    footer .social-icons small{display: block;;text-align: center;}
+    #contact-us-form form{
+        position: relative;
+    }
+    #contact-us #contact-us-form input[type=submit]{}
+ 
+}
+
+/**landscape media query**/
+@media (min-width:480px) and (max-width:767px) {
+
+    .fheading{
+        padding: 30px 0;
+        line-height: 30px;
+        font-size: 18px;
+    }
+    section h1{
+        font-size: 30px;
+    }
+    #nourished-vitamin-area #nourshed-vitamins h1 span.txt-rotate{
+            font-size: 30px!important;
+    }
+    #nourished-vitamin-area h4{
+            margin-bottom: 0;
+    }
+    #nourished-vitamin-area #vitamin-list{    grid-template-columns: 100%;}
+    section#get-nourished a.watch-btn{    padding: 10px 20px;     font-size: 15px;}
+    section#make-my-nourished{padding: 50px 0;}
+    #contact-us .single-option p{ display: grid; }
+    #contact-us .single-option p img{margin: 5px auto;}
+    .social-icons{    margin: 0 auto;    display: table;}
+    footer .social-icons small{display: block;;text-align: center;}
+    #contact-us-form form{
+        position: relative;
+    }
+    #contact-us #contact-us-form input[type=submit]{}
+    
+}
+
+/**Iphone landscape media query**/
+@media (min-width:550px) and (max-width:568px) {
+    .fheading{
+        padding: 30px 0;
+        line-height: 30px;
+        font-size: 18px;
+    }
+    section h1{
+        font-size: 30px;
+    }
+    #nourished-vitamin-area #nourshed-vitamins h1 span.txt-rotate{
+            font-size: 30px!important;
+    }
+    #nourished-vitamin-area h4{
+            margin-bottom: 0;
+    }
+    #nourished-vitamin-area #vitamin-list{    grid-template-columns: 100%;}
+    section#get-nourished a.watch-btn{    padding: 10px 20px;     font-size: 15px;}
+    section#make-my-nourished{padding: 50px 0;}
+    #contact-us .single-option p{ display: grid; }
+    #contact-us .single-option p img{margin: 5px auto;}
+    .social-icons{    margin: 0 auto;    display: table;}
+    footer .social-icons small{display: block;;text-align: center;}
+    #contact-us-form form{
+        position: relative;
+    }
+    #contact-us #contact-us-form input[type=submit]{}
+
+}
+
+/**Samsung s4 landscape media query**/
+@media (min-width:569px) and (max-width:640px) { 
+.fheading{
+        padding: 30px 0;
+        line-height: 30px;
+        font-size: 18px;
+    }
+    section h1{
+        font-size: 30px;
+    }
+    #nourished-vitamin-area #nourshed-vitamins h1 span.txt-rotate{
+            font-size: 30px!important;
+    }
+    #nourished-vitamin-area h4{
+            margin-bottom: 0;
+    }
+    #nourished-vitamin-area #vitamin-list{    grid-template-columns: 100%;}
+    section#get-nourished a.watch-btn{    padding: 10px 20px;     font-size: 15px;}
+    section#make-my-nourished{padding: 50px 0;}
+    #contact-us .single-option p{ display: grid; }
+    #contact-us .single-option p img{margin: 5px auto;}
+    .social-icons{    margin: 0 auto;    display: table;}
+    footer .social-icons small{display: block;;text-align: center;}
+    #contact-us-form form{
+        position: relative;
+    }
+    #contact-us #contact-us-form input[type=submit]{} 
+    
+}
+
+
+/**Ipad mini portrite media query**/
+@media (min-width:768px) and (max-width:990px) { 
+
+    .social-icons{    margin: 0 auto;    display: table;}
+    footer .social-icons small{display: block;;text-align: center;}
+    #contact-us-form form{
+        position: relative;
+    }
+   
+}
+
+/**Ipad mini landscape media query**/
+@media (min-width:1024px) and (max-width:1279px) {
+
+    .social-icons{    margin: 0 auto;    display: table;}
+    footer .social-icons small{display: block;;text-align: center;}
+    #contact-us-form form{
+        position: relative;
+    }
+}
+
+@media (min-width: 1500px) and (max-width:2000px) {
+
+}
+
+/*============19.5" device media query================*/
+@media (min-width: 1500px) and (max-width:1700px) {
+}
+
+/*============21" to 23" device media query================*/ 
+@media (min-width: 1701px) and (max-width:2000px) {  
+}
+
+
+/*============27" large device media query================*/ 
+@media only screen and (min-width: 2001px) {
+}
