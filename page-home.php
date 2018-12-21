@@ -407,16 +407,13 @@ $ = get_field("");
 <!-- nourished-vitamin-area  start-->
   
 
-  <div id="nourished-vitamin-area" class="text-center aos-init aos-animate" data-aos="fade-left"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="500"
-     data-aos-duration="500">
+  <div id="nourished-vitamin-area" class="text-center " >
     <h3 class="fheading">the power of seven: the possibility of a billion</h3>
     <section id="nourshed-vitamins">
       <div class="container">
         <h1>Nourish<span class="txt-rotate" >E</span>d vitamins</h1>
         <h4>The clever way to get nourish<span class="txt-rotate" >E</span>d</h4> 
-        <div class="row" id="vitamin-list">
+        <div class="row aos-init aos-animate" id="vitamin-list" data-aos="fade-left">
         
             
               <div class="single-items">
