@@ -504,7 +504,7 @@ $ = get_field("");
                     <img src="<?php echo get_template_directory_uri(); ?>/img/make-my-1.png" alt=""
                          class="img-responsive">
                     <h5>Take the NOURISHED assessment</h5>
-                    <a href="#" class="btn btn-primary" target="_blank">Help me choose ></a>
+                    <a href="http://vitamyne.frogspark.agency/order/choose.php" class="btn btn-primary" >Help me choose ></a>
                 </div>
             </div>
             <div class="col-md-4">
@@ -519,45 +519,13 @@ $ = get_field("");
                     <img src="<?php echo get_template_directory_uri(); ?>/img/make-my-2.png" alt=""
                          class="img-responsive">
                     <h5>Select your own Nourishments</h5>
-                    <a href="#" class="btn btn-primary" target="_blank">I'will choose my own ></a>
+                    <a href="http://vitamyne.frogspark.agency/order/" class="btn btn-primary" >I'will choose my own ></a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- make-my-nourished  end-->
 
-
-<!-- our-world  start-->
-<!-- <section id="our-world">
-    <div class="col-md-offset-3"></div>
-    <div class="container">
-        <h1>our world</h1>
-
-        <div class="row">
-            <div class="col-md-12">
-                <div class="blog-list">
-                    <p>Whether you're animing to reach a goad, want overall health optimisation or are simply tired of
-                        all the different supplements you're taking, we're here for you.</p>
-                    <p>We'll create your very own perfectly balanced combinationof seven vitamins, minerals and
-                        supplements from our 27 Nourishments, The unique power of seven from over a billion possible
-                        combinations.</p>
-                    <a href="#" target="_blank" class="btn btn-secondary">Our Nourishments </a>
-                </div>
-            </div>
-
-        </div>
-        <div class="row">
-            <div class="section-content">
-                <h3>If you'd like to find out more about vitamins, minerals and supplements, then dive into our world
-                    here</h3>
-                <a href="#" target="_blank" class="btn btn-primary">The NOURISHED World</a>
-            </div>
-        </div>
-
-    </div>
-</section> -->
-<!-- our-world  end-->
 
 <div id="meet-nourish__section">
     <section id="meet-vita__section" class="content__section relative__item">
@@ -573,7 +541,7 @@ $ = get_field("");
                 <div class="section-content">
                     <h3>If you'd like to find out more about vitamins, minerals and supplements, then dive into our
                         world here</h3>
-                    <a href="#" target="_blank" class="btn btn-primary">The NOURISHED World</a>
+                    <a href="/our-world/"  class="btn btn-primary">The NOURISHED World</a>
                 </div>
             </div>
         </div>
