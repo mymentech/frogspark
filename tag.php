@@ -136,67 +136,33 @@ if (empty($research_percentage)) {
                         <?php  echo wp_kses_post(tag_description()) ?>
                     </div>
                     <div class="row">
+                        <?php
+                        $args = array(
+                            'post_type'      => 'nourishments',
+                            'posts_per_page' => 600,
+                            'cat'            => $term_slug,
+                            'tax_query'      => array(
+                                array('taxonomy' => 'post_tag',
+                                      'field'    => 'slug',
+                                      'terms'    => $term_slug)
+                            )
+                        );
+                        $loop = new WP_Query($args);
+                            while ($loop->have_posts()) : $loop->the_post();
+                            $fields = get_fields(get_the_ID()); //gets all advanced custom fields for the team member
+                            $url    = get_permalink();
+                            $image_url = $fields['image']['url'];
+                            $image_alt = $fields['image']['alt'];
+                        ?>
+                        
+                        
                         <div class="col-md-3 col-sm-4 col-xs-6">
                             <div class="vitamin-item">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/health-icon-1.png"
-                                                 alt="" class="img-responsive"></a>
+                                <a href="<?php the_permalink() ?>">
+                                    <img src="<?php echo esc_url($image_url)?>" alt="<?php echo esc_attr($image_alt) ?>" class="img-responsive"></a>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="vitamin-item">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/health-icon-2.png"
-                                                 alt="" class="img-responsive"></a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="vitamin-item">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/health-icon-3.png"
-                                                 alt="" class="img-responsive"></a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="vitamin-item">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/health-icon-4.png"
-                                                 alt="" class="img-responsive"></a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="vitamin-item">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/health-icon-5.png"
-                                                 alt="" class="img-responsive"></a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="vitamin-item">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/health-icon-6.png"
-                                                 alt="" class="img-responsive"></a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="vitamin-item">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/health-icon-7.png"
-                                                 alt="" class="img-responsive"></a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="vitamin-item">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/health-icon-8.png"
-                                                 alt="" class="img-responsive"></a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="vitamin-item">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/health-icon-9.png"
-                                                 alt="" class="img-responsive"></a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="vitamin-item">
-                                <a href="#"><img
-                                            src="<?php echo get_template_directory_uri(); ?>/img/health-icon-10.png"
-                                            alt="" class="img-responsive"></a>
-                            </div>
-                        </div>
+                            <?php endwhile; ?>
                     </div>
                     <a href="#" class="btn btn-secondary">Help me Choose > </a> <a href="#" class="btn btn-secondary">Help
                         me Choose> </a>
