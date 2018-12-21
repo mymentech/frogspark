@@ -11926,20 +11926,22 @@ section#page-banner {
 
 section#faq-section {
   padding: 50px 0 70px; }
-  section#faq-section .single-item h2 {
-    border: 2px solid #006976 !important;
-    border-radius: 7px;
-    padding: 5px 10px;
-    display: table;
-    margin: 0 auto;
-    font-size: 20px;
-    font-weight: bold;
-    color: #006976 !important; }
-    section#faq-section .single-item h2 span.txt-rotate {
-      font-size: 20px !important;
-      line-height: 0; }
-  section#faq-section .single-item img {
-    height: 150px; }
+  section#faq-section .single-item {
+    margin: 5px 0; }
+    section#faq-section .single-item h2 {
+      border: 2px solid #006976 !important;
+      border-radius: 7px;
+      padding: 5px 10px;
+      display: table;
+      margin: 0 auto;
+      font-size: 20px;
+      font-weight: bold;
+      color: #006976 !important; }
+      section#faq-section .single-item h2 span.txt-rotate {
+        font-size: 20px !important;
+        line-height: 0; }
+    section#faq-section .single-item img {
+      height: 150px; }
   section#faq-section a.btn-secondary, section#faq-section section#get-nourished a.watch-btn, section#get-nourished section#faq-section a.watch-btn, section#faq-section #our-world .blog-list a, #our-world .blog-list section#faq-section a, section#faq-section #about-us a, #about-us section#faq-section a {
     margin: 0 auto;
     display: table;
@@ -13198,20 +13200,22 @@ section#page-banner {
 
 section#faq-section {
   padding: 50px 0 70px; }
-  section#faq-section .single-item h2 {
-    border: 2px solid #006976 !important;
-    border-radius: 7px;
-    padding: 5px 10px;
-    display: table;
-    margin: 0 auto;
-    font-size: 20px;
-    font-weight: bold;
-    color: #006976 !important; }
-    section#faq-section .single-item h2 span.txt-rotate {
-      font-size: 20px !important;
-      line-height: 0; }
-  section#faq-section .single-item img {
-    height: 150px; }
+  section#faq-section .single-item {
+    margin: 5px 0; }
+    section#faq-section .single-item h2 {
+      border: 2px solid #006976 !important;
+      border-radius: 7px;
+      padding: 5px 10px;
+      display: table;
+      margin: 0 auto;
+      font-size: 20px;
+      font-weight: bold;
+      color: #006976 !important; }
+      section#faq-section .single-item h2 span.txt-rotate {
+        font-size: 20px !important;
+        line-height: 0; }
+    section#faq-section .single-item img {
+      height: 150px; }
   section#faq-section a.btn-secondary, section#faq-section section#get-nourished a.watch-btn, section#get-nourished section#faq-section a.watch-btn, section#faq-section #our-world .blog-list a, #our-world .blog-list section#faq-section a, section#faq-section #about-us a, #about-us section#faq-section a {
     margin: 0 auto;
     display: table;

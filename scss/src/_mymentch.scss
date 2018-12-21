@@ -544,6 +544,7 @@ section#page-banner{
 section#faq-section{
     padding: $secpadd;
     .single-item{
+        margin: 5px 0;
         h2{
             border: 2px solid $primary-clr!important;
             border-radius: 7px;
