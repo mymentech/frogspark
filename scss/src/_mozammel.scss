@@ -1,7 +1,7 @@
 $img_url: '/app/themes/frogspark/img/mymentech/';
 @import 'variables';
 
-#quiz_main_section{
+#quiz_main_section {
   background-image: url($img_url + 'quiz-page-bg.jpg');
   -webkit-background-size: cover;
   background-size: cover;
@@ -15,6 +15,7 @@ $img_url: '/app/themes/frogspark/img/mymentech/';
     position: relative;
     min-height: 500px;
   }
+
   #msform fieldset {
     background: white;
     border: 0 none;
@@ -28,10 +29,12 @@ $img_url: '/app/themes/frogspark/img/mymentech/';
     /*stacking fieldsets above each other*/
     position: relative;
   }
+
   /*Hide all except first fieldset*/
   #msform fieldset:not(:first-of-type) {
     display: none;
   }
+
   /*inputs*/
   #msform input, #msform textarea {
     padding: 15px;
@@ -44,6 +47,7 @@ $img_url: '/app/themes/frogspark/img/mymentech/';
     color: #2C3E50;
     font-size: 13px;
   }
+
   /*buttons*/
   #msform .action-button {
     width: 100px;
@@ -56,9 +60,11 @@ $img_url: '/app/themes/frogspark/img/mymentech/';
     padding: 10px 5px;
     margin: 10px 5px;
   }
+
   #msform .action-button:hover, #msform .action-button:focus {
     box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
   }
+
   /*headings*/
   .fs-title {
     font-size: 15px;
@@ -66,12 +72,14 @@ $img_url: '/app/themes/frogspark/img/mymentech/';
     color: #2C3E50;
     margin-bottom: 10px;
   }
+
   .fs-subtitle {
     font-weight: normal;
     font-size: 13px;
     color: #666;
     margin-bottom: 20px;
   }
+
   /*progressbar*/
   #progressbar {
     margin-bottom: 30px;
@@ -79,6 +87,7 @@ $img_url: '/app/themes/frogspark/img/mymentech/';
     /*CSS counters to number the steps*/
     counter-reset: step;
   }
+
   #progressbar li {
     list-style-type: none;
     color: white;
@@ -88,6 +97,7 @@ $img_url: '/app/themes/frogspark/img/mymentech/';
     float: left;
     position: relative;
   }
+
   #progressbar li:before {
     content: counter(step);
     counter-increment: step;
@@ -100,6 +110,7 @@ $img_url: '/app/themes/frogspark/img/mymentech/';
     border-radius: 3px;
     margin: 0 auto 5px auto;
   }
+
   /*progressbar connectors*/
   #progressbar li:after {
     content: '';
@@ -111,33 +122,46 @@ $img_url: '/app/themes/frogspark/img/mymentech/';
     top: 9px;
     z-index: -1; /*put it behind the numbers*/
   }
+
   #progressbar li:first-child:after {
     /*connector not needed before the first step*/
     content: none;
   }
+
   /*marking active/completed steps green*/
   /*The number of the step and the connector before it = green*/
-  #progressbar li.active:before,  #progressbar li.active:after{
+  #progressbar li.active:before, #progressbar li.active:after {
     background: #27AE60;
     color: white;
   }
 
 }
-.mt-cb{
+
+.mt-cb {
   clear: both;
 }
-#menu-footer-menu{
-  .nav-link{
+
+#menu-footer-menu {
+  .nav-link {
     display: inline-block;
   }
 }
 
-#meet-vita__section{
+
+section.single-blog {
+  padding-top: 138px;
+  .single-blog__date{
+    margin-bottom: $spacing_half;
+    display: block;
+  }
+}
+
+#meet-vita__section {
   background-image: url(../../img/mymentech/wheel-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 
-  h1{
+  h1 {
     color: $primary-clr;
   }
 

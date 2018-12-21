@@ -22,8 +22,16 @@
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
-          <h2 class="header"><?php echo get_the_title(); ?></h2>
-          <span class="single-blog__date">Posted <?php echo $date; ?></span>
+            <a href="<?php the_permalink() ?>">
+                <h2 class="header text-center"><?php echo get_the_title(); ?></h2>
+            </a>
+            <?php if(has_post_thumbnail()): ?>
+            <img src="<?php get_the_post_thumbnail_url() ?>" alt="" class="img-responsive">
+            <?php endif ?>
+          <span class="single-blog__date text-info">Posted On: <?php echo $date; ?></span>
+            <div class="content-body">
+                <?php the_content() ?>
+            </div>
         </div>
       </div>
     </div>
