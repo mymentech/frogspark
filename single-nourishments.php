@@ -131,6 +131,9 @@ if(empty($research_percentage))
         margin-bottom: 25px;
       }
     }
+      .single-nourishments section#about-content__section {
+          padding: 95px 0px;
+      }
     
   </style>
 
