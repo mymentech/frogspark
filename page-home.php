@@ -407,7 +407,10 @@ $ = get_field("");
 <!-- nourished-vitamin-area  start-->
   
 
-  <div id="nourished-vitamin-area" class="text-center">
+  <div id="nourished-vitamin-area" class="text-center" data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500">
     <h3 class="fheading">the power of seven: the possibility of a billion</h3>
     <section id="nourshed-vitamins">
       <div class="container">
