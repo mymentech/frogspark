@@ -412,8 +412,8 @@ $ = get_field("");
 <section id="get-nourished">
     <div class="container text-center">
         <h1>get nourish<span class="txt-rotate">E</span>d: it's simple</h1>
-        <div class="row">
-            <div class="col-md-4">
+        <div class="row" data-aos="fade-right">
+            <div class="col-md-4" data-aos="fade-right">
                 <div class="nourished-item">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/get-item1.png" alt=""
                          class="img-responsive">
@@ -422,7 +422,7 @@ $ = get_field("");
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="nourished-item midle">
+                <div class="nourished-item midle" data-aos="fade-down">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/get-item2.png" alt=""
                          class="img-responsive">
                     <p>We 3D-print and individualy package your personal blend - you can change your ingredients every
@@ -430,7 +430,7 @@ $ = get_field("");
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="nourished-item">
+                <div class="nourished-item" data-aos="fade-right">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/get-item3.png" alt=""
                          class="img-responsive">
                     <p>We'll post your month's Nourishments right to your door, completely reliable, really easy and
@@ -452,7 +452,7 @@ $ = get_field("");
     <div class="container text-center">
         <h1>make my nouris<span class="txt-rotate">E</span>h</h1>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-right">
                 <div class="item">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/make-my-1.png" alt=""
                          class="img-responsive">
@@ -460,14 +460,14 @@ $ = get_field("");
                     <a href="http://vitamyne.frogspark.agency/order/choose.php" class="btn btn-primary" >Help me choose ></a>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="zoom-in">
                 <div class="item middle">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/make-my-center-1.png" alt=""
                          class="img-responsive">
                     <h3>OR</h3>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-left">
                 <div class="item">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/make-my-2.png" alt=""
                          class="img-responsive">
@@ -491,7 +491,7 @@ $ = get_field("");
                 </div>
             </div>
             <div class="row">
-                <div class="section-content">
+                <div class="section-content" data-aos="fade-down">
                     <h3>If you'd like to find out more about vitamins, minerals and supplements, then dive into our
                         world here</h3>
                     <a href="/our-world/"  class="btn btn-primary">The NOURISHED World</a>
@@ -506,11 +506,13 @@ $ = get_field("");
 
 <!-- about us  start-->
 <section id="about-us">
-    <h1>About us</h1>
+    <div class="heading-hover" data-aos="fade-down">
+        <h1>About us</h1>
+    </div>
     <div class="container">
 
         <div class="row text-center">
-            <div class="col-md-12">
+            <div class="col-md-12"  data-aos="fade-up">
                 <h3>We're new, we're different, we're changing everything.</h3>
                 <p>We believe that if anything should to be personalised, it's our health and welnes. That's why our
                     mission is to chagne the way world thinks, buys and experices vitamins, minerals and
@@ -529,10 +531,13 @@ $ = get_field("");
 <!-- contact us  start-->
 <section id="contact-us">
     <div class="container">
-        <h1>contact us</h1>
+        <div class="div-hover" data-aos="fade-down">
+            <h1>contact us</h1>
+        </div>
+        
         <h3>We'd love to hear from you...</h3>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-right">
                 <div class="single-option">
                     <p>
                         <img src="<?php echo get_template_directory_uri() ?>/img/add-icon.png" alt="" class="pull-left">
@@ -541,8 +546,8 @@ $ = get_field("");
                     </p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="single-option">
+            <div class="col-md-4" >
+                <div class="single-option" data-aos="fade-up">
                     <p>
                         <img src="<?php echo get_template_directory_uri() ?>/img/call-icon.png" alt=""
                              class="pull-left">
@@ -551,7 +556,7 @@ $ = get_field("");
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="single-option">
+                <div class="single-option" data-aos="fade-left">
                     <p>
                         <img src="<?php echo get_template_directory_uri() ?>/img/location-icon.png" alt=""
                              class="pull-left">

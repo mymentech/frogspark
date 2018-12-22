@@ -2,7 +2,7 @@
 <footer>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos="fade-down">
                 <div class="footer-logo">
                     <img src="<?php echo get_template_directory_uri() ?>/img/footer-logo.png" alt="logo">
                 </div>

@@ -7,35 +7,35 @@
             <div class="row" id="vitamin-list">
 
 
-                <div class="single-items">
+                <div class="single-items" data-aos="fade-right">
                     <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png"
                          alt="">
                     <h2>Fresh</h2>
                     <p>Made to order conveniently delivered every onth</p>
                 </div>
 
-                <div class="single-items">
+                <div class="single-items" data-aos="fade-right">
                     <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png"
                          alt="">
                     <h2>patented</h2>
                     <p>Three Propeietary patented technologies</p>
                 </div>
 
-                <div class="single-items">
+                <div class="single-items" data-aos="zoom-in-up">
                     <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png"
                          alt="">
                     <h2>encapsulation</h2>
                     <p>Tasty and chewable, optimum absorption</p>
                 </div>
 
-                <div class="single-items">
+                <div class="single-items" data-aos="fade-left">
                     <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png"
                          alt="">
                     <h2>3d-printed</h2>
                     <p>Seven perfectly balanced and proportioned layers</p>
                 </div>
 
-                <div class="single-items">
+                <div class="single-items" data-aos="fade-left">
                     <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png"
                          alt="">
                     <h2>quality</h2>
