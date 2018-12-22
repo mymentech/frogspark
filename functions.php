@@ -59,16 +59,18 @@ add_action( 'after_setup_theme', 'bootstrap_four_setup' );
 if ( ! function_exists( 'bootstrap_four_theme_styles' ) ) :
   function bootstrap_four_theme_styles() {
     global $bootstrap_four_version;
+    global $wp_query;
+      wp_enqueue_script('mp-form-js',get_theme_file_uri('/js/dist/mp-form.js'),null, time(),true);
+      $ajaxurl = admin_url('admin-ajax.php');
+
+      wp_localize_script('mp-form-js', 'wpfurls', array(
+          'ajaxurl' => $ajaxurl,
+          'current_page' => 1,
+          'max_page'=> 1,
+      ));
   }
 endif;
 add_action('wp_enqueue_scripts', 'bootstrap_four_theme_styles');
-
-//if(!function_exists('frogspark_scripts')){
-//    function frogspark_scripts(){
-//        wp_enqueue_script('mp-form-js',get_theme_file_uri('/dist/mp-form.js'),array('jquery','jquery-easing'), '1.0');
-//    }
-//    add_action('wp_enqueue_scripts', 'frogspark_scripts');
-//}
 
 
 if ( ! function_exists( 'bootstrap_four_theme_scripts' ) ) :

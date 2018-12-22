@@ -14,7 +14,7 @@ $left_content  = get_field("left_content");
 $right_content = get_field("right_content");
 $logo_upload   = get_field("logo_upload");
 $team_members  = get_field("team_members");
-
+$ajax_nonce = wp_create_nonce('fromspart_load_more_posts');
 
 ?>
 
@@ -159,47 +159,38 @@ $team_members  = get_field("team_members");
                 </div>
             </div>
         </div>
-        <div class="row">
-            <?php
-            $post_not_in = isset($featured_post_id)? array($featured_post_id): array();
-            $args_posts_query = array(
-                'post_type' => array('post'),
-                'posts_per_page' => 12,
-                'order' => 'DESC',
-                'orderby' => 'date',
-                'post__not_in' => $post_not_in,
-            );
+        <div class="row" id="our-world-posts-container">
+                <?php
+                $post_not_in = isset($featured_post_id)? array($featured_post_id): array();
+                $args_posts_query = array(
+                    'post_type' => array('post'),
+                    'posts_per_page' => 12,
+                    'order' => 'DESC',
+                    'orderby' => 'date',
+                    'post__not_in' => $post_not_in,
+                );
 
-            $posts_query = new WP_Query( $args_posts_query );
+                $posts_query = new WP_Query( $args_posts_query );
+                $total_page = $posts_query->max_num_pages;
 
-            if ( $posts_query->have_posts() ) {
-                while ( $posts_query->have_posts() ) {
-                    $posts_query->the_post();
-                    ?>
-                    <div class="col-md-4">
-                        <div class="single-post-item">
-                            <div class="post-img">
-                                <img src="<?php echo get_the_post_thumbnail_url()?>" class="img-responsive"
-                                     alt="">
-                            </div>
-                            <div class="single-post-content">
-                                <a href="<?php the_permalink() ?>"><h3><?php the_title() ?></h3></a>
-                                <a class="feture-readmore" href="<?php  the_permalink() ?>">Read more</a>
-                                <p class="text-center">by <a href="<?php the_author_link() ?>"><?php ucwords(the_author()) ?></a> - <?php the_date() ?> - <?php the_tags() ?> </p>
-                            </div>
-                        </div>
-                    </div>
-            <?php
+                if ( $posts_query->have_posts() ) {
+                    while ( $posts_query->have_posts() ) {
+                        $posts_query->the_post();
+                        get_template_part('template-parts/posts','blog');
+                    }
+                }else{
+                    echo '<div class="col-md-12"><h3 class="text-center text-uppercase text-danger">Sorry, No post found!</h3></div>';
                 }
-            }else{
-                echo '<div class="col-md-12"><h3 class="text-center text-uppercase text-danger">Sorry, No post found!</h3></div>';
-            }
 
-            wp_reset_postdata();
+                wp_reset_postdata();
 
-            ?>
+                ?>
+        </div>
+        <div class="row">
             <div class="col-md-4 offset-md-4">
-                <a class="btn blog-load-more btn-secondary btn-info" href="#">Load More Post</a>
+                <?php if($total_page>1): ?>
+                    <button id="blog_load_more" data-nonce="<?php echo esc_attr($ajax_nonce) ?>" data-total="<?php echo esc_attr($total_page) ?>" class="btn blog-load-more btn-secondary btn-info" type="button">Load More Post</button>
+                <?php endif ?>
             </div>
         </div>
 

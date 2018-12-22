@@ -83,7 +83,6 @@
 <link rel="stylesheet" type="text/css"
       href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"/>
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-<script src="/app/themes/frogspark/js/dist/mp-form.js"></script>
 <script src="https://use.fontawesome.com/f4ad562077.js"></script>
 <script>
     window.addEventListener("load", function () {
