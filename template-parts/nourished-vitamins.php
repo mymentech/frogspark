@@ -1,4 +1,4 @@
-<div id="nourished-vitamin-area" class="text-center">
+<div id="nourished-vitamin-area" class="text-center" data-aos="fade-up">
     <h3 class="fheading">the power of seven: the possibility of a billion</h3>
     <section id="nourshed-vitamins">
         <div class="container">
@@ -7,35 +7,35 @@
             <div class="row" id="vitamin-list">
 
 
-                <div class="single-items">
+                <div class="single-items" data-aos="fade-up-right" data-aos-delay="100">
                     <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png"
                          alt="">
                     <h2>Fresh</h2>
                     <p>Made to order conveniently delivered every onth</p>
                 </div>
 
-                <div class="single-items">
+                <div class="single-items" data-aos="fade-up-right" data-aos-delay="200">
                     <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png"
                          alt="">
                     <h2>patented</h2>
                     <p>Three Propeietary patented technologies</p>
                 </div>
 
-                <div class="single-items">
+                <div class="single-items" data-aos="fade-up-right" data-aos-delay="250">
                     <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png"
                          alt="">
                     <h2>encapsulation</h2>
                     <p>Tasty and chewable, optimum absorption</p>
                 </div>
 
-                <div class="single-items">
+                <div class="single-items" data-aos="fade-up-right" data-aos-delay="300">
                     <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png"
                          alt="">
                     <h2>3d-printed</h2>
                     <p>Seven perfectly balanced and proportioned layers</p>
                 </div>
 
-                <div class="single-items">
+                <div class="single-items" data-aos="fade-up-right" data-aos-delay="400">
                     <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/vitamin-icon.png"
                          alt="">
                     <h2>quality</h2>

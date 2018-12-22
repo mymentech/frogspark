@@ -166,3 +166,17 @@ section.single-blog {
 
 
 }
+.category_navigation {
+  text-align: center;
+  a {
+    background: $purple;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  a:hover {
+    background: $blue_dark;
+  }
+}
+
+

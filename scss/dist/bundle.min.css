@@ -552,6 +552,16 @@ section.single-blog {
   #meet-vita__section h1 {
     color: #006976; }
 
+.category_navigation {
+  text-align: center; }
+  .category_navigation a {
+    background: #5f4788;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px; }
+  .category_navigation a:hover {
+    background: #3D81A5; }
+
 .btn-primary, #nourished-vitamin-area .fheading {
   background: #016976;
   color: #fff !important; }
@@ -10832,6 +10842,16 @@ section.single-blog {
   background-repeat: no-repeat; }
   #meet-vita__section h1 {
     color: #006976; }
+
+.category_navigation {
+  text-align: center; }
+  .category_navigation a {
+    background: #5f4788;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px; }
+  .category_navigation a:hover {
+    background: #3D81A5; }
 
 * {
   color: #404b57;

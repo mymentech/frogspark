@@ -2,7 +2,7 @@
 $delay = rand(1,4)*100;
 
 ?>
-<div class="col-md-4" data-aos-delay="<?php echo esc_attr($delay) ?>" data-aos="fade-up">
+<div class="col-md-6" data-aos-delay="<?php echo esc_attr($delay) ?>" data-aos="flip-up">
     <div class="single-post-item">
         <div class="post-img">
             <img src="<?php echo get_the_post_thumbnail_url()?>" class="img-responsive"
