@@ -480,7 +480,7 @@ $ = get_field("");
 </section>
 
 
-<div id="meet-nourish__section">
+<div id="meet-nourish__section" class="d-none d-md-block">
     <section id="meet-vita__section" class="content__section relative__item">
         <div class="container above__background">
             <h1 class="text-center">our world</h1>
