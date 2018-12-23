@@ -43,5 +43,3 @@ if (!function_exists('frogspark_load_more_post')) {
     add_action('wp_ajax_frogspark_loadmore_posts', 'frogspark_load_more_post');
     add_action('wp_ajax_nopriv_frogspark_loadmore_posts', 'frogspark_load_more_post');
 }
-
-

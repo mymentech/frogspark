@@ -113,50 +113,7 @@ $ajax_nonce = wp_create_nonce('fromspart_load_more_posts');
                 <?php endif; ?>
             </div>
             <div class="col-md-3">
-                <div class="filter-options">
-                    <h3>FILTERS POSTS</h3>
-
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#">Popular</a>
-                        </li>
-                        <li>
-                            <a class="#" href="#">Latest News</a>
-                        </li>
-                        <li>
-                            <a href="#">Featured</a>
-                        </li>
-                        <li>
-                            <a href="#">Promotions</a>
-                        </li>
-                    </ul>
-
-                    <div class="blog-search">
-                        <form>
-                            <input type="text" class="form-control search" placeholder="Search">
-                        </form>
-                    </div>
-                    <div class="tag-list">
-                        <ul>
-                            <li>
-                                <a href="#"><span>></span>Tags</a>
-                            </li>
-                            <li>
-                                <a href="#"><span>></span>Archives</a>
-                            </li>
-                            <li>
-                                <a href="#"><span>></span>Categories</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="subscription-form-sec">
-                        <form>
-                            <h3>Never miss a thing! <br> Join our Newsletter...</h3>
-                            <input type="text" placeholder="Your email address" class="form-control">
-                            <input type="submit" class="submit" value="Submit">
-                        </form>
-                    </div>
-                </div>
+                <?php get_template_part('template-parts/blog','sidebar') ?>
             </div>
         </div>
         <div class="row" id="our-world-posts-container">
