@@ -375,8 +375,34 @@ section#blog .single-post-item .post-img img{    height: 200px; margin: 0px auto
 
 section#external-ref{border-bottom: 0}
 
+
+@media (min-width:320px) and (max-width:479px) {
+    #nourishments .make-my-btn{
+    padding: 8px 12px 8px 8px;
+    font-size: 12px;
+}
+span.rotate-txt{
+        font-size: inherit;
+}
+#nourishments .page-thumbanil a img {
+    display: inherit;
+    padding-right: 8px;
+    margin-top: -2px;
+    height: 22px;
+}
+
+}
+
 /**landscape media query**/
 @media (min-width:480px) and (max-width:767px) {
+
+    #nourishments .make-my-btn{
+    padding: 10px 15px;
+    font-size: 16px;
+}
+span.rotate-txt{
+        font-size: inherit;
+}
 
 
     .fheading{
