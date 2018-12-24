@@ -1,3 +1,7 @@
+<?php
+$smf_nonce = wp_create_nonce('mailchimp_connect');
+
+?>
 <div class="filter-options">
     <h3>FILTERS POSTS</h3>
 
@@ -35,10 +39,10 @@
         </ul>
     </div>
     <div class="subscription-form-sec">
-        <form>
+        <form class="simple_mailchimp_form">
             <h3>Never miss a thing! <br> Join our Newsletter...</h3>
-            <input type="text" placeholder="Your email address" class="form-control">
-            <input type="submit" class="submit" value="Submit">
+            <input type="text" placeholder="Your email address" class="form-control email">
+            <input type="button" data-smf_s="<?php echo esc_attr($smf_nonce) ?>" class="submit smf-submit-button" value="Submit">
         </form>
     </div>
 </div>

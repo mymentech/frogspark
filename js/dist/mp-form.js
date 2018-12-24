@@ -1,5 +1,7 @@
 ;(function ($) {
 
+
+
 //jQuery time
     var current_fs, next_fs, previous_fs; //fieldsets
     var left, opacity, scale; //fieldset properties which we will animate
@@ -110,7 +112,51 @@
                     $(this).remove();
                 }
             });
-        })
+        });
+        $('.simple_mailchimp_form').on('keyup keypress', function(e) {
+            var keyCode = e.keyCode || e.which;
+            if (keyCode === 13) {
+                e.preventDefault();
+                return false;
+            }
+        });
+
+
+        //mailchimp ajax connection
+        $(".smf-submit-button").on('click submit', function (e) {
+            function validateEmail($email) {
+                var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+                return emailReg.test( $email );
+            }
+            e.preventDefault();
+            $(this).text('Sending...');
+            var email = $(this).prev().val();
+            if(!email || !validateEmail(email)){
+                $(this).prev().attr('placeholder','Enter correct email');
+                $(this).prev().val('');
+                return false;
+            }
+            var nonce = $(this).data('smf_s');
+
+            $.post(wpfurls.ajaxurl, {
+                action: "mailchimp_connect",
+                smf_email:email,
+                smf_s:nonce
+            }, function (data) {
+                data = parseInt(data);
+                console.log(data);
+                if(200===data){
+                    $('.simple_mailchimp_form').html('<p class="text-success">Your E-mail address has been received, thanks</p>');
+                }else{
+                    alert('Something went wront, please try again later');
+                    return false;
+                }
+            });
+
+            return false;
+        });
+
+
     });
 
 })(jQuery);
