@@ -294,12 +294,8 @@ span.txt-rotate{
     section h1{
         font-size: 30px!important;
     }
-    section#get-nourished h1 span.txt-rotate{
-            font-size: 32px !important;
-    }
-    #nourished-vitamin-area #nourshed-vitamins h1 span.txt-rotate{
-            font-size: 30px!important;
-    }
+
+
     #nourished-vitamin-area h4{
             margin-bottom: 0;
     }
@@ -338,18 +334,14 @@ span.txt-rotate{
     section h1{
         font-size: 30px!important;
     }
-    section#get-nourished h1 span.txt-rotate, section#page-banner h1 .txt-rotate{
-            font-size: 32px !important;
-    }
+
     .lastest-feature .featre-img img{
     height: 240px;
     }
     section#blog .single-post-item .single-post-content h3{    font-size: 15px;}
     a.feture-readmore{    font-size: 14px;}
 
-    #nourished-vitamin-area #nourshed-vitamins h1 span.txt-rotate{
-            font-size: 30px!important;
-    }
+
     #nourished-vitamin-area h4{
             margin-bottom: 0;
     }
@@ -367,9 +359,7 @@ span.txt-rotate{
     footer .social-icons {
     margin: 20px auto;
 }
-section#get-nourished h1 span.txt-rotate{
-        font-size: 31px !important;
-}
+
 section#make-my-nourished .item a{
         padding: 10px 20px;
     font-size: 15px;
@@ -382,14 +372,12 @@ section#blog .single-post-item .post-img img{    height: 200px; margin: 0px auto
     display: table;}
  
 }
-section#faq-section a.btn-secondary span.txt-rotate{font-size: 21px !important;}
+
 section#external-ref{border-bottom: 0}
 
 /**landscape media query**/
 @media (min-width:480px) and (max-width:767px) {
-    section#make-my-nourished h1 span.txt-rotate{
-        font-size: 32px!important;
-    }
+
 
     .fheading{
         padding: 30px 0;
@@ -400,9 +388,7 @@ section#external-ref{border-bottom: 0}
         font-size: 30px!important;
     }
     #contact-us .single-option p{ display: grid;  text-align: center;}
-    #nourished-vitamin-area #nourshed-vitamins h1 span.txt-rotate{
-            font-size: 30px!important;
-    }
+
     #nourished-vitamin-area h4{
             margin-bottom: 0;
     }
@@ -417,7 +403,6 @@ section#external-ref{border-bottom: 0}
         position: relative;
     }
     #contact-us #contact-us-form input[type=submit]{}
-    section#get-nourished h1 span.txt-rotate{    font-size: 33px !important;}
         footer .social-icons {
     margin: 20px auto;
 }
@@ -444,9 +429,6 @@ section#page-banner h1 .txt-rotate{
     section h1{
         font-size: 30px;
     }
-    #nourished-vitamin-area #nourshed-vitamins h1 span.txt-rotate{
-            font-size: 30px!important;
-    }
     #nourished-vitamin-area h4{
             margin-bottom: 0;
     }
@@ -468,7 +450,6 @@ section#page-banner h1 .txt-rotate{
     #nourished-vitamin-area #vitamin-list .single-items img{
         height:100px
     }
-    section#get-nourished h1 span.txt-rotate{    font-size: 35px !important;}
     
 }
 
@@ -482,9 +463,7 @@ section#page-banner h1 .txt-rotate{
     section h1{
         font-size: 30px;
     }
-    #nourished-vitamin-area #nourshed-vitamins h1 span.txt-rotate{
-            font-size: 30px!important;
-    }
+
     #nourished-vitamin-area h4{
             margin-bottom: 0;
     }
@@ -517,9 +496,7 @@ section#page-banner h1 .txt-rotate{
     section .container> h1{
             font-size: 35px !important;
     }
-    span.txt-rotate{
-            font-size: 38px !important;
-    }
+
     section#make-my-nourished .item a{
             padding: 10px 20px;
     font-size: 15px;

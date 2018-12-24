@@ -517,7 +517,7 @@ $ = get_field("");
                 <p>We believe that if anything should to be personalised, it's our health and welnes. That's why our
                     mission is to chagne the way world thinks, buys and experices vitamins, minerals and
                     supplements.</p>
-                <p>Expect more, be more, do more, Be NOURISH <span class="txt-rotate">3</span>D</p>
+                <p>Expect more, be more, do more, Be NOURISH<span class="txt-rotate">3</span>D</p>
 
                 <a href="#" target="_blank" class="btn btn-secondary"> Meet the Team</a>
             </div>

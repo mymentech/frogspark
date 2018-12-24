@@ -51,12 +51,7 @@
 }
 
 
-span.txt-rotate{
-    @include transform(rotate(180deg));
-    display: inline-block;
-    line-height: 0!important;
-    font-size: 50px!important;
-}
+
 
 section{
     h1{
@@ -102,9 +97,6 @@ section{
     h4{
         margin-bottom: 30px;
         span.txt-rotate{
-            font-size: 23px!important;
-            margin: 0;
-            line-height: 0!important;
             font-weight: 500;
         }
     }
@@ -344,11 +336,8 @@ section#make-my-nourished{
         color:darken($color: #fff, $amount: 10);
         line-height: 25px;
         padding: 0 10%;
-        span.txt-rotate{
-            font-size: 25px;
-            color:darken($color: #fff, $amount: 10);
-            font-size: 27px!important;
-            line-height: 0px!important;       
+        span.txt-rotate{           
+            color:darken($color: #fff, $amount: 10);     
         }
     }
     a{
@@ -553,11 +542,7 @@ section#faq-section{
             margin: 0 auto;
             font-size: 20px;
             font-weight: bold;
-            color:$primary-clr!important;;
-            span.txt-rotate{
-                font-size: 20px!important;
-                line-height: 0;
-            }
+            color:$primary-clr!important;
            
         }
         img{
@@ -577,7 +562,6 @@ section#faq-section{
             height: 25px;
         }
         span.txt-rotate{
-            font-size: 20px!important;
             font-weight: 500;
             color:#fff;
         }
