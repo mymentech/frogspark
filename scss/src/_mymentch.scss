@@ -1019,8 +1019,6 @@ a.feture-readmore{
                 margin-top: -5px;
             }
             span.rotate-txt{
-                @include transform(rotate(180deg));
-                display: inline-block;
                 color:#fff;
             }
         }

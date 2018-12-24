@@ -91,9 +91,7 @@ if (empty($short_description)) {
             <div class="col-md-6">
                 <div class="page-thumbanil">
                     <img src="<?php echo esc_url($photo_image['url'])?>" class="img-responsive" alt="<?php echo esc_attr($photo_image['alt'])?>">
-
                     <p class="text-center m-5"><a href="/order" class="btn btn-secondary make-my-btn"><img src="<?php echo get_template_directory_uri(); ?>/img/path-icon.png">Make my NOURISH <span class="rotate-txt">E</span>D</a></p>
-                </div>
             </div>
             <div class="col-md-6">
                 <div class="page-content">
