@@ -13,7 +13,7 @@
     <div class="row">
       <div class="col-md-3" data-aos="fade-down">
         <div class="navbar-header">
-          <a class="navbar-brand" href="/home"><img class="logo no__margin" src="/app/themes/frogspark/img/logo-no-vit.png" alt="Logo"></a>
+          <a class="navbar-brand" href="/home"><img class="logo no__margin" src="/app/themes/frogspark/img/logo-update.png" alt="Logo"></a>
           <div class="rotate-wheel__wrapper">
             <div class="rotate__wheel"></div>
           </div>
