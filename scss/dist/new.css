@@ -319,3 +319,8 @@
 /*============27" large device media query================*/ 
 @media only screen and (min-width: 2001px) {
 }
+
+
+body{
+	display:none;
+}
