@@ -81,20 +81,20 @@ $team_members = get_field("team_members");
           <div class="col-md-6"></div>
         </div>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6"  >
            <div class="page-thumbanil">
-             <img src="<?php echo get_template_directory_uri(); ?>/img/nearbong-page.png" class="img-responsive" alt="">
+             <img src="<?php echo get_template_directory_uri(); ?>/img/nearbong-page.png" class="img-responsive" alt="" data-aos="fade-right">
 
-             <p class="text-center m-5"><a href="#" class="btn btn-secondary make-my-btn"><img src="<?php echo get_template_directory_uri(); ?>/img/path-icon.png">Make my NOURISH <span class="rotate-txt">E</span>D</a></p>
+             <p data-aos="fade-up" class="text-center m-5"><a href="#" class="btn btn-secondary make-my-btn"><img src="<?php echo get_template_directory_uri(); ?>/img/path-icon.png">Make my NOURISH <span class="rotate-txt">E</span>D</a></p>
            </div>
           </div>
-          <div class="col-md-6">
-            <div class="page-content">
+          <div class="col-md-6"  >
+            <div class="page-content" data-aos="fade-left">
                 <p>Lets get to the Root of the issue….the Beetroot that is known for its intense red colour and unique flavour, beetroot has been a salad favourite for years but did you know that it has also been shown to improve endurance, blood flow and even lower blood pressure?</p>
                 <p> have a naturally high level of nitrates which have been shown to improve everything from cardiovascular health to immune function. So much evidence is mounting that The American Heart Association now suggests a cup of the red stuff daily to improve BP and recovery from exercise. Want in on this fast track to fitness and heart health Choose Beetroot in your next NOURISHED blend and you’ll be on your way!</p>
 
-                 <h4><img src="<?php echo get_template_directory_uri(); ?>/img/love.png">Benefits</h4>
-                 <ul class="list-unstyled">
+                 <h4 data-aos="fade-up" ><img src="<?php echo get_template_directory_uri(); ?>/img/love.png">Benefits</h4>
+                 <ul class="list-unstyled" data-aos="fade-up" >
                    <li><a href="#">Endurance &amp; Recovery</a></li>
                    <li><a href="#">Energy</a></li>
                    <li><a href="#">Heart Health</a></li>

@@ -165,8 +165,7 @@ if (empty($research_percentage)) {
                             </div>
                         <?php endwhile; ?>
                     </div>
-                    <a href="#" class="btn btn-secondary">Help me Choose > </a> <a href="#" class="btn btn-secondary">Help
-                        me Choose> </a>
+                    <a href="#" class="btn btn-secondary">Help me Choose > </a> <a href="#" class="btn btn-secondary">I'll choose my own </a>
                 </div>
 
             </div>

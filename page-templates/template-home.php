@@ -450,7 +450,7 @@ $ = get_field("");
 <!-- make-my-nourished  start-->
 <section id="make-my-nourished">
     <div class="container text-center">
-        <h1>make my nouris<span class="txt-rotate">E</span>h</h1>
+        <h1>make my nourish<span class="txt-rotate">E</span>d</h1>
         <div class="row">
             <div class="col-md-4" data-aos="fade-right">
                 <div class="item">
@@ -472,7 +472,7 @@ $ = get_field("");
                     <img src="<?php echo get_template_directory_uri(); ?>/img/make-my-2.png" alt=""
                          class="img-responsive">
                     <h5>Select your own Nourishments</h5>
-                    <a href="http://vitamyne.frogspark.agency/order/" class="btn btn-primary" >I'will choose my own ></a>
+                    <a href="http://vitamyne.frogspark.agency/order/" class="btn btn-primary" >I w'ill choose my own</a>
                 </div>
             </div>
         </div>
@@ -517,7 +517,7 @@ $ = get_field("");
                 <p>We believe that if anything should to be personalised, it's our health and welnes. That's why our
                     mission is to chagne the way world thinks, buys and experices vitamins, minerals and
                     supplements.</p>
-                <p>Expect more, be more, do more, Be NOURISH<span class="txt-rotate">3</span>D</p>
+                <p>Expect more, be more, do more, Be NOURISH <span class="txt-rotate">3</span>D</p>
 
                 <a href="#" target="_blank" class="btn btn-secondary"> Meet the Team</a>
             </div>

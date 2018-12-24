@@ -76,7 +76,7 @@ $team_members = get_field("team_members");
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10 text-center">
-        <div class="row">
+        <div class="row" data-aos="fade-down">
           <div class="col-md-3">
             <div class="single-item ">
               <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/page-icon-1.png" alt="">
@@ -111,19 +111,19 @@ $team_members = get_field("team_members");
       <div class="row">
         <div class="accordion" id="accord">
               <ul>
-                <li>
+                <li data-aos="fade-up">
                   <h5>How long does delivery take?</h5>
                   <div>We dispatch our NOURISHM3NTS every week to arrive on a Friday. You can select your desired Friday by picking an option in the delivery dates box on the checkout page. If you don’t receive your package by that date then please contact us at info@iamnourish3d.com with your order number. Deliveries do not need to be signed for and our packaging is designed to fit through your letterbox. If you have special delivery instructions, please ensure to put them in the ‘Special Instructions’ box on the checkout page.</div>
                 </li>
-                <li>
+                <li data-aos="fade-up">
                   <h5>What Courier do you use?</h5>
                   <div>We dispatch our NOURISHM3NTS every week to arrive on a Friday. You can select your desired Friday by picking an option in the delivery dates box on the checkout page. If you don’t receive your package by that date then please contact us at info@iamnourish3d.com with your order number. Deliveries do not need to be signed for and our packaging is designed to fit through your letterbox. If you have special delivery instructions, please ensure to put them in the ‘Special Instructions’ box on the checkout page.</div>
                 </li>
-                <li>
+                <li data-aos="fade-up">
                   <h5>How can I track my NOURISHMENT?</h5>
                   <div>We dispatch our NOURISHM3NTS every week to arrive on a Friday. You can select your desired Friday by picking an option in the delivery dates box on the checkout page. If you don’t receive your package by that date then please contact us at info@iamnourish3d.com with your order number. Deliveries do not need to be signed for and our packaging is designed to fit through your letterbox. If you have special delivery instructions, please ensure to put them in the ‘Special Instructions’ box on the checkout page.</div>
                 </li>
-                <li>
+                <li data-aos="fade-up">
                   <h5>Do you delivery internationally?</h5>
                   <div>We dispatch our NOURISHM3NTS every week to arrive on a Friday. You can select your desired Friday by picking an option in the delivery dates box on the checkout page. If you don’t receive your package by that date then please contact us at info@iamnourish3d.com with your order number. Deliveries do not need to be signed for and our packaging is designed to fit through your letterbox. If you have special delivery instructions, please ensure to put them in the ‘Special Instructions’ box on the checkout page.</div>
                 </li>
@@ -139,6 +139,8 @@ $team_members = get_field("team_members");
 
 
 </section>
+
+<?php get_template_part('template-parts/nourished','vitamins-faq') ?>
 
 
 <?php get_footer(); ?>

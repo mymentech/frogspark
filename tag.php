@@ -160,15 +160,16 @@ if (empty($research_percentage)) {
                                     <div class="vitamin-item">
                                         <a href="<?php the_permalink() ?>">
                                             <img src="<?php echo esc_url($image_url) ?>"
-                                                 alt="<?php echo esc_attr($image_alt) ?>" class="img-responsive"></a>
-                                        <p><strong><?php the_title(); ?></strong></p>
+                                                 alt="<?php echo esc_attr($image_alt) ?>" class="img-responsive">
+                                                 <p><strong><?php the_title(); ?></strong></p>
+                                             </a>
+                                        
                                     </div>
                                 </div>
                             <?php endwhile; ?>
                         </div>
                         <a href="#" class="btn btn-secondary">Help me Choose > </a> <a href="#"
-                                                                                       class="btn btn-secondary">Help
-                            me Choose> </a>
+                                                                                       class="btn btn-secondary">I'll choose my own </a>
                     </div>
 
                 </div>

@@ -87,9 +87,7 @@ $team_members  = get_field("team_members");
     </div>
     <div class="image__background center__background opacity__quarter"
          style="background-image: url('/app/themes/frogspark/img/bg-logo.png');"></div>
-</section>
-
-<section id="external-ref">
+         <section id="external-ref">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -107,6 +105,9 @@ $team_members  = get_field("team_members");
         </div>
     </div>
 </section>
+</section>
+
+
 
 <section id="vitateam-slider__section" class="content__section" data-aos="fade-up">
     <div class="container">
@@ -167,5 +168,6 @@ $team_members  = get_field("team_members");
 
 <?php get_template_part('template-parts/nourished','vitamins') ?>
 
+<?php get_template_part('template-parts/faq','link') ?>
 
 <?php get_footer(); ?>

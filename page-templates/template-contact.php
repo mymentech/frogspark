@@ -117,7 +117,7 @@ $team_members  = get_field("team_members");
     <div class="container">
         <h3>We'd love to hear from you...</h3>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-right">
                 <div class="single-option">
                     <p>
                         <img src="<?php echo get_template_directory_uri() ?>/img/add-icon.png" alt="" class="pull-left">
@@ -126,8 +126,8 @@ $team_members  = get_field("team_members");
                     </p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="single-option">
+            <div class="col-md-4" data-aos="fade-down">
+                <div class="single-option" >
                     <p>
                         <img src="<?php echo get_template_directory_uri() ?>/img/call-icon.png" alt=""
                              class="pull-left">
@@ -135,7 +135,7 @@ $team_members  = get_field("team_members");
                     </p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-left">
                 <div class="single-option">
                     <p>
                         <img src="<?php echo get_template_directory_uri() ?>/img/location-icon.png" alt=""
@@ -149,7 +149,7 @@ $team_members  = get_field("team_members");
         <div id="contact-us-form">
             <div class="row">
 
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-right">
                     <form action="">
                         <div class="form-group">
                             <input type="text" class="form-control" id="name" placeholder="Your name">
@@ -160,7 +160,7 @@ $team_members  = get_field("team_members");
 
                        
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-left">
                     <textarea placeholder="Your message" name="" id="message" cols="50" rows="10"></textarea>
 
                      <input type="submit" class="btn btn-secondary" value="Send message">

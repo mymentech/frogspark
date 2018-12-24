@@ -12,7 +12,9 @@
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Karla:400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="/app/themes/frogspark/scss/dist/bundle.min.css?v=<?php echo time(); ?>" type="text/css" media="all" />
-    <link rel="stylesheet" href="/app/themes/frogspark/scss/dist/new.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/app/themes/frogspark/scss/dist/new.css?v=<?php echo time(); ?>" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="/app/themes/frogspark/scss/dist/fonts/zona-fonts.css" type="text/css" media="all" />
     <script src="/app/themes/frogspark/js/dist/bundle.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="//cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">

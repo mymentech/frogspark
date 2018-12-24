@@ -1,3 +1,154 @@
+
+body{
+    font-family: 'Zona Pro';
+}
+#nourished-vitamin-area #vitamin-list .single-items h2{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Zona Pro';
+}
+
+#nourished-vitamin-area #vitamin-list .single-items p{
+    font-family: 'Zona Pro';
+}
+section#make-my-nourished h1{
+    font-weight: bold;
+}
+
+section#make-my-nourished .item h5{
+     
+     font-weight: 600;
+     
+}
+
+section#make-my-nourished .item a{
+
+}
+
+.btn-secondary:hover, section#get-nourished a.watch-btn:hover, #about-us a.btn-secondary:hover{
+    background: #006976 ;
+    transform: scale(1.050);
+    transition: .5s;
+    background-color: #006976 ;
+}
+
+a.feture-readmore{
+    transition: .3s;
+}
+
+section#faq-section .single-item h2 span.txt-rotate{
+
+    color: #006976 !important;
+}
+
+a.feture-readmore:hover{
+     background: #531F53;
+      transform: scale(1.050);
+    transition: .5s;
+}
+
+.btn-primary:hover{
+    background: #531F53;
+     background-color: #531F53 ;
+    transform: scale(1.050);
+    transition: .5s;
+}
+#meet-nourish__section .section-content a {
+    padding: 12px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#contact-us #contact-us-form input[type=submit]{
+    cursor: pointer;
+}
+
+/*Secondary color*/
+section#make-my-nourished .item.middle h3, section#make-my-nourished .item h5{
+    color:#4d2350;
+}
+section#make-my-nourished .item a, section#make-my-nourished .item h5{
+    font-family: 'Zona Pro';
+}
+
+section#brain-health-content .page-main-content .vitamin-item img{
+   height: 120px;
+}
+
+#meet-vita__section h1{
+    font-weight: 600;
+}
+
+.check-faq{
+        font-weight: 600;
+        
+}
+.check-faq a{
+    text-transform: uppercase;
+}
+.check-faq a:hover{
+    background: #006976;
+    color:#fff;
+}
+input, textarea{
+    border:1px!important;
+    transition:  .3s;
+}
+input:focus {
+    transition:  .5s;
+}
+
+section#blog .single-post-item .single-post-content h3{
+        font-size: 20px;
+        font-family: 'Zona Pro';
+}
+#about-content__section p{
+    color: #104a6e;
+    line-height: 28px;
+    font-weight: 500;
+}
+#vitateam-slider__section {
+    background: #fff;
+}
+#vitateam-slider__section .slick-slide{
+
+}
+
+#vitateam-slider__section .slick-slide .carousel__item .black.h3{
+ font-size: 20px;
+ color:#531F53 ;
+ font-weight: 600;
+}
+
+#vitateam-slider__section .slick-slide .carousel__item .black.sm{
+    color: #2d6672;
+        font-weight: 600;
+}
+#about-content__section{
+    background: #eaeaea;
+}
+section#external-ref{
+    background: transparent;
+}
+
+.team-carousel__wrapper .carousel__item:before {
+    background: #2d6672;
+    bottom: 70px;
+}
+
+#home-hero__section .txt-rotate{
+    color: #fff;
+}
+
+section#get-nourished {
+    background: linear-gradient(to bottom, #90BFC7 10%, #BCC0C2 51%, #96B6BD 75%);
+    background-image: url(../../img/GET-NOURISHED--bg.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
 @font-face {
     font-family: 'Avenir';
     src: url('/fonts/Avenir-LightOblique.woff2') format('woff2'),
@@ -121,6 +272,9 @@
 #meet-nourish__section{
     padding: 50px 0;
 }
+span.txt-rotate{
+    transform: rotateY(-180deg) !important;    display: inline-block;    color: inherit !important;    font-size: inherit !important;
+}
 
 
 /** Common Mobile device css**/
@@ -138,7 +292,10 @@
         font-size: 18px;
     }
     section h1{
-        font-size: 30px;
+        font-size: 30px!important;
+    }
+    section#get-nourished h1 span.txt-rotate{
+            font-size: 32px !important;
     }
     #nourished-vitamin-area #nourshed-vitamins h1 span.txt-rotate{
             font-size: 30px!important;
@@ -157,7 +314,18 @@
         position: relative;
     }
     #contact-us #contact-us-form input[type=submit]{}
-
+    section#make-my-nourished .item a{    padding: 8px 27px;    font-size: 15px;}
+    #contact-us .single-option p{
+            font-size: 20px;
+    text-align: center;
+    }
+    footer .social-icons{
+            margin: 20px auto;
+    }
+    footer .social-icons {
+    margin: 20px auto;
+}
+ 
 }
 
 /**Samsung s4 Portrite media query**/
@@ -168,8 +336,17 @@
         font-size: 18px;
     }
     section h1{
-        font-size: 30px;
+        font-size: 30px!important;
     }
+    section#get-nourished h1 span.txt-rotate, section#page-banner h1 .txt-rotate{
+            font-size: 32px !important;
+    }
+    .lastest-feature .featre-img img{
+    height: 240px;
+    }
+    section#blog .single-post-item .single-post-content h3{    font-size: 15px;}
+    a.feture-readmore{    font-size: 14px;}
+
     #nourished-vitamin-area #nourshed-vitamins h1 span.txt-rotate{
             font-size: 30px!important;
     }
@@ -179,7 +356,7 @@
     #nourished-vitamin-area #vitamin-list{    grid-template-columns: 100%;}
     section#get-nourished a.watch-btn{    padding: 10px 20px;     font-size: 15px;}
     section#make-my-nourished{padding: 50px 0;}
-    #contact-us .single-option p{ display: grid; }
+    #contact-us .single-option p{ display: grid; text-align: center;}
     #contact-us .single-option p img{margin: 5px auto;}
     .social-icons{    margin: 0 auto;    display: table;}
     footer .social-icons small{display: block;;text-align: center;}
@@ -187,11 +364,32 @@
         position: relative;
     }
     #contact-us #contact-us-form input[type=submit]{}
+    footer .social-icons {
+    margin: 20px auto;
+}
+section#get-nourished h1 span.txt-rotate{
+        font-size: 31px !important;
+}
+section#make-my-nourished .item a{
+        padding: 10px 20px;
+    font-size: 15px;
+}
+.post-content h2{
+    font-size: 16px!important;
+    margin-bottom: 8px;
+}
+section#blog .single-post-item .post-img img{    height: 200px; margin: 0px auto;
+    display: table;}
  
 }
+section#faq-section a.btn-secondary span.txt-rotate{font-size: 21px !important;}
+section#external-ref{border-bottom: 0}
 
 /**landscape media query**/
 @media (min-width:480px) and (max-width:767px) {
+    section#make-my-nourished h1 span.txt-rotate{
+        font-size: 32px!important;
+    }
 
     .fheading{
         padding: 30px 0;
@@ -199,8 +397,9 @@
         font-size: 18px;
     }
     section h1{
-        font-size: 30px;
+        font-size: 30px!important;
     }
+    #contact-us .single-option p{ display: grid;  text-align: center;}
     #nourished-vitamin-area #nourshed-vitamins h1 span.txt-rotate{
             font-size: 30px!important;
     }
@@ -218,6 +417,20 @@
         position: relative;
     }
     #contact-us #contact-us-form input[type=submit]{}
+    section#get-nourished h1 span.txt-rotate{    font-size: 33px !important;}
+        footer .social-icons {
+    margin: 20px auto;
+}
+section#page-banner h1 .txt-rotate{    font-size: 32px !important;}
+section#blog .single-post-item .single-post-content h3{    font-size: 16px;}
+a.feture-readmore{font-size: 15px}
+section#blog .single-post-item .post-img img{margin: 5px auto;display: table;}
+.lastest-feature .featre-img img{    height: 250px;}
+
+section#page-banner h1 .txt-rotate{
+    font-size: 50px !important;
+}
+ 
     
 }
 
@@ -240,7 +453,7 @@
     #nourished-vitamin-area #vitamin-list{    grid-template-columns: 100%;}
     section#get-nourished a.watch-btn{    padding: 10px 20px;     font-size: 15px;}
     section#make-my-nourished{padding: 50px 0;}
-    #contact-us .single-option p{ display: grid; }
+    #contact-us .single-option p{ display: grid;  text-align: center;}
     #contact-us .single-option p img{margin: 5px auto;}
     .social-icons{    margin: 0 auto;    display: table;}
     footer .social-icons small{display: block;;text-align: center;}
@@ -249,6 +462,14 @@
     }
     #contact-us #contact-us-form input[type=submit]{}
 
+    section#make-my-nourished .item img{
+        height: 100px;
+    }
+    #nourished-vitamin-area #vitamin-list .single-items img{
+        height:100px
+    }
+    section#get-nourished h1 span.txt-rotate{    font-size: 35px !important;}
+    
 }
 
 /**Samsung s4 landscape media query**/
@@ -290,7 +511,36 @@
     #contact-us-form form{
         position: relative;
     }
-   
+    #nourished-vitamin-area #vitamin-list{
+        grid-template-columns: 32% 32% 32%;
+    }
+    section .container> h1{
+            font-size: 35px !important;
+    }
+    span.txt-rotate{
+            font-size: 38px !important;
+    }
+    section#make-my-nourished .item a{
+            padding: 10px 20px;
+    font-size: 15px;
+    }
+    #contact-us .single-option p img{
+            height: 35px;
+            padding-right: 10px;
+            margin-bottom: 5px;
+    }
+    #contact-us .single-option p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    #contact-us .single-option p a, #contact-us .single-option p span {
+        color: #006976;
+        font-size: 16px;
+    }
+    #contact-us #contact-us-form textarea.wpcf7-textarea{
+            height: 250px;
+    }
+       
 }
 
 /**Ipad mini landscape media query**/
@@ -301,6 +551,15 @@
     #contact-us-form form{
         position: relative;
     }
+    #nourished-vitamin-area #vitamin-list .single-items h2{
+        font-size: 20px;
+    }
+    #nourished-vitamin-area #vitamin-list .single-items p{
+        font-size: 18px;
+    }
+     #contact-us .single-option p img{
+        margin-bottom: 5px;
+     }
 }
 
 @media (min-width: 1500px) and (max-width:2000px) {
@@ -320,7 +579,3 @@
 @media only screen and (min-width: 2001px) {
 }
 
-
-body{
-	display:none;
-}

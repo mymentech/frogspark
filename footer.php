@@ -9,8 +9,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
+            <div class="col-md-8 offset-md-2 col-sm-12">
                 <?php
                 wp_nav_menu(array(
                     'menu'            => 'footer-menu',
@@ -21,7 +20,7 @@
                 <p class="copy-right-text text-center">These statements have not been evaluted by the Food and Drug
                     Administration. This product is not intended to diagnose, treat, cure or prevent any disease.</p>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 co-sm-12">
                 <div class="social-icons">
                     <ul class="list-unstyled list-inline">
                         <li><a href="//www.instagram.com/iamnourish3d/" target="_blank"><img
