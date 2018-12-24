@@ -61,7 +61,7 @@ $team_members = get_field("team_members");
     <div class="contaner">
      <div class="col-md-12">
         <div class="banner-text">
-          <h1 >Frequently Aksked Questions</h1>
+          <h1>Frequently Asked Questions</h1>
         </div>
      </div>
     </div>
