@@ -128,7 +128,7 @@ if (empty($research_percentage)) {
             </div>
             <div class="col-md-9 col-sm-12">
                 <div class="page-main-content">
-                    <h2>These Nourishments are great for brain Health</h2>
+                    <h2><?php echo $term_name; ?></h2>
                     <div class="cat-content">
                         <?php echo wp_kses_post(category_description()) ?>
                     </div>
