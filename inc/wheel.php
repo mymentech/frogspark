@@ -2,7 +2,7 @@
 <div id="vitawheel__wrapper">
   <div class="vitawheel__content">
       <div class="blog-list">
-          <p>Whether you're animing to reach a goad, want overall health optimisation or are simply tired of all the different supplements you're taking, we're here for you.
+          <p>Whether you're aiming to reach a goad, want overall health optimisation or are simply tired of all the different supplements you're taking, we're here for you.
           </br>We'll create your very own perfectly balanced combinationof seven vitamins, minerals and supplements from our 27 Nourishments, The unique power of seven from over a billion possible combinations.</p>
           <a href="/nourishment-category/vitamins/" target="_blank" class="btn btn-secondary">Our Nourishments </a>
       </div>
