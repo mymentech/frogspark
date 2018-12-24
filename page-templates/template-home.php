@@ -457,7 +457,7 @@ $ = get_field("");
                     <img src="<?php echo get_template_directory_uri(); ?>/img/make-my-1.png" alt=""
                          class="img-responsive">
                     <h5>Take the NOURISHED assessment</h5>
-                    <a href="http://vitamyne.frogspark.agency/order/" class="btn btn-primary" >Help me choose ></a>
+                    <a href="//vitamyne.frogspark.agency/order/" class="btn btn-primary" >Help me choose ></a>
                 </div>
             </div>
             <div class="col-md-4" data-aos="zoom-in">
@@ -472,7 +472,7 @@ $ = get_field("");
                     <img src="<?php echo get_template_directory_uri(); ?>/img/make-my-2.png" alt=""
                          class="img-responsive">
                     <h5>Select your own Nourishments</h5>
-                    <a href="http://vitamyne.frogspark.agency/choose/" class="btn btn-primary" >I'll choose my own ></a>
+                    <a href="//vitamyne.frogspark.agency/order/choose.php" class="btn btn-primary" >I'll choose my own ></a>
                 </div>
             </div>
         </div>
