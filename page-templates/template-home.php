@@ -426,7 +426,7 @@ $ = get_field("");
                     <img src="<?php echo get_template_directory_uri(); ?>/img/get-item2.png" alt=""
                          class="img-responsive">
                     <p>We 3D-print and individualy package your personal blend - you can change your ingredients every
-                        month if you link</p>
+                        month if you like</p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -457,7 +457,7 @@ $ = get_field("");
                     <img src="<?php echo get_template_directory_uri(); ?>/img/make-my-1.png" alt=""
                          class="img-responsive">
                     <h5>Take the NOURISHED assessment</h5>
-                    <a href="http://vitamyne.frogspark.agency/order/choose.php" class="btn btn-primary" >Help me choose ></a>
+                    <a href="http://vitamyne.frogspark.agency/order/" class="btn btn-primary" >Help me choose ></a>
                 </div>
             </div>
             <div class="col-md-4" data-aos="zoom-in">
