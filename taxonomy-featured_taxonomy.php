@@ -1,20 +1,10 @@
 <?php
-/**
- * Template Name: Blog page
- * @package frogspark
- */
-?>
-
-<?php get_header(); ?>
-
-<?php
-$featured_post_id = null;
-$page_title    = get_field("page_title");
-$left_content  = get_field("left_content");
-$right_content = get_field("right_content");
-$logo_upload   = get_field("logo_upload");
-$team_members  = get_field("team_members");
+get_header();
 $ajax_nonce = wp_create_nonce('fromspart_load_more_posts');
+
+$featured_tax_terms = get_terms('featured_taxonomy', array(
+    'hide_empty' => true,
+));
 
 ?>
 
@@ -72,12 +62,12 @@ $ajax_nonce = wp_create_nonce('fromspart_load_more_posts');
             <div class="col-md-9">
                 <div class="row" id="our-world-posts-container">
                     <?php
-                        if(have_posts()){
-                            while(have_posts()){
-                                the_post();
-                                get_template_part('template-parts/posts','blog2col');
-                            }
+                    if (have_posts()) {
+                        while (have_posts()) {
+                            the_post();
+                            get_template_part('template-parts/posts', 'blog2col');
                         }
+                    }
                     ?>
                 </div>
                 <div class="row">

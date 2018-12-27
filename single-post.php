@@ -21,7 +21,7 @@ $date = Date('d-m-Y', strtotime($post->post_date));
 <section class="single-blog">
     <div class="container">
         <div class="row">
-            <div class="col-md-10 col-md-offset-1">
+            <div class="col-md-9">
                 <a href="<?php the_permalink() ?>">
                     <h2 class="header text-center"><?php echo get_the_title(); ?></h2>
                 </a>
@@ -33,6 +33,9 @@ $date = Date('d-m-Y', strtotime($post->post_date));
                 <div class="content-body">
                     <?php the_content() ?>
                 </div>
+            </div>
+            <div class="col-md-3">
+                <?php get_template_part('template-parts/blog', 'sidebar') ?>
             </div>
         </div>
     </div>

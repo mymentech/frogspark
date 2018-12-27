@@ -159,4 +159,19 @@
 
     });
 
+
+    $(document).ready(function(){
+        $("a.fs-collapse-handle").on('click', function(e){
+            e.preventDefault();
+            link = $(this).attr('href');
+            if($(link).hasClass('fs-collapse')){
+                $(link).removeClass('fs-collapse')
+            }else{
+                $(link).addClass('fs-collapse')
+            }
+
+        });
+    });
+
+
 })(jQuery);

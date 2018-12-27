@@ -1018,14 +1018,14 @@ section#brain-health-content {
     section#brain-health-content .page-category .active, section#brain-health-content .page-category .accordion-cat:hover {
       background-color: #fff; }
     section#brain-health-content .page-category .accordion-cat:after {
-      content: "" !important;
+      content: "\f078" !important;
       font-family: "Font Awesome 5 Free";
       color: #777;
       font-weight: bold;
       float: right;
       margin-left: 5px; }
     section#brain-health-content .page-category .active:after {
-      content: "" !important;
+      content: "\f077" !important;
       font-family: "Font Awesome 5 Free"; }
     section#brain-health-content .page-category .panel {
       margin-top: 10px;
@@ -1172,6 +1172,16 @@ a.feture-readmore {
       margin: 0px;
       clear: both;
       border-radius: 15px; }
+    .filter-options ul li div.fs-collapse {
+      display: none; }
+    .filter-options ul li div.tax-links {
+      padding-left: 10px; }
+      .filter-options ul li div.tax-links ul li {
+        margin: 0;
+        padding: 0; }
+        .filter-options ul li div.tax-links ul li a {
+          font-size: 16px;
+          color: #006976; }
   .filter-options .blog-search input.search {
     background: url(../../img/search.png) no-repeat scroll 7px 7px;
     padding-left: 30px;
@@ -1283,6 +1293,15 @@ a.feture-readmore {
 section#external-ref {
   background-color: #fff;
   border-bottom: 1px solid #ddd; }
+
+.mt-50 {
+  margin-top: 50px; }
+
+.mb-50 {
+  margin-bottom: 50px; }
+
+.cb {
+  clear: both; }
 
 /* Colours */
 /* Fonts */
@@ -12998,14 +13017,14 @@ section#brain-health-content {
     section#brain-health-content .page-category .active, section#brain-health-content .page-category .accordion-cat:hover {
       background-color: #fff; }
     section#brain-health-content .page-category .accordion-cat:after {
-      content: "" !important;
+      content: "\f078" !important;
       font-family: "Font Awesome 5 Free";
       color: #777;
       font-weight: bold;
       float: right;
       margin-left: 5px; }
     section#brain-health-content .page-category .active:after {
-      content: "" !important;
+      content: "\f077" !important;
       font-family: "Font Awesome 5 Free"; }
     section#brain-health-content .page-category .panel {
       margin-top: 10px;
@@ -13151,6 +13170,16 @@ a.feture-readmore {
       margin: 0px;
       clear: both;
       border-radius: 15px; }
+    .filter-options ul li div.fs-collapse {
+      display: none; }
+    .filter-options ul li div.tax-links {
+      padding-left: 10px; }
+      .filter-options ul li div.tax-links ul li {
+        margin: 0;
+        padding: 0; }
+        .filter-options ul li div.tax-links ul li a {
+          font-size: 16px;
+          color: #006976; }
   .filter-options .blog-search input.search {
     background: url(../../img/search.png) no-repeat scroll 7px 7px;
     padding-left: 30px;
@@ -13254,3 +13283,12 @@ a.feture-readmore {
 section#external-ref {
   background-color: #fff;
   border-bottom: 1px solid #ddd; }
+
+.mt-50 {
+  margin-top: 50px; }
+
+.mb-50 {
+  margin-bottom: 50px; }
+
+.cb {
+  clear: both; }

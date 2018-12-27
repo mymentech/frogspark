@@ -1,6 +1,7 @@
 <?php
 
 include_once 'inc/fs-functions.php';
+include_once 'inc/featured-taxonomy.php';
 include_once 'inc/mailchimp-settings.php';
 include_once 'lib/bootstrap-four-wp-navwalker.php';
 
