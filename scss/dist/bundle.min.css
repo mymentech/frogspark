@@ -147,13 +147,20 @@ a:hover.green__border, a:hover .green__border {
     position: static !important; }
   .navbar.active__nav .navbar-header .rotate-wheel__wrapper {
     top: 0px !important; }
+  .hero-1 {
+    margin-left: 40px; }
   .hero-2 {
     width: 100%;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-    display: none; }
+    display: block; }
+    .hero-2 img {
+      width: 90%;
+      height: auto; }
+  .mobile-hero .owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 18%;
+    margin-bottom: 50px; }
   #meet-vita__section .col-md-5 {
     width: 100%;
     -webkit-box-flex: 0;
@@ -12320,11 +12327,20 @@ a:hover.green__border, a:hover .green__border {
     position: static !important; }
   .navbar.active__nav .navbar-header .rotate-wheel__wrapper {
     top: 0px !important; }
+  .hero-1 {
+    margin-left: 40px; }
   .hero-2 {
     width: 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-    display: none; }
+    display: block; }
+    .hero-2 img {
+      width: 90%;
+      height: auto; }
+  .mobile-hero .owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 18%;
+    margin-bottom: 50px; }
   #meet-vita__section .col-md-5 {
     width: 100%;
     flex: 0 0 100%;

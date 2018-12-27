@@ -173,6 +173,30 @@
         });
 
         $(".clicked-accordion-cat").trigger('click');
+
+
+
+        $(document).ready(function () {
+            $(window).on("resize", function (e) {
+                checkScreenSize();
+            });
+
+            checkScreenSize();
+
+            function checkScreenSize(){
+                var newWindowWidth = $(window).width();
+                if (newWindowWidth < 481) {
+                    $('.hero-2').insertBefore('.hero-1');
+                    $('.hero-2').addClass('mobile-hero');
+
+                }
+                else
+                {
+                    $('.hero-1').insertBefore('.hero-2');
+                }
+            }
+        });
+
     });
 
 })(jQuery);
