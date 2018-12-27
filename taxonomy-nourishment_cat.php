@@ -5,19 +5,6 @@ $term      = get_term($term_id);
 $term_slug = $term->slug;
 $term_name = $term->name;
 
-$nourish_tags = get_categories(array(
-    'taxonomy' => 'post_tag',
-    'orderby'  => 'name',
-    'order'    => 'ASC'
-));
-
-$nourish_cats = get_categories(array(
-    'taxonomy' => 'nourishment_cat',
-    'orderby'  => 'name',
-    'order'    => 'ASC'
-));
-
-
 $image               = get_field("image");
 $short_description   = get_field("short_description");
 $research_percentage = get_field("research_percentage");
@@ -99,31 +86,7 @@ if (empty($research_percentage)) {
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <div class="page-category">
-                    <button class="accordion-cat">TYPE OF NOURISHMENT</button>
-                    <div class="panel">
-                        <ul class="list-unstyled">
-                            <?php foreach ($nourish_cats as $cat): ?>
-                                <?php $cat_url = get_category_link($cat); ?>
-                                <li><a href="<?php echo esc_url($cat_url) ?>"><?php echo esc_html($cat->name) ?></a>
-                                </li>
-                            <?php endforeach; ?>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="page-category">
-                    <button class="accordion-cat">BENEFIT</button>
-                    <div class="panel">
-                        <ul class="list-unstyled">
-                            <?php foreach ($nourish_tags as $tag): ?>
-                                <?php $tag_url = get_category_link($tag); ?>
-                                <li><a href="<?php echo esc_url($tag_url) ?>"><?php echo esc_html($tag->name) ?></a>
-                                </li>
-                            <?php endforeach; ?>
-                        </ul>
-                    </div>
-                </div>
+                <?php get_template_part('template-parts/nourished-tax', 'sidebar') ?>
 
             </div>
             <div class="col-md-9 col-sm-12">

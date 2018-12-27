@@ -171,6 +171,8 @@
             }
 
         });
+
+        $(".clicked-accordion-cat").trigger('click');
     });
 
 
