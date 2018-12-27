@@ -239,7 +239,6 @@ if(empty($research_percentage))
         </div>
         
         <div class="col-md-10">
-          
           <div class="row">
             <div class="col-md-12">
               <input id="myInput" type="text" class="form-control" onkeyup="myFunction()" placeholder="Search NOURISHM3NTS and Benefits..." />
