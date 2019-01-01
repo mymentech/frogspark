@@ -149,7 +149,8 @@ $img_url: '/app/themes/frogspark/img/mymentech/';
 
 section.single-blog {
   padding-top: 138px;
-  .single-blog__date{
+
+  .single-blog__date {
     margin-bottom: $spacing_half;
     display: block;
   }
@@ -166,26 +167,36 @@ section.single-blog {
 
 
 }
+
 .category_navigation {
   text-align: center;
+
   a {
     background: $purple;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
   }
+
   a:hover {
     background: $blue_dark;
   }
 }
 
-strong.nourishment-title{
+strong.nourishment-title {
   font-weight: 600;
   font-size: 18px;
 }
-.person-wrap img.person-img{
-  width: inherit;
-  display: block;
-  margin: 0 auto;
+
+#home-hero__section {
+  p{
+    line-height: 1.5em;
+  }
+  .person-wrap img.person-img {
+    width: inherit;
+    display: block;
+    margin: 0 auto;
+    margin-top: 45px;
+  }
 }
 

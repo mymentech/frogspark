@@ -573,10 +573,14 @@ strong.nourishment-title {
   font-weight: 600;
   font-size: 18px; }
 
-.person-wrap img.person-img {
+#home-hero__section p {
+  line-height: 1.5em; }
+
+#home-hero__section .person-wrap img.person-img {
   width: inherit;
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 45px; }
 
 .btn-primary, #nourished-vitamin-area .fheading {
   background: #016976;
@@ -10868,10 +10872,14 @@ strong.nourishment-title {
   font-weight: 600;
   font-size: 18px; }
 
-.person-wrap img.person-img {
+#home-hero__section p {
+  line-height: 1.5em; }
+
+#home-hero__section .person-wrap img.person-img {
   width: inherit;
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 45px; }
 
 * {
   color: #404b57;
