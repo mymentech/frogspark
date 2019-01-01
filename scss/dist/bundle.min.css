@@ -573,6 +573,11 @@ strong.nourishment-title {
   font-weight: 600;
   font-size: 18px; }
 
+.person-wrap img.person-img {
+  width: inherit;
+  display: block;
+  margin: 0 auto; }
+
 .btn-primary, #nourished-vitamin-area .fheading {
   background: #016976;
   color: #fff !important; }
@@ -10862,6 +10867,11 @@ section.single-blog {
 strong.nourishment-title {
   font-weight: 600;
   font-size: 18px; }
+
+.person-wrap img.person-img {
+  width: inherit;
+  display: block;
+  margin: 0 auto; }
 
 * {
   color: #404b57;

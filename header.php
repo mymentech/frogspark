@@ -11,8 +11,6 @@
     
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Karla:400,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="/app/themes/frogspark/scss/dist/bundle.min.css?v=<?php echo time(); ?>" type="text/css" media="all" />
-    <link rel="stylesheet" href="/app/themes/frogspark/scss/dist/new.css?v=<?php echo time(); ?>" type="text/css" media="all" />
 
     <link rel="stylesheet" href="/app/themes/frogspark/scss/dist/fonts/zona-fonts.css" type="text/css" media="all" />
     <script src="/app/themes/frogspark/js/dist/bundle.min.js"></script>
@@ -24,7 +22,7 @@
     <link rel="stylesheet" href="/app/themes/frogspark/animate.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    
+
     <link rel="icon" href="/app/themes/frogspark/img/favicon.png">
     <!-- <script>
         $( document ).ready(function() {
@@ -32,9 +30,11 @@
         });
     </script> -->
     <link rel="stylesheet" href="/app/themes/frogspark/lib/jquery.colorwheel.css">
-<!--     <link href="https://fonts.googleapis.com/css?family=Avenir:300,400,500,700" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="/app/themes/frogspark/scss/dist/bundle.min.css?v=<?php echo time(); ?>" type="text/css" media="all" />
+    <link rel="stylesheet" href="/app/themes/frogspark/scss/dist/new.css?v=<?php echo time(); ?>" type="text/css" media="all" />
 
 
-    
+
 </head>
 <body <?php body_class(); ?>>
