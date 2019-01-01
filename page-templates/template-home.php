@@ -512,7 +512,7 @@ $ = get_field("");
                     <p>
                         <img src="<?php echo get_template_directory_uri() ?>/img/call-icon.png" alt=""
                              class="pull-left">
-                        You cal call us on: <a href="tel:08001223378">08001223378</a>
+                        You can call us on: <a href="tel:08001223378">08001223378</a>
                     </p>
                 </div>
             </div>
