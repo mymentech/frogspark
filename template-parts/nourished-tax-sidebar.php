@@ -25,7 +25,7 @@ $nourish_cats = get_categories(array(
     </div>
 </div>
 <div class="page-category">
-    <button class="accordion-cat">BENEFIT</button>
+    <button class="accordion-cat clicked-accordion-cat">BENEFIT</button>
     <div class="panel">
         <ul class="list-unstyled">
             <?php foreach ($nourish_tags as $tag): ?>

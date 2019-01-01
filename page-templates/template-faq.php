@@ -130,7 +130,7 @@ $team_members = get_field("team_members");
               </ul>
         </div>
       </div>
-      <a href="/#get-nourished" class="btn btn-secondary">
+      <a href="/#make-my-nourished" class="btn btn-secondary">
           <img src="<?php echo get_template_directory_uri(); ?>/img/path-icon.png" alt="">
           Make my NOURISH<span class="txt-rotate" >E</span>D >
       </a>

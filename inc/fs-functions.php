@@ -12,6 +12,7 @@ function frogspark_nav_menus() {
 add_action('init', 'frogspark_nav_menus');
 add_theme_support('post-thumbnails');
 add_image_size('blog_image', 900, 450);
+add_image_size('blog_image_thumb', 400, 300, true);
 
 if (!function_exists('frogspark_load_more_post')) {
     function frogspark_load_more_post() {

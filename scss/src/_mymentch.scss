@@ -566,8 +566,7 @@ footer {
 section#page-banner {
   margin-top: 150px;
   background: url(../../img/page-bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-position: center center;
 
   h1 {
