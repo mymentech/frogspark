@@ -76,9 +76,13 @@ $ajax_nonce = wp_create_nonce('fromspart_load_more_posts');
                     'posts_per_page' => 1,
                     'order'          => 'DESC',
                     'orderby'        => 'date',
-                    'meta_key'       => 'mt_post_tags',
-                    'meta_value'     => 'Featured',
-                    'meta_compare'   => 'LIKE',
+                    'tax_query' => array(
+                        array(
+                            'taxonomy' => 'featured_taxonomy',
+                            'field' => 'name',
+                            'terms' => array('featured'),
+                        ),
+                    ),
                 );
 
                 $featured_query = new WP_Query($featured_args_query);
