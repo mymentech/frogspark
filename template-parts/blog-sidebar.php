@@ -32,32 +32,36 @@ $category_terms     = get_terms('category', array(
     <div class="tag-list">
 
         <ul>
-            <li>
-                <a data-toggle="collapse" class="fs-collapse-handle" href="#fs-collapse-tags" aria-expanded="false"
-                   aria-controls="fs-collapse-tags"><span>></span>Tags</a>
-                <div class="fs-collapse tax-links" id="fs-collapse-tags">
-                    <ul>
-                        <?php foreach ($tag_terms as $term) {
-                            $link = get_term_link($term->term_id, 'post_tag');
-                            printf("<li><a href='%s'>%s</a></li>", esc_url($link), esc_html($term->name));
-                        } ?>
-                    </ul>
-                </div>
-            </li>
+<!--            <li>-->
+            <!--                <a data-toggle="collapse" class="fs-collapse-handle" href="#fs-collapse-tags" aria-expanded="false"-->
+            <!--                   aria-controls="fs-collapse-tags"><span>></span>Tags</a>-->
+            <!--                <div class="fs-collapse tax-links" id="fs-collapse-tags">-->
+            <!--                    <ul>-->
+            <!--                        --><?php
+            ////                        foreach ($tag_terms as $term) {
+            ////                            $link = get_term_link($term->term_id, 'post_tag');
+            ////                            printf("<li><a href='%s'>%s</a></li>", esc_url($link), esc_html($term->name));
+            ////                        }
+            //                        ?>
+            <!--                    </ul>-->
+            <!--                </div>-->
+            <!--            </li>-->
 
-            <li>
-                <a data-toggle="collapse" class="fs-collapse-handle" href="#fs-collapse-category" aria-expanded="false"
-                   aria-controls="fs-collapse-tags"><span>></span>Categories</a>
-                <div class="fs-collapse tax-links" id="fs-collapse-category">
-                    <ul>
-                        <?php foreach ($category_terms as $term) {
-                            $link = get_category_link($term->term_id);
-                            printf("<li><a href='%s'>%s</a></li>", esc_url($link), esc_html($term->name));
-                        }?>
-                    </ul>
-                </div>
-
-            </li>
+            <!--            <li>-->
+            <!--                <a data-toggle="collapse" class="fs-collapse-handle" href="#fs-collapse-category" aria-expanded="false"-->
+            <!--                   aria-controls="fs-collapse-tags"><span>></span>Categories</a>-->
+            <!--                <div class="fs-collapse tax-links" id="fs-collapse-category">-->
+            <!--                    <ul>-->
+            <!--                        --><?php
+            ////                        foreach ($category_terms as $term) {
+            ////                            $link = get_category_link($term->term_id);
+            ////                            printf("<li><a href='%s'>%s</a></li>", esc_url($link), esc_html($term->name));
+            ////                        }
+            //                        ?>
+            <!--                    </ul>-->
+            <!--                </div>-->
+            <!---->
+            <!--            </li>-->
         </ul>
     </div>
     <div class="mb-50 cb"></div>
