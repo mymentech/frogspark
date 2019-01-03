@@ -1,4 +1,5 @@
 @import 'variables';
+
 @media screen and (max-width: 1199px) {
   .navbar #navbar .navbar-nav {
     padding-left: $spacing;
@@ -26,6 +27,7 @@
       margin-bottom: $spacing;
       max-width: 50%;
       width: 50%;
+
       &:last-of-type {
         flex: 100%;
         max-width: 100%;
@@ -38,6 +40,7 @@
     .usp__spacing {
       padding: $spacing_double $spacing;
     }
+
     .btn {
       padding: $spacing_half $spacing;
     }
@@ -67,15 +70,18 @@
 @media screen and (max-width: 991px) {
   .navbar {
     padding: $spacing_half 0px;
+
     .col-md-3, .col-md-9 {
       flex: 50%;
       max-width: 50%;
       width: 50%;
     }
+
     .navbar-brand {
       margin: 0px;
       padding: 0px;
     }
+
     .hamburger__wrapper {
       display: block;
       position: absolute;
@@ -83,26 +89,32 @@
       top: 50%;
       transform: translateY(-50%);
       z-index: 9;
+
       &.is-active {
         .hamburger__item {
           background: $white;
+
           &:first-child {
             top: 7px;
             transform: rotate(45deg);
           }
+
           &:nth-child(2) {
             opacity: 0;
           }
+
           &:last-child {
             top: -7px;
             transform: rotate(-45deg);
           }
         }
       }
+
       &:hover {
         cursor: pointer;
       }
     }
+
     #navbar {
       background: $green;
       left: 0px;
@@ -111,18 +123,22 @@
       transform: translateY(-100%);
       transition: $transition_fast;
       width: 100%;
+
       ul {
         display: block !important;
         padding-left: 0px !important;
+
         li {
           margin: $spacing_half 0px;
           text-align: center;
+
           a {
             background: none;
             color: $white;
           }
         }
       }
+
       &.is-active {
         transform: translateY(0%);
       }
@@ -143,9 +159,11 @@
       max-width: 100%;
       width: 100%;
     }
+
     .col-md-5 {
       display: none;
     }
+
   }
 
   #usp__section {
@@ -163,6 +181,7 @@
       max-width: 100%;
       width: 100%;
     }
+
     .col-md-7 {
       display: none;
     }
@@ -174,6 +193,7 @@
       max-width: 100%;
       width: 100%;
     }
+
     .col-md-5 {
       flex: 100%;
       max-width: 100%;
@@ -183,21 +203,26 @@
 
   #price-table__section {
     padding: $spacing_max 0px;
+
     .col-md-4 {
       flex: 100%;
       max-width: 100%;
       width: 100%;
+
       .bounce {
         animation-name: 'noanim';
       }
+
       &:nth-of-type(2) {
         order: 9;
         transform: scale(1);
       }
+
       &:nth-of-type(3) {
         margin: $spacing 0px;
       }
     }
+
     .row {
       &:last-of-type {
         padding-top: $spacing;
@@ -212,6 +237,7 @@
       max-width: 100%;
       width: 100%;
     }
+
     .center__vert {
       position: relative;
       top: initial;
@@ -225,14 +251,17 @@
       max-width: 100%;
       width: 100%;
     }
+
     .right {
       margin-top: $spacing_half;
       text-align: left;
+
       .margin-left__spacing {
         margin-left: 0px;
         margin-right: $spacing_half;
       }
     }
+
     .footer__note {
       > div {
         flex: 100%;
@@ -258,23 +287,28 @@
     .container {
       .row {
         padding-top: $spacing + $spacing_half;
+
         > div {
           flex: 100%;
           max-width: 100%;
           width: 100%;
         }
+
         .col-md-2 {
           p {
             font-size: $font_size_h1;
             line-height: 1;
             margin-bottom: $spacing_half;
+
             &:after {
               display: none;
             }
           }
         }
+
         .col-md-7 {
           text-align: center;
+
           p {
             margin-bottom: $spacing_half;
             position: relative;
@@ -282,8 +316,10 @@
             transform: none;
           }
         }
+
         .col-md-3 {
           text-align: center;
+
           img {
             height: auto;
             position: relative;
@@ -293,6 +329,7 @@
             width: 50px;
           }
         }
+
         &:nth-child(2) {
           border-bottom: 1px solid $black;
           border-top: 1px solid $black;
@@ -300,7 +337,7 @@
       }
     }
   }
-  
+
   #vitadna-content__section {
     .row {
       &:last-of-type {
@@ -330,6 +367,7 @@
       flex: 100%;
       max-width: 100%;
       width: 100%;
+
       &:last-of-type {
         margin-bottom: 0px;
       }
@@ -346,14 +384,17 @@
     .container {
       width: 100%;
     }
+
     .col-md-3, .col-md-9 {
       flex: 50%;
       max-width: 50%;
       width: 50%;
     }
+
     .hamburger__wrapper {
       right: $spacing_half;
     }
+
     .logo {
       height: 50px;
     }
@@ -408,6 +449,7 @@
 
   .account-news__box {
     height: 325px;
+
     .account-news__item {
       .account-news__img {
         display: block;
@@ -416,10 +458,62 @@
         margin-bottom: $spacing_half;
         width: 100%;
       }
+
       .account-news__content {
         padding-left: 0px;
         width: 100%;
       }
     }
   }
+
+  #home-hero__section {
+    .person-wrap {
+      margin-bottom: 20px;
+    }
+  }
+  .navbar {
+    .navbar-header {
+      padding-left: 15px;
+    }
+
+    .logo {
+      max-width: 120px !important;
+    }
+  }
+  .navbar.active__nav {
+    .navbar-header {
+      padding-left: 10px;
+    }
+  }
+
+
+  .navbar {
+    #navbar {
+      .navbar-nav {
+        li {
+          background-color: #1b4c6d;
+          padding: 5px;
+          border: 1px solid transparent;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 5px;
+
+          a {
+            color: #e1e1e1;
+            font-weight: 700;
+            font-family: 'Zona Pro', sans-serif;
+
+          }
+
+          &:last-child {
+            a {
+              color: #ffffff !important;
+            }
+          }
+
+        }
+      }
+    }
+  }
 }
+

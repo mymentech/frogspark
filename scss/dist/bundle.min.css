@@ -594,12 +594,13 @@ strong.nourishment-title {
   top: 60%; }
   .navbar #navbar .navbar-nav li a {
     color: #006976;
-    font-weight: 700; }
+    font-weight: 700;
+    font-family: 'Zona Pro', sans-serif; }
     .navbar #navbar .navbar-nav li a i {
       color: #006976; }
   .navbar #navbar .navbar-nav li:last-child a {
     background: #531F53 !important;
-    color: #fff; }
+    color: #ffffff !important; }
   .navbar #navbar .navbar-nav li#start a {
     background: #006976 !important;
     color: #fff !important;
@@ -1636,7 +1637,26 @@ section#external-ref {
       width: 100%; }
     .account-news__box .account-news__item .account-news__content {
       padding-left: 0px;
-      width: 100%; } }
+      width: 100%; }
+  #home-hero__section .person-wrap {
+    margin-bottom: 20px; }
+  .navbar .navbar-header {
+    padding-left: 15px; }
+  .navbar .logo {
+    max-width: 120px !important; }
+  .navbar.active__nav .navbar-header {
+    padding-left: 10px; }
+  .navbar #navbar .navbar-nav li {
+    background-color: #1b4c6d;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px; }
+    .navbar #navbar .navbar-nav li a {
+      color: #e1e1e1;
+      font-weight: 700;
+      font-family: 'Zona Pro', sans-serif; }
+    .navbar #navbar .navbar-nav li:last-child a {
+      color: #ffffff !important; } }
 
 /*!
  * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
@@ -10904,12 +10924,13 @@ strong.nourishment-title {
   top: 60%; }
   .navbar #navbar .navbar-nav li a {
     color: #006976;
-    font-weight: 700; }
+    font-weight: 700;
+    font-family: 'Zona Pro', sans-serif; }
     .navbar #navbar .navbar-nav li a i {
       color: #006976; }
   .navbar #navbar .navbar-nav li:last-child a {
     background: #531F53 !important;
-    color: #fff; }
+    color: #ffffff !important; }
   .navbar #navbar .navbar-nav li#start a {
     background: #006976 !important;
     color: #fff !important;
@@ -12949,7 +12970,28 @@ footer {
       width: 100%; }
     .account-news__box .account-news__item .account-news__content {
       padding-left: 0px;
-      width: 100%; } }
+      width: 100%; }
+  #home-hero__section .person-wrap {
+    margin-bottom: 20px; }
+  .navbar .navbar-header {
+    padding-left: 15px; }
+  .navbar .logo {
+    max-width: 120px !important; }
+  .navbar.active__nav .navbar-header {
+    padding-left: 10px; }
+  .navbar #navbar .navbar-nav li {
+    background-color: #1b4c6d;
+    padding: 5px;
+    border: 1px solid transparent;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; }
+    .navbar #navbar .navbar-nav li a {
+      color: #e1e1e1;
+      font-weight: 700;
+      font-family: 'Zona Pro', sans-serif; }
+    .navbar #navbar .navbar-nav li:last-child a {
+      color: #ffffff !important; } }
 
 * {
   font-family: 'Zona Pro', sans-serif; }
@@ -13370,12 +13412,13 @@ a.hero-btn {
   top: 60%; }
   .navbar #navbar .navbar-nav li a {
     color: #006976;
-    font-weight: 700; }
+    font-weight: 700;
+    font-family: 'Zona Pro', sans-serif; }
     .navbar #navbar .navbar-nav li a i {
       color: #006976; }
   .navbar #navbar .navbar-nav li:last-child a {
     background: #531F53 !important;
-    color: #fff; }
+    color: #ffffff !important; }
   .navbar #navbar .navbar-nav li#start a {
     background: #006976 !important;
     color: #fff !important;
