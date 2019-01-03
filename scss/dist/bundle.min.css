@@ -583,6 +583,9 @@ strong.nourishment-title {
   margin: 0 auto;
   margin-top: 45px; }
 
+#nourishments .page-thumbanil {
+  padding-top: 15px; }
+
 .btn-primary, #nourished-vitamin-area .fheading {
   background: #016976;
   color: #fff !important; }
@@ -792,7 +795,8 @@ section#make-my-nourished {
   font-size: 16px; }
 
 #meet-nourish__section .blog-list p {
-  line-height: 25px; }
+  line-height: 25px;
+  color: #4d2350; }
 
 #about-us {
   padding: 50px 0;
@@ -11953,6 +11957,9 @@ section#external-ref {
 .cb {
   clear: both; }
 
+#nourishments .page-thumbanil {
+  padding-top: 15px; }
+
 * {
   color: #404b57;
   font-family: 'Circular';
@@ -13881,7 +13888,8 @@ section#make-my-nourished {
   font-size: 16px; }
 
 #meet-nourish__section .blog-list p {
-  line-height: 25px; }
+  line-height: 25px;
+  color: #4d2350; }
 
 #about-us {
   padding: 50px 0;
