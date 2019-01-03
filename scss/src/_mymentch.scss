@@ -580,6 +580,8 @@ section#page-banner {
   background: url(../../img/hero-image-bg-xlg.jpg);
   background-repeat: repeat-x;
   background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
 
   h1 {
     color: #fff;

@@ -929,7 +929,8 @@ section#page-banner {
   margin-top: 135px;
   background: url(../../img/hero-image-bg-xlg.jpg);
   background-repeat: repeat-x;
-  background-position: center center; }
+  background-position: center center;
+  background-size: cover; }
   section#page-banner h1 {
     color: #fff;
     padding: 105px 0;
@@ -11234,7 +11235,9 @@ section#page-banner {
   margin-top: 135px;
   background: url(../../img/hero-image-bg-xlg.jpg);
   background-repeat: repeat-x;
-  background-position: center center; }
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover; }
   section#page-banner h1 {
     color: #fff;
     padding: 105px 0;
@@ -13698,7 +13701,9 @@ section#page-banner {
   margin-top: 135px;
   background: url(../../img/hero-image-bg-xlg.jpg);
   background-repeat: repeat-x;
-  background-position: center center; }
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover; }
   section#page-banner h1 {
     color: #fff;
     padding: 105px 0;
