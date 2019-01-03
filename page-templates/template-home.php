@@ -446,7 +446,7 @@ $ = get_field("");
         <div class="container above__background">
             <h1 class="text-center">our world</h1>
             <div class="row">
-                <div class="col-md-6 offset-md-3" data-aos="fade-left">
+                <div class="col-md-12" data-aos="fade-left">
                     <?php get_template_part('inc/wheel'); ?>
                     <!-- <img src="/app/themes/frogspark/img/wheel__placeholder.png" alt="#" style="width: 100%;"> -->
                 </div>

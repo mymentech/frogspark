@@ -123,7 +123,9 @@ $('document').ready(() => {
     var div = 360 / 31;
     var radius = 250;
     var parentdiv = document.getElementById('vitawheel__wrapper');
-    var offsetToParentCenter = parseInt(parentdiv.offsetWidth / 2); //assumes parent is square
+    var wheelContent = parseInt((document.querySelector('.vitawheel__content').offsetLeft),10);
+
+    var offsetToParentCenter = parseInt(parentdiv.offsetHeight / 2); //assumes parent is square
     var offsetToChildCenter = 20;
 
     var rotate = 90;
@@ -224,7 +226,8 @@ $('document').ready(() => {
         contentArray[29] = "Enzymes are the primary building block of healthy digestion . In addition to helping digest...";
         contentArray[30] = "Sourced from Flax Seeds - Conjugated linoleic acid, or CLA, refers to a group of chemicals...";
     
-    var totalOffset = offsetToParentCenter - offsetToChildCenter;
+    var offsetTop = offsetToParentCenter - offsetToChildCenter;
+    var offsetLeft = wheelContent - offsetToChildCenter;
     for (var i = 0; i <= 30; ++i) {
       var childdiv = document.createElement('div');
       childdiv.className = 'vitawheel__item';
@@ -237,8 +240,8 @@ $('document').ready(() => {
       var y = Math.sin((div * i) * (Math.PI / 180)) * radius;
       var x = Math.cos((div * i) * (Math.PI / 180)) * radius;
       
-      childdiv.style.top = (y + totalOffset).toString() + "px";
-      childdiv.style.left = (x + totalOffset).toString() + "px";
+      childdiv.style.top = (y + offsetTop).toString() + "px";
+      childdiv.style.left = (x + offsetLeft).toString() + "px";
       parentdiv.appendChild(childdiv);
     }
 

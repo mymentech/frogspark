@@ -305,6 +305,16 @@ section#make-my-nourished {
 }
 
 #vitawheel__wrapper {
+  float: none;
+  background-color: transparent;
+    margin: 0;
+    width: auto;
+    min-height: 573px;
+    border-radius: 0;
+    .vitawheel__content{
+      width: 385px;
+      padding-top: 50px;
+    }
   .blog-list {
     p {
       font-size: 14px;
