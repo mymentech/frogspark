@@ -26,6 +26,7 @@
         a {
           color: $primary-clr;
           font-weight: 700;
+          font-family: 'Zona Pro', sans-serif;
 
           i {
             color: $primary-clr;
@@ -35,7 +36,7 @@
         &:last-child {
           a {
             background: $secondary-clr !important;
-            color: #fff;
+            color: #ffffff !important;
           }
         }
 
@@ -307,14 +308,16 @@ section#make-my-nourished {
 #vitawheel__wrapper {
   float: none;
   background-color: transparent;
-    margin: 0;
-    width: auto;
-    min-height: 573px;
-    border-radius: 0;
-    .vitawheel__content{
-      width: 385px;
-      padding-top: 50px;
-    }
+  margin: 0;
+  width: auto;
+  min-height: 573px;
+  border-radius: 0;
+
+  .vitawheel__content {
+    width: 385px;
+    padding-top: 50px;
+  }
+
   .blog-list {
     p {
       font-size: 14px;
@@ -576,9 +579,11 @@ footer {
 
 section#page-banner {
   margin-top: 135px;
-  background: url(../../img/hero-image-bg.jpg);
+  background: url(../../img/hero-image-bg-xlg.jpg);
   background-repeat: repeat-x;
   background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
 
   h1 {
     color: #fff;
