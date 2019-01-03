@@ -480,7 +480,7 @@ $ = get_field("");
                     supplements.</p>
                 <p>Expect more, be more, do more, Be NOURISH<span class="txt-rotate">E</span>D</p>
 
-                <a href="#" target="_blank" class="btn btn-secondary"> Meet the Team</a>
+                <a href="/about-us/#vitateam-slider__section" class="btn btn-secondary"> Meet the Team</a>
             </div>
         </div>
     </div>
@@ -502,8 +502,8 @@ $ = get_field("");
                 <div class="single-option">
                     <p>
                         <img src="<?php echo get_template_directory_uri() ?>/img/add-icon.png" alt="" class="pull-left">
-                        Send us an email at: <a href="mailto:info@iamnourish3d@.com">info@iamnourish3d@.com</a>
-                        <span style="color:#541E53">(Don't forgot it's 3d at the end!)</span>
+                        Send us an email at: <a href="mailto:info@iamnourish3d.com">info@iamnourish3d.com</a>
+                        <span style="color:#541E53">(Don't forget it's 3d at the end!)</span>
                     </p>
                 </div>
             </div>
@@ -541,7 +541,7 @@ $ = get_field("");
         <div class="row">
             <div class="col-md-12">
                 <div class="contact-col-action">
-                    <h2 class="text-center text-uppercase">Didn't find what you need? Contact Us <a href="#">Here</a></a></h2>
+                    <h2 class="text-center text-uppercase">Didn't find what you need? Contact Us <a href="/contact-us">Here</a></a></h2>
                 </div>
             </div>
         </div>
