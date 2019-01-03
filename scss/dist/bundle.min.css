@@ -11433,7 +11433,8 @@ section#make-my-nourished {
 
 #meet-nourish__section .blog-list p {
   line-height: 25px;
-  color: #4d2350; }
+  color: #4d2350;
+  font-weight: bold; }
 
 #about-us {
   padding: 50px 0;
