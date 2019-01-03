@@ -21,7 +21,7 @@
             </div>
             <div class="col-md-4">
                 <div class="nourished-item" data-aos="fade-right">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/get-item3.png" alt=""
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/nourished-step3-image.png" alt=""
                          class="img-responsive">
                     <p>We'll post your month's Nourishments right to your door, completely reliable, really easy and
                         utterly hasle-free</p>
