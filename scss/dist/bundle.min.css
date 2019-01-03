@@ -950,10 +950,17 @@ section#page-banner {
     section#page-banner .banner-text:before {
       content: "";
       text-align: center;
+      background-repeat: no-repeat;
+      position: absolute;
       height: 100%;
+      background-position: center;
+      width: 100%;
+      background-size: contain;
       background-image: url(../../img/heptagon.png); }
   section#page-banner h1 {
-    text-transform: inherit; }
+    text-transform: inherit;
+    position: relative;
+    z-index: 2; }
 
 section#faq-section {
   padding: 50px 0 70px; }
@@ -11615,10 +11622,17 @@ section#page-banner {
     section#page-banner .banner-text:before {
       content: "";
       text-align: center;
+      background-repeat: no-repeat;
+      position: absolute;
       height: 100%;
+      background-position: center;
+      width: 100%;
+      background-size: contain;
       background-image: url(../../img/heptagon.png); }
   section#page-banner h1 {
-    text-transform: inherit; }
+    text-transform: inherit;
+    position: relative;
+    z-index: 2; }
 
 section#faq-section {
   padding: 50px 0 70px; }
@@ -14116,10 +14130,17 @@ section#page-banner {
     section#page-banner .banner-text:before {
       content: "";
       text-align: center;
+      background-repeat: no-repeat;
+      position: absolute;
       height: 100%;
+      background-position: center;
+      width: 100%;
+      background-size: contain;
       background-image: url(../../img/heptagon.png); }
   section#page-banner h1 {
-    text-transform: inherit; }
+    text-transform: inherit;
+    position: relative;
+    z-index: 2; }
 
 section#faq-section {
   padding: 50px 0 70px; }

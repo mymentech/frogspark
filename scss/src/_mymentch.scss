@@ -593,19 +593,26 @@ section#page-banner {
     .txt-rotate {
       color: #fff !important;
     }
-    
+
   }
   .banner-text{
     position: relative;
     &:before{
       content: "";
       text-align: center;
+      background-repeat: no-repeat;
+      position: absolute;
       height: 100%;
+      background-position: center;
+      width: 100%;
+      background-size: contain;
       background-image: url(../../img/heptagon.png);
     }
   }
   h1 {
     text-transform: inherit;
+    position: relative;
+    z-index: 2;
   }
 }
 
