@@ -15,7 +15,9 @@
 .navbar.active__nav .logo {
   margin-top: 0px !important;
 }
-
+.navbar.active__nav .navbar-header{
+  padding-left: 20px;
+}
 .hero__item p {
   font-weight: 400 !important;
   line-height: 2em !important;
@@ -189,8 +191,13 @@ a:hover.green__border, a:hover .green__border {
 @media (max-width: 991px) {
   .navbar .logo {
     height: auto !important;
-    max-width: 82px !important;
+    max-width: 100px !important;
     margin-left: -10px;
+    
+  }
+
+  .navbar #navbar .navbar-nav li a{
+    color: #d9e5e6!important;
   }
 
   .navbar .navbar-header .rotate-wheel__wrapper .rotate__wheel {
@@ -277,7 +284,7 @@ a:hover.green__border, a:hover .green__border {
   }
 
   .navbar.active__nav .logo {
-    margin-left: 20px !important;
+    margin-left:0!important;
   }
 
   .rotate-wheel__wrapper {
@@ -505,6 +512,10 @@ a.hero-btn {
   .navbar .white__bg.green__border {
     border-color: #fff !important;
     color: #fff !important;
+  }
+
+  .navbar .hamburger__wrapper {
+    right: 24px;
   }
 
   .navbar .btn.sm {

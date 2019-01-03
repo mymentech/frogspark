@@ -574,7 +574,6 @@ footer {
 
 }
 
-
 section#page-banner {
   margin-top: 135px;
   background: url(../../img/hero-image-bg.jpg);
@@ -590,7 +589,15 @@ section#page-banner {
       color: #fff !important;
     }
   }
-
+  .banner-text{
+    position: relative;
+    &:before{
+      content: "";
+      text-align: center;
+      height: 100%;
+      background-image: url(../../img/heptagon.png);
+    }
+  }
   h1 {
     text-transform: inherit;
   }
@@ -1131,7 +1138,9 @@ a.feture-readmore {
     color: $secondary-clr;
   }
 }
-
+#contact-us #contact-us-form textarea.wpcf7-textarea{
+  padding: 20px;
+}
 #nourishments {
   h2 {
     color: #531F53 !important;
@@ -1163,11 +1172,11 @@ a.feture-readmore {
     }
   }
 
-  p {
+  p,span {
     color: #006976;
     line-height: 25px;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
   }
 }
 
@@ -1188,3 +1197,7 @@ section#external-ref {
 .cb {
   clear: both;
 }
+
+
+
+/* responsive break points */
