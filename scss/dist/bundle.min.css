@@ -547,7 +547,8 @@ a.hero-btn {
   display: inline-block; }
 
 section.single-blog {
-  padding-top: 138px; }
+  padding-top: 150px;
+  background-color: #eaeaea; }
   section.single-blog .single-blog__date {
     margin-bottom: 15px;
     display: block; }
@@ -10845,7 +10846,8 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   display: inline-block; }
 
 section.single-blog {
-  padding-top: 138px; }
+  padding-top: 150px;
+  background-color: #eaeaea; }
   section.single-blog .single-blog__date {
     margin-bottom: 15px;
     display: block; }
